@@ -1,0 +1,544 @@
+@font-face {
+  font-family: 'centuryGothic';
+  src: url('../fonts/GOTHIC.TTF') format('TFF'), /* Pretty Modern Browsers */
+       url('../fonts/GOTHIC.TTF')  format('TFF'), /* Safari, Android, iOS */
+}
+
+/* -------------- Please do not change the CSS for the below elements ----------- */
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    /*font-family: arial;*/
+    font-family: centuryGothic;
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bg-img {
+    opacity: 0.5;
+}
+/*#ptotemy-game {*/
+    /*position: fixed;*/
+    /*width: 640px;*/
+    /*height: 480px;*/
+    /*margin:auto;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*z-index: 1;*/
+    /*overflow: hidden;*/
+    /*font-size: 14.1333px;*/
+/*}*/
+
+#log {
+    display: none;
+    pointer-events: none;
+}
+
+#entities, #items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 480px;
+    pointer-events: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.environment, .location, .entity, .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#launchpad { background: rgba(1,1,1,1); }
+#createScreen, #mainPage { display: none; }
+
+.no-click       { pointer-events: none; }
+.less-opacity   { opacity: 0.4; }
+.create-btn     { cursor: pointer; }
+
+
+#mainPageBg
+{
+
+    background: repeat;
+}
+
+/*kbc comman css*/
+
+#startgame-inst {
+  left: 8%;
+  top: 67%;
+}
+#startgame-inst span{
+    font-size: 24px;
+}
+
+.startpage-button {
+    display: table;
+    text-align: center;
+    height: 7.5%;
+    width: 30%;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+.startpage-button img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.startpage-button span {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative !important;
+}
+#instructions {
+    color: black;
+    display: table;
+    font-size: 0.9em;
+    height: 200px;
+    left: 8%;
+    top: 23%;
+    width: 87%;
+    line-height: 1;
+}
+#messagebox {
+    /*background: rgba(1, 1, 1, 0.9);*/
+    /*display: table-cell;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    width: 640px;
+    height: 480px;
+    display: none;
+    z-index: 10;
+    color:white;
+}
+#messagebox * {
+    position: absolute;
+
+}
+#inst-header{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.7em;
+    top: 6%;
+    left: 2.7%;
+    width: 100%;
+}
+/*#inst-content{*/
+    /*position: absolute;*/
+    /*height: 75%;*/
+    /*width: 94%;*/
+    /*text-align: justify;*/
+    /*top: 24%;*/
+    /*left: 5%;*/
+    /*letter-spacing: 0;*/
+/*}*/
+
+
+#inst-content span {
+    height: 100%;
+    width: 100%;
+}
+
+#inst-content span p {
+    position: relative !important;
+    display:block;
+    padding-right: 20px;
+}
+#game-back {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#entities, #items {
+    display: none;
+}
+#game-logo {
+    width: 40%;
+    left: 30%;
+    top: 5%;
+}
+#game-logo img {
+    width: 100%;
+}
+#game-logo-inst {
+    width: 20%;
+    left: 40%;
+    top: 3%;
+}
+#logo{
+    width: 19%;
+    top: 3%;
+    left: 33.5%;
+}
+#startgame {
+    top: 65%;
+    left: 35%;
+}
+#showinst {
+    top: 75%;
+    left: 35%;
+}
+#start-game {
+    margin-top: 3%;
+    margin-right: 3%;
+    height: 35px;
+    width: 125px;
+    float: right;
+    cursor: pointer;
+}
+/*#endmessage {*/
+    /*position: absolute;*/
+    /*display: table !important;*/
+    /*top: 31%;*/
+    /*font-size: 1em;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*background: url("../img/speechbubble.png") no-repeat;*/
+    /*height: 100%;*/
+    /*left: 29%;*/
+    /*color:black;*/
+/*}*/
+
+/*#endmessage span {*/
+    /*position: absolute;*/
+    /*left: 25%;*/
+    /*top: 3%;*/
+    /*width: 45%;*/
+/*}*/
+
+#help {
+    width: 20%;
+    height: 6%;
+    top: 85%;
+    left: 3%;
+    color : #3d2510;
+    display: table;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    /*background: rgba(1, 1, 1, 0.5);*/
+}
+
+#help span {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+#help img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+#character {
+    width: 34%;
+    margin-top: -13.5%;
+    margin-left: -5.5%;
+}
+#ladder {
+    background: rgba(255, 255, 255, 0.1);
+    height: 25%;
+    left: 76%;
+    top: 4%;
+    width: 21%;
+    /*padding-top: 1%;border: 2px solid white;*/
+    border-radius: 4px;
+    display: none;
+}
+
+#ladder .location {
+    position: relative !important;
+    margin-left: 10%;
+    margin-top: 2%;
+    /*padding: 2%;*/
+    height: 9%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: table;
+    line-height: 2;
+    padding-top: 4%;
+}
+
+#ladder .location span {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+.completed {
+    color: #2d2d2d;
+    cursor: default !important;
+}
+#player {
+    position: absolute;
+    z-index: 0;
+}
+
+#player img {
+    width: 100%;
+    height: 100%;
+}
+#lifelines {
+    height: 10%;
+    left: 67%;
+    top: 80%;
+    width: 25%;
+    z-index: 2;
+}
+#lifelines div {
+    position: relative;
+    margin-left: 3%;
+    width: 30%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#lifeline1img, #lifeline3img{
+    visibility: hidden;
+    cursor: default;
+}
+
+#ll1 {
+    left: 2%;
+}
+
+#ll2 {
+    left: 32%;
+}
+
+#ll3 {
+    left: 19%;
+}
+#lifelinepanel * {
+    display: inline-block;
+    vertical-align: bottom;
+    /*padding: 2%;*/
+    /*height: auto;*/
+    /*display: block;*/
+}
+#text {
+    position: absolute !important;
+    width: 100% !important;
+    cursor: default !important;
+    top: 105%;
+    cursor: default !important;
+}
+
+#text span {
+    height: auto !important;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    color: black;
+    /*border: 1px solid whitesmoke;*/
+    border-radius: 5px;
+}
+#textboxdisplay {
+    left: 58%;
+    top: 80%;
+    width: 55%;
+    font-size: 12px;
+    padding: 1.5% 1% 1.5%;
+}
+#lifelinepanel {
+    color: white;
+    display: table;
+    height: 30%;
+    left: 58%;
+    padding: 0.5%;
+    text-align: center;
+    top: 52%;
+    width: 31%;
+    z-index: 3;
+    display:none;
+}
+.button {
+    border: 1px solid #3d2510;
+    border-radius: 5px;
+    padding: 2% 5% !important;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+.lifeline-panel {
+    vertical-align: bottom;
+    height: auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2%;
+}
+.lifeline-panel * {
+    display: table-cell;
+    color: #3d2510;
+    vertical-align: top;
+}
+#close {
+    margin-left: 0 !important;
+}
+.lifeline-text {
+    margin-bottom: 10%;
+}
+#poll-chart {
+    height: 150px !important;
+    width: 160px !important;
+    display: none;
+    margin-bottom: 2%;
+}
+.backpack-button {
+    display: table;
+    text-align: center;
+    height: 7.5%;
+    width: 30%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.backpack-button img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.backpack-button span {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative !important;
+}
+
+#correctmessage
+{
+    z-index: 3;
+    display: none;
+}
+
+.answer-block div span { padding-left: 10px; padding-right: -5px; }
+#qholder {
+  border-radius: 19px;
+  height: 25%;
+  left: 7.5%;
+  top: 13.3%;
+  width: 85%;
+}
+.correct-text
+{
+    font-size: 20px;
+    font-weight: bold;
+    left: 40%;
+    position: absolute;
+    top: 40%;
+}
+.correct-status{
+    color: white;
+    height: 81%;
+    left: 22%;
+    position: absolute;
+    top: 44%;
+    width: 51%;
+    background-image: url("../img/centre_circle.png");
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.correct-message{
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin:0 5%;
+    top: 19%;
+    width: 90%;
+}
+
+.correctmess {
+    font-size: 27px;
+    margin-left: -17px;
+}
+.thatsmess {
+    font-size: 17px;
+    margin-left: 11%;
+
+}
+.wrongmess{
+    font-size: 25px;
+    margin-left: -17px;
+}
+.in_correct-message{
+    font-size: 22px;
+    font-weight: bold;
+    left: 27%;
+    position: absolute;
+    top: 15%;
+    color: black;
+}
+.question-text
+{
+    font-size: 18px;
+    font-weight: bold;
+    left: 39%;
+    position: absolute;
+    top: 41%;
+}
+.wrong-text
+{
+  font-size: 18px;
+    font-weight: bold;
+    left: 37%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 27%;
+}
+/*.img-pool-1{*/
+    /*width: 6%;*/
+    /*height: 20%;*/
+    /*float: left;*/
+    /*top: 31%;*/
+/*}*/
+/*.img-50-1{*/
+    /*width: 6%;*/
+    /*height: 20%;*/
+    /*float: left;*/
+    /*top: 50%;*/
+/*}*/
+/*.img-change-1{*/
+    /*width: 6%;*/
+    /*height: 20%;*/
+    /*float: left;*/
+    /*top: 68%;*/
+/*}*/
+
+/*kbc comman css end*/

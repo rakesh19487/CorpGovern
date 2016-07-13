@@ -1,0 +1,230 @@
+    #story-wrapper
+    {
+        /*background-size: cover;*/
+         /*-ms-behavior: url(../js/backgroundsize.min.htc);*/
+        /*min-height: 100%;*/
+        /*min-width: 1024px;*/
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background:no-repeat center center fixed;
+        background-size: cover;
+        /*background-position: center top;*/
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/background.jpg', sizingMethod='scale');
+        /*-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/background.jpg', sizingMethod='scale')";*/
+    }
+
+    #story-presenter, #story-nameplate {
+        top:10%;
+        left:12%;
+        position: absolute;
+        pointer-events: none;
+        left:10px;
+        /*margin-left:-5%;*/
+    }
+    .start_button
+    {
+        padding-top: 19%;
+        width: 50%;
+        z-index: 4;
+        top:-17%;
+        /*background: url(../img/start_button.png);*/
+        /*background-size: 100% 100%;*/
+        /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/start_button.png', sizingMethod='scale');*/
+        /*-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/start_button.png', sizingMethod='scale')";*/
+        /*width: 46%;*/
+        /*height: 76px;*/
+    }
+    #start_first {
+        width: 32%;
+        /*height: 100px;*/
+        /*background: url(../img/start_button.png);*/
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/start_button.png', sizingMethod='scale');
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/start_button.png', sizingMethod='scale')";
+
+
+    }
+    #story-scoreboard-container{
+        position: absolute;
+        /*bottom: 2%;*/
+        left:1%;
+        width: 20%;
+        height: 40%;
+        /*background: url(../img/scoreboard.png);*/
+        background-repeat: no-repeat;
+        /*background-size: 100% 100%;*/
+        /*padding-top: 1%;*/
+    }
+
+    .score_heading{
+        color: #ffffff;
+        font-weight: bold;
+        position: absolute;
+        left: 7%;
+        top: 62%;
+
+    }
+    .score_hurdle-name{
+        color: #000000;
+        font-weight: bold;
+        position: absolute;
+        left: 39%;
+        top: 21.5%;
+
+    }
+    .score_hurdle-time{
+        color:#000000;
+        position: absolute;
+        top: 43.5%;
+        left: 38%;
+        font: bold;
+    }
+    .score_hurdle-score{
+        color:#000000;
+        position: absolute;
+        top: 68%;
+        left: 38%;
+        font-size: 14px;
+        font: bold;
+        padding-top: 5px;
+    }
+
+    #backpack-icon-wrapper {
+        width: 32%;
+        height: 65px;
+        background: #302B54;
+        /*border: 1px solid #000;*/
+        padding: 3%;
+        position: absolute;
+        top: 6.5%;
+        left:7%;
+        border-radius: 10px;
+    }
+
+    .back-pack-icon{
+        width:40%;
+        height:30%;
+    }
+
+    /*Back Pack Contants IE* Styles Start*/
+            .back_pack_content{
+                background-color: rgb(255,255,255);
+                /*opacity: 0.4;*/
+                /*filter: alpha(opacity=60);*/
+                /*opacity: 0.5;*/
+                width: 25%;
+                display: table;
+                text-align: center;
+                height: auto;
+                position: absolute;
+                top:25%;
+                left:25%;
+                z-index: 1;
+                padding: 5px 5px 15px 5px;
+                background-size: 50% 100%;
+            }
+            .top-content {
+                color:red;
+                width: 90%;
+                float: left;
+                border-radius: 10px;
+            }
+            .top-content-header{
+                color:red;
+                width: 100%;
+                /*position: absolute;*/
+                float: left;
+                border-radius: 10px;
+            }
+            .close-btn  {
+                color:red;
+                width: 10%;
+                float: left;
+                border-radius: 10px;
+            }
+            .left-slide{
+                float: left;
+                width: 5%;
+            }
+            .mid-slide{
+                float: left;
+                /*height: auto;*/
+                width: 90%;
+                /*overflow-y: auto;*/
+            }
+            .right-slide {
+                /*opacity: 0.6;*/
+                /*filter: alpha(opacity=60); *//* For IE8 and earlier */
+                float: left;
+                width: 5%;
+            }
+            .right-content, .left-content {
+                float: left;
+                display: table-cell;
+            }
+            .slide_btn{
+                border:none;
+                background:none;
+            }
+    /*Back Pack Contants IE* Styles End*/
+
+
+    /*.story-node img {*/
+        /*width: 5%;*/
+    /*}*/
+    .story-zone-tale {
+        position: absolute;
+        padding: 20px;
+        top: 16%;
+        right: 44px;
+        font-size: 1.1em;
+        background: white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: black;
+        width: 47%;
+        height: 25%;
+        filter: alpha(opacity=70);
+    }
+    #button-bank {
+        position: absolute;
+        width: 33%;
+        top: 55%;
+        height: 22%;
+        right: 6%;
+        /*opacity: 0.8;*/
+    }
+    .zone-button {
+        display: block;
+        background: black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 1em;
+        line-height: 0.1em;
+        height: 10%;
+        width: 100%;
+        padding: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .zone-button:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a.zone-button:visited{
+        color:white !important;
+    }
+
+
+    #zone-tale-1 span{
+        left: 10%;
+        top: 20%;
+}

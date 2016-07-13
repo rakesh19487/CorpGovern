@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+
+Package: Ptotemy Demo
+Version: 1.2.5
+Author: Ashwin Kumar
+Website: http://ptotemy.com/ashwin
+Contact: ashwin@ptotem.com
+
+-->
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+
+    <title>Ptotemy</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/uncomman.css"/>
+    <!--[if IE]>
+        <link rel="stylesheet" href="css/all-ie-only.css" type="text/css"/>
+    <![endif]-->
+    <style>
+        /*html {overflow-y:hidden}*/
+        /*body {overflow-y:auto}*/
+    </style>
+</head>
+<body class="story-page" onload="initPage()">
+<div class="loading"><div id="loadingMessage">Loading..</div></div>
+<div id="story-wrapper">
+    <div id="story-nodes" style="display: none"></div>
+    <div id="story-zone"></div>
+    <img id="story-presenter" src="#" alt=""/>
+    <img id="story-nameplate" src="#" alt=""/>
+    <img id="story-compass" src="#" alt=""/>
+</div>
+
+<div id="full-wrapper">
+
+</div>
+<!--<style>-->
+    <!--iframe {-->
+        <!--position: relative;-->
+    <!--}-->
+<!--</style>-->
+
+<!-- Modals -->
+<div id="dialog" class="web_dialog">
+    <table style="width: 100%; border: 0px;" cellpadding="2" cellspacing="0">
+        <!--&lt;!&ndash; <tr>-->
+
+            <td class="web_dialog_title align_right" style="position: absolute; top:0;right:0;">
+                <a href="#" id="btnClose"><img src="img/close.png" width="50%"></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding-top:24%">
+                <div style="float:left;width:8%"><img src="img/reset.png" width="100%"></div>
+                <div class="reset_txt">
+                    Hey there! Do you want to reset everything and start over again?
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center">
+                <button id="btnSubmit" style="margin-bottom:20px;"></button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="dialog1" class="web_dialog">
+    <table style="width: 100%; border: 0px;" cellpadding="2" cellspacing="0">
+        <!--&lt;!&ndash; <tr>-->
+
+        <td class="web_dialog_title align_right" style="position: absolute; top:0;right:0;">
+            <a href="#" id="btnClose1"><img src="img/close.png" width="50%"></a>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding-top:24%">
+                <div style="float:left;width:8%"><img src="img/incomplete.png" width="100%"></div>
+                <div class="reset_txt" style="margin-top: 2%;">
+                    You haven't reached here yet! Complete the previous level first!
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <!--<td colspan="2" style="text-align: center">-->
+                <!--<button id="btnSubmit1" style="margin-bottom:20px;"></button>-->
+            <!--</td>-->
+        </tr>
+    </table>
+</div>
+<div id="dialog2" class="web_dialog">
+    <table style="width: 100%; border: 0px;" cellpadding="2" cellspacing="0">
+        <!--&lt;!&ndash; <tr>-->
+
+            <td class="web_dialog_title align_right" style="position: absolute; top:0;right:0;">
+                <a href="#" id="btnClose"><img src="img/close.png" width="50%"></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding-top:24%">
+                <!-- <div style="float:left;width:8%"><img src="img/reset.png" width="100%"></div> -->
+                <div class="reset_txt">
+                    Congratulations! You have successfully completed the game!</br>You may now log out or reset the game to play it again.
+                </div>
+            </td>
+        </tr>
+        <!-- <tr> -->
+            <!-- <td colspan="2" style="text-align: center"> -->
+                <!-- <button id="btnSubmit" style="margin-bottom:20px;"></button> -->
+            <!-- </td> -->
+        <!-- </tr> -->
+    </table>
+</div>
+
+
+
+<div id='correct' class="correctMusic"  style="visibility:hidden"></div>
+<div id='incorrect' class="incorrectMusic" style="visibility:hidden"></div>
+
+
+
+
+	<!-- <audio id="retro" class="backgroundMusic" controls="controls" loop preload="" style="visibility: hidden">
+        <source src="audio/retro.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="correct" class="correctMusic" controls="controls" preload="" style="visibility: hidden">
+        <source src="audio/correct.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="incorrect" class="incorrectMusic" controls="controls" preload="" style="visibility: hidden">
+        <source src="audio/incorrect.mp3" type="audio/mpeg">
+    </audio> -->
+
+<!-- Scripts -->
+<!--<script src="js/jquery.min.js"></script>-->
+<script src="js/jquery-1.10.2.js"></script>
+<script type='text/javascript' src='js/jwplayer.js'></script>
+
+<script src="js/animatedModal.min.js"></script>
+<script src="sco_api.js"></script>
+<!--<script src="js/jquery.mobile-1.4.5.min.js"></script>-->
+<!--<script src="js/jquery-1.11.0.min.js"></script>-->
+<!--<script src="js/jquery-1.11.2.min.js"></script>-->
+
+<script src="js/commananimation.js"></script>
+<!--<script src="js/animatedModal.js"></script>-->
+
+
+<script src="js/jquery-ui.js"></script>
+<!--<script src="js/jquery-2.0.2.js"></script>-->
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/configuration.js"></script>
+<script src="js/backpack.js"></script>
+<script src="js/adaptor.js"></script>
+<!--[if IE]>
+    <script src="js/adaptor_IE.js" type="text/javascript"></script>
+<![endif]-->
+<script src="js/testdata.js"></script>
+</body>
+</html>
