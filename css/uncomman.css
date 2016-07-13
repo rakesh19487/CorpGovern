@@ -167,6 +167,7 @@ body
     width: 37%;
     text-align: center;
     letter-spacing: 3px;
+    color: white;
 }
 .hangman #letterPanel
 {
@@ -233,6 +234,7 @@ body
     position: static;
     width: 92%;
     text-align: center;
+    color: white;
 }
 .hangman #knowmore
 {
@@ -597,6 +599,7 @@ body
     top: 13%;
     overflow-y: scroll;
     height: 80%;
+    font-size: 14px;
 
 }
 
@@ -1775,9 +1778,9 @@ a.zone-button:visited{
     position: absolute;
     z-index: 1;
     padding: 5px 5px 15px 5px;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     color:white;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .top-content
 {

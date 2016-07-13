@@ -113,20 +113,21 @@
 
     /*Back Pack Contants IE* Styles Start*/
             .back_pack_content{
-                background-color: rgb(255,255,255);
-                /*opacity: 0.4;*/
-                /*filter: alpha(opacity=60);*/
-                /*opacity: 0.5;*/
-                width: 25%;
-                display: table;
+                /*background: url(../img/backpack_box.png) repeat;
+                height: 46%;
+                left: 25%;
+                top: 23%;*/
+                width: 45%;
+               /* display: table;
                 text-align: center;
-                height: auto;
                 position: absolute;
-                top:25%;
-                left:25%;
                 z-index: 1;
                 padding: 5px 5px 15px 5px;
-                background-size: 50% 100%;
+                background-repeat: repeat;
+                color:white;
+                filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/backpack_box.png', sizingMethod='image');
+                -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/backpack_box.png', sizingMethod='image')";*/
+
             }
             .top-content {
                 color:red;
@@ -156,6 +157,7 @@
                 /*height: auto;*/
                 width: 90%;
                 /*overflow-y: auto;*/
+                padding-left: 5%;
             }
             .right-slide {
                 /*opacity: 0.6;*/

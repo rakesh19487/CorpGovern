@@ -476,7 +476,7 @@ img {
     font-size: 21px;
     font-weight: bold;
     position: absolute;
-    color: black;
+    color: white;
     text-align: center;
     margin:0 5%;
     top: 19%;
@@ -502,7 +502,7 @@ img {
     left: 27%;
     position: absolute;
     top: 15%;
-    color: black;
+    color: white;
 }
 .question-text
 {
@@ -511,6 +511,7 @@ img {
     left: 39%;
     position: absolute;
     top: 41%;
+    color: white;
 }
 .wrong-text
 {

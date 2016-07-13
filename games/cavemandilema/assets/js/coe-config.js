@@ -111,7 +111,7 @@ config.switches = {
                 name: "switch"+i,
                 states: [
                {name: "default", representation: "<img src='../../img/button_true.png'>"},
-                         {name: "false", representation: "<img src='../../img/button_false.png'>"},
+                         {name: "false", representation: "<img src='../../img/button_false1.png'>"},
                     {name: "true", representation: "<img src='../../img/button_true.png'>"}
                 ]});
         }

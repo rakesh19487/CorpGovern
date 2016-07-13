@@ -171,12 +171,12 @@ function initBackpack() {
         $("#backpack-icon-wrapper tr:last-child").append("<td class='back-pack-icon-name'>" + back_pack[i].name + "</td>");
     }
 
-    $("#story-wrapper").append('<div class="back_pack_content"  style="display: none" id="back_pack_table">' +'<h3 class="modal-heading">'+"BACKPACK"+' </h3>'  +
+    $("#story-wrapper").append('<div class="back_pack_content"  style="display: none" id="back_pack_table"><img style="width:100%;height:100%" src="img/backpack_box.png"><div style="position:absolute;margin-top:-75%;" class="ie-8">' +'<h3 class="modal-heading">'+"BACKPACK"+' </h3>'  +
     '<div class="top-content-header"><div class="top-content"></div><div class="close-btn"><img src="img/close_grey.png" id="close_btn" class="slide_btn" width="60%" ></div></div>' +
     '<div class="left-slide"><div class="left-content"> <img src="img/circle_left.png" width="20px" height="25px" id="left_slide_btn" class="slide_btn"></div></div>' +
     '<div class="mid-slide"></div>' +
     '<div class="right-slide"><div class="right-content"><img src="img/circle_next_arrow.png" width="20px" height="25px" id="right_slide_btn" class="slide_btn"></div></div>' +
-    '</div>');
+    '</div></div>');
 
     $(".back-pack-icon").unbind('click').on('click', function() {
         var display_status_header=$('#back_pack_table').css('display');
