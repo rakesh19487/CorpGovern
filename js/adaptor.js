@@ -938,6 +938,7 @@ function appendScore(gamescore){
 
     score+=gamescore*100;
     $("#score_node").html(score + " / 100");
+    console.log(gamescore);
 
 // TODO:- Need to uncomment this later
     // a.LMSSetValue("cmi.core.score.raw", score);

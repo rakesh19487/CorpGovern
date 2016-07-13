@@ -229,4 +229,18 @@
     #zone-tale-1 span{
         left: 10%;
         top: 20%;
-}
+    }
+
+    #instruction_table{
+        background: #541d16 !important;
+        color: white;
+        display: table;
+        height: 56%;
+        left: 25%;
+        padding: 0 2%;
+        position: relative;
+        text-align: left;
+        top: 8%;
+        width: 43%;
+        z-index: 2;
+    }
