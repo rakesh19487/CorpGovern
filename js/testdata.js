@@ -6,7 +6,7 @@ var platformData = {
         nodes: [
             {
                 description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but I need your expert advice first. Give me sound advice and I promise to provide you with shelter.",
-                sequence: 4,
+                sequence: 1,
                 decks: [2],
                 games: [5],
                 videos: [],
@@ -30,7 +30,7 @@ var platformData = {
             },
             {
                 description: "Everything is under snow. All the roads towards the peak must be blocked now. You need to find a way out of this mess. Try solving this quiz; it might lead you to your saviour!",
-                sequence: 1,
+                sequence: 4,
                 decks: [3],
                 games: [2],
                 videos: [],

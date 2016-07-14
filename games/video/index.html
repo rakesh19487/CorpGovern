@@ -43,7 +43,16 @@
 
     <script>
         jQuery(document).ready(function($) {
-            var player = new MediaElementPlayer('#player1');
+            // var player = new MediaElementPlayer('#player1');
+
+            $('#player1').mediaelementplayer({
+                success: function(player, node) {
+                    player.addEventListener('ended', function(e){
+                        slideend();                        
+                    });
+                }
+            });
+
         });
     </script>
 </head>

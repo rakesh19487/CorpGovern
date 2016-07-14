@@ -48,7 +48,7 @@ var storyConfig = {
             icon_complete: "2cc.png",
             photo: "2caveman.jpg",
             description: "Warning: Snowstorm! You need shelter. Lucky for you.. there's a cave guarded by a caveman ahead.",
-            sequence: 4,
+            sequence: 1,
             px: 52,
             py: 78
         },
@@ -81,7 +81,7 @@ var storyConfig = {
             icon_complete: "4cc.png",
             photo: "5avalanche.jpg",
             description: "An avalanche just occured and has shattered everything at this camp.",
-            sequence: 1,
+            sequence: 4,
             px: 33,
             py: 34
         },
