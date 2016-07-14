@@ -6,7 +6,7 @@ var platformData = {
         nodes: [
             {
                 description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but I need your expert advice first. Give me sound advice and I promise to provide you with shelter.",
-                sequence: 1,
+                sequence: 4,
                 decks: [2],
                 games: [5],
                 videos: [],
@@ -29,22 +29,22 @@ var platformData = {
                 backpack: [2]
             },
             {
+                description: "Everything is under snow. All the roads towards the peak must be blocked now. You need to find a way out of this mess. Try solving this quiz; it might lead you to your saviour!",
+                sequence: 1,
+                decks: [3],
+                games: [2],
+                videos: [],
+                backpack: [1]
+            },
+            {
                 description: "So, you're ready to climb the Everest? Not so fast! You have to go through a Security Check first. Answer my questions correctly and I'll let you pass.",
-                sequence: 4,
+                sequence: 5,
                 decks: [1],
                 games: [4],
                 videos: [],
                 backpack: [0]
             }
             
-            // {
-            //     description: "Everything is under snow. All the roads towards the peak must be blocked now. You need to find a way out of this mess. Try solving this quiz; it might lead you to your saviour!",
-            //     sequence: 4,
-            //     decks: [3],
-            //     games: [2],
-            //     videos: [],
-            //     backpack: [1]
-            // },
             // {
             //     description: "Lost your way?! I could help but I am hungry and have no money to eat at the taverns. Plus I am so bored.",
             //     sequence: 5,
@@ -118,7 +118,7 @@ var games = [
         title: "Find a Way",
         backpack: "Go through Backpack",
         //html: "Click here to play the game!",
-        name: "icyterror",
+        name: "video",
         fullscreen: false
     },
     {
