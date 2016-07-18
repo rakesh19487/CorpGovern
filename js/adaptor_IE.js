@@ -315,6 +315,10 @@ function initInstructions(){
             animatedOut: "bounceOut"
         });
     }, 200);
+
+    $('.close-inst-backdrop').unbind('click').on('click',function(){
+         $("#instruction_table").fadeOut(200);
+    })
 }
 function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
