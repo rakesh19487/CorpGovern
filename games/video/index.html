@@ -48,7 +48,8 @@
             $('#player1').mediaelementplayer({
                 success: function(player, node) {
                     player.addEventListener('ended', function(e){
-                        slideend();                        
+                        slideend();   
+                        alert("slide has ended");
                     });
                 }
             });

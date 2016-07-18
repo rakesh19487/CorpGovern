@@ -523,11 +523,13 @@ function bindZoneSections(direction) {
         showDeck($(this).attr("id").split("-")[2]);
     });
     zoneGames.on('click', function () {
+        console.log ("nodeId: " + nodeId);
         showGame($(this).attr("id").split("-")[2]);
         setTimeout(function () {
             var frm = $('.projector iFrame')[0].contentWindow;
+
             frm.setNodeId(nodeId);
-            //console.log ("nodeId: " + nodeId);
+            
         }, 2500);
     });
     zoneVideos.on('click', function () {

@@ -74,17 +74,17 @@ var storyConfig = {
             px: 38.8,
             py: 45.5
         },
-        {
-            name: "Icy Terror",
-            icon_active: "4.png",
-            icon_inactive: "4ii.png",
-            icon_complete: "4cc.png",
-            photo: "5avalanche.jpg",
-            description: "An avalanche just occured and has shattered everything at this camp.",
-            sequence: 4,
-            px: 33,
-            py: 34
-        },
+        // {
+        //     name: "Icy Terror",
+        //     icon_active: "4.png",
+        //     icon_inactive: "4ii.png",
+        //     icon_complete: "4cc.png",
+        //     photo: "5avalanche.jpg",
+        //     description: "An avalanche just occured and has shattered everything at this camp.",
+        //     sequence: 4,
+        //     px: 33,
+        //     py: 34
+        // },
         {
             name: "Security Post",
             icon_active: "1.png",
@@ -92,7 +92,7 @@ var storyConfig = {
             icon_complete: "1cc.png",
             photo: "gamebackground.png",
             description: "You are at the Base Camp! Time for a Security Check!",
-            sequence: 5,
+            sequence: 4,
             px: 38,
             py: 19
         }

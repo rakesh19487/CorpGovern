@@ -28,17 +28,17 @@ var platformData = {
                 videos: [],
                 backpack: [2]
             },
-            {
-                description: "Everything is under snow. All the roads towards the peak must be blocked now. You need to find a way out of this mess. Try solving this quiz; it might lead you to your saviour!",
-                sequence: 4,
-                decks: [3],
-                games: [2],
-                videos: [],
-                backpack: [1]
-            },
+            // {
+            //     description: "Everything is under snow. All the roads towards the peak must be blocked now. You need to find a way out of this mess. Try solving this quiz; it might lead you to your saviour!",
+            //     sequence: 4,
+            //     decks: [3],
+            //     games: [2],
+            //     videos: [],
+            //     backpack: [1]
+            // },
             {
                 description: "So, you're ready to climb the Everest? Not so fast! You have to go through a Security Check first. Answer my questions correctly and I'll let you pass.",
-                sequence: 5,
+                sequence: 4,
                 decks: [1],
                 games: [4],
                 videos: [],
