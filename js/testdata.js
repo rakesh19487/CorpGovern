@@ -10,7 +10,7 @@ var platformData = {
                 decks: [2],
                 games: [5],
                 videos: [],
-                backpack: [4]
+                backpack: [0]
             },
             {
                 description: "Welcome, Traveler! Many have come this far but few have gotten past me! Answer my questions and I shall bless you else I shall disappear forever!",
@@ -18,7 +18,7 @@ var platformData = {
                 decks: [6],
                 games: [1],
                 videos: [],
-                backpack: [5]
+                backpack: [1]
             },
             {
                 description: "Running is not an option here. You can't outrun the beast. How about trapping the beast? Try this quiz and you might be able to save yourself!",
@@ -42,7 +42,7 @@ var platformData = {
                 decks: [1],
                 games: [4],
                 videos: [],
-                backpack: [0]
+                backpack: [3]
             }
             
             // {

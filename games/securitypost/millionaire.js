@@ -353,7 +353,7 @@ function playGame() {
         flag++;
         if(answered == false) {
             answered = true;
-            if(gcount==8)
+            if(gcount==12)
                 gameOn = false;
             if (data.correct == "true")
             {

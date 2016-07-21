@@ -5,8 +5,6 @@ var storyConfig = {
     zone: {
         px:18,
         py:8,
-        // casualBack: "zone.png",
-        // formalBack: "zone-formal.jpg",
         zoneIcons: ["icon-mosque.png", "icon-palms1.png", "icon-palms2.png", "icon-tower.png", "icon-windmill.png", "icon-tree.png"]
     },
     presenter: {
@@ -47,10 +45,10 @@ var storyConfig = {
             icon_inactive: "2ii.png",
             icon_complete: "2cc.png",
             photo: "2caveman.jpg",
-            description: "Warning: Snowstorm! You need shelter. Lucky for you.. there's a cave guarded by a caveman ahead.",
+            description: "Warning: Snowstorm! You need shelter. Lucky for you.",
             sequence: 1,
-            px: 52,
-            py: 78
+            px: 40.5,
+            py: 68
         },
         {
             name: "Fairy Tale",
@@ -74,17 +72,6 @@ var storyConfig = {
             px: 38.8,
             py: 45.5
         },
-        // {
-        //     name: "Icy Terror",
-        //     icon_active: "4.png",
-        //     icon_inactive: "4ii.png",
-        //     icon_complete: "4cc.png",
-        //     photo: "5avalanche.jpg",
-        //     description: "An avalanche just occured and has shattered everything at this camp.",
-        //     sequence: 4,
-        //     px: 33,
-        //     py: 34
-        // },
         {
             name: "Security Post",
             icon_active: "1.png",
@@ -96,23 +83,10 @@ var storyConfig = {
             px: 38,
             py: 19
         }
-        // {
-        //     name: "Hunger Game",
-        //     icon_active: "5.png",
-        //     icon_inactive: "5ii.png",
-        //     icon_complete: "5cc.png",
-        //     photo: "4yeti.jpg",
-        //     description: "Beware! This guy is always hungry!",
-        //     sequence: 5,
-        //     px: 33,
-        //     py: 34
-        // },
-        
+      
     ]
 };
 
-//var slides={
-//}
 
 
 
