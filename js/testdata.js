@@ -9,7 +9,7 @@ var platformData = {
                 sequence: 1,
                 decks: [2],
                 games: [5],
-                videos: [],
+                videos: [1],
                 backpack: [0]
             },
             {
@@ -17,7 +17,7 @@ var platformData = {
                 sequence: 2,
                 decks: [6],
                 games: [1],
-                videos: [],
+                videos: [2],
                 backpack: [1]
             },
             {
@@ -25,7 +25,7 @@ var platformData = {
                 sequence: 3,
                 decks: [3],
                 games: [6],
-                videos: [],
+                videos: [3],
                 backpack: [2]
             },
             // {
@@ -152,7 +152,17 @@ var videos = [
     {
         id: '1',
         title: "The Ptotem Video",
-        file: "img/ptotemy.mp4"
+        file: "video/NeruppuDa.mp4"
+    },
+    {
+        id: '2',
+        title: "The Ptotemy Video",
+        file: "video/adserving.mp4"
+    },
+    {
+        id: '3',
+        title: "The Ptotem Videoy",
+        file: "video/hindivideo.3gp"
     }
 ];
 

@@ -109,6 +109,7 @@ function initPage() {
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
             initBackpack();
+            initVideo();
             if(score === 0)
             {
                 scoredisp = 0;
@@ -268,6 +269,18 @@ function initBackpack() {
 		$(".back-pack-icon-name").unbind("click").on("click", function(){
         	$(".back-pack-icon").eq($(this).index()).trigger("click");
     	});
+    })
+
+}
+
+function initVideo(){
+    $("#story-wrapper").append('<div class="video_content"  style="display: none" id="video_table">' +
+        '<div class="close-btn video-close"><img src="img/close_grey.png" id="close_btn" class="slide_btn" width="60%" ></div>' +
+        '<video id="player1" src="http://techslides.com/demos/sample-videos/small.mp4" width=100% height=100%></video>' +
+    '</div>');
+
+    $('.video-close').unbind('click').on('click',function(){
+        $('#video_table').fadeOut('200');
     })
 
 }
@@ -446,7 +459,7 @@ function showStoryZone(sequence) {
     $storyZone.empty();
 
     $('<a id="story-zone-close" href="#"><img src="img/close.png"/></a>').appendTo($storyZone);
-    var $deck, $game, $video,$backpack;
+    var $deck, $game, $video,$backpack,$video;
     var $d= "";
     if (platformData.formal) {
 
@@ -465,6 +478,11 @@ function showStoryZone(sequence) {
             //$backpack = $('<div id="backpack_anchor" onclick="getbackpack(i)"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + backpack[i].title + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
             $backpack = $('<div id="backpack_anchor" onclick="getbackpack('+thisNode.backpack[i]+')"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + thisNode.games[i] + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
         }
+        for (i in thisNode.videos) {
+            $video = $('<div id="video-anchor"><a href="#" class="zone-button  video-zone"  id="'+ thisNode.videos[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
+        }
+        
+
 
         bindZoneSections("left");
     } else {
@@ -536,6 +554,18 @@ function bindZoneSections(direction) {
         showVideo($(this).attr("id").split("-")[2]);
     });
 
+    $('.video-zone').unbind('click').on('click',function (){
+        $('#video_table').fadeIn('slow');
+        $('#video_table').find('#player1').attr('src',videos[$(this).attr('id')].file);
+        setTimeout(function(){
+            $('#player1').mediaelementplayer({
+                    success: function(player, node) {
+                        player.addEventListener('ended', function(e){
+                        });
+                    }
+            });
+        },500)
+    });
 }
 
 
