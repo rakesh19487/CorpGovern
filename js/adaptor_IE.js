@@ -24,16 +24,9 @@ function initPage() {
     });
     initCommunications();
     initInstructions();
-    //console.log("score");
-    //console.log(score);
 
     if(typeof getAPI() !== "undefined" || getScore()!=="")
         score = parseInt(parseFloat(getScore())*100);
-
-    //else
-        //score=0;
-    //score = parseFloat(getScore());
-    //console.log(score);
     time = scormGetValue("cmi.comments").split(",");
     time = parseInt(time[time.length-2]);
     if(isNaN(time))
@@ -152,16 +145,6 @@ function instruction_click(){
 
     $("#instruction_first").click(function (e){
         var display_status_header=$('#instruction_table').css('display');
-        //if(display_status_header=='none') {
-        //$("#instruction_table").animate({'opacity':'1','left':'5%'}, 9500);;
-        //$("#instruction_table").fadeToggle(1500);
-        //$("#instruction_table").fadeTo('slow', 0.5);
-        //}
-        //else
-        //{
-        //    $("#instruction_table").fadeOut(200);
-        //}
-
     });
 }
 function initBackpack() {
@@ -181,15 +164,8 @@ function initBackpack() {
 
     $(".back-pack-icon").unbind('click').on('click', function() {
         var display_status_header=$('#back_pack_table').css('display');
-        //if(display_status_header=='none'){
 
         $(".side-icon-image:first-child").addClass('no-click');
-        //var effect = 'slide';
-        //// Set the options for the effect type chosen
-        //var options = { direction:"up" };
-        //// Set the duration (default: 400 milliseconds)
-        //var duration = 500;
-        //$('#back_pack_table').toggle(effect, options, duration);
         $('#back_pack_table').fadeIn('slow');
         var slidid = parseInt($(this).attr("currid"));
         for(var i=0;i<back_pack.length;i++) {
@@ -256,18 +232,6 @@ function initBackpack() {
                 $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
             }
         });
-        //}
-        //else{
-        //    var effect = 'slide';
-        //    var options = { direction:"up" };
-        //    var duration = 500;
-        //    $('#back_pack_table').toggle(effect, options, duration);
-        //    $(".side-icon-image:first-child").removeClass('no-click');
-        //    for(var i=0;i<=back_pack.length;i++){
-        //        $("#back_pack_img-"+i+" img").attr("src",'img/'+ back_pack[i].icon);
-        //        $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
-        //    }
-        //}
 		
 		$(".back-pack-icon-name").unbind("click").on("click", function(){
         	$(".back-pack-icon").eq($(this).index()).trigger("click");
@@ -285,6 +249,13 @@ function initVideo(){
     $('.video-close').unbind('click').on('click',function(){
         $('#video_table').fadeOut('200');
     })
+
+    $('#player1').mediaelementplayer({
+        success: function(player, node) {
+            player.addEventListener('ended', function(e){
+            });
+        }
+    });
 
 }
 
@@ -337,8 +308,6 @@ function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
     $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/back_pack.png' id='back_pack_img'/></td></tr>");
     $("#sideiconpanel").append("<tr><td class='side-icon-text'>Backpack</td></tr>");
-//    $("#sideiconpanel").append("<tr><td class='side-icon-image' style='display: none'><img src='img/instructions.png' id='instruction_img'/></td></tr>");
-//    $("#sideiconpanel").append("<tr><td class='side-icon-text' style='display: none;'>How to Play</td></tr>");
 
 //    On BackPack Click
     $("#back_pack_img").unbind('click').on('click', function (){
@@ -346,7 +315,6 @@ function initSideIcons() {
         var options = { direction:"left" };
         var duration = 500;
         $('#backpack-icon-wrapper').toggle(effect, options, duration);
-        //$('#backpack-icon-wrapper').fadeIn();
     });
 }
 
@@ -436,8 +404,6 @@ function bindToNodes(str, nodecls) {
                     var options = { direction:"down" };
                     var duration = 500;
                     $("#story-zone").toggle(effect, options, duration);
-
-                    //$("#story-zone").effect("bounce", { times: 1 }, "2000").fadeOut();
                 });
             }
 
@@ -452,7 +418,6 @@ function bindToNodes(str, nodecls) {
 
         $(".click_inactive").unbind('click').on('click', function () {
             ShowDialog1();
-            //alert('you are not eligible for this game');
         });
     }
 }
@@ -478,15 +443,17 @@ function showStoryZone(sequence) {
         for (i in thisNode.games) {
             var gameStatus = "";
             $game = $('<a href="#" class="zone-game zone-button ' + gameStatus + '" id="game-' + i + '-' + thisNode.games[i] + '">' + getGame(thisNode.games[i]).title + '</a>').appendTo($buttonBank);
-            //$backpack = $('<a onclick="getbackpack(thisNode.games[i]).title)" class="zone-game zone-button " id="game-backpack' + i + '-' + thisNode.games[i] + '">' + getGame(thisNode.games[i]).backpack + '</a>').appendTo($buttonBank);
         }
         for (i in thisNode.backpack) {
             var backpackid=backpack[thisNode.backpack[i]].file;
-            //console.log(backpackid)
-            //$backpack = $('<div id="backpack_anchor" onclick="getbackpack(i)"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + backpack[i].title + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
             $backpack = $('<div id="backpack_anchor" onclick="getbackpack(i)"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + thisNode.games[i] + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
         }
-        $video = $('<div id="video-anchor"><a href="#" class="zone-button  video-zone">Video</a></div>').appendTo($buttonBank);
+        for (i in thisNode.videos) {
+            var videoTitle = ''
+            if(videos[thisNode.videos[i]] != undefined){
+                $video = $('<div id="video-anchor-'+i+'"><a href="#" class="zone-button video-zone"  id="video-zone-'+thisNode.backpack[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
+            }
+        }
         bindZoneSections("left");
     } else {
         for (i in thisNode.decks) {
@@ -517,7 +484,6 @@ function bindZoneSections(direction) {
         trigger: "hover",
         html: true,
         title: function () {
-//            return getDeck($(this).attr("id").split("-")[2]).title;
         },
         content: function () {
             var deckId = $(this).attr("id").split("-")[2];
@@ -534,9 +500,7 @@ function bindZoneSections(direction) {
         content: function () {
             var gameId = $(this).attr("id").split("-")[2];
             var desc = getGame(gameId).html;
-//            var status = checkGame(deckId) ? "complete" : "incomplete";
             return desc;
-//            return desc + '<br/><div class="popover-content-block ' + status + '-popover-content">' + status.toUpperCase() + '</div>';
         }
     });
 
@@ -548,22 +512,16 @@ function bindZoneSections(direction) {
         setTimeout(function () {
             var frm = $('.projector iFrame')[0].contentWindow;
             frm.setNodeId(nodeId);
-            //console.log ("nodeId: " + nodeId);
         }, 2500);
     });
     zoneVideos.on('click', function () {
         showVideo($(this).attr("id").split("-")[2]);
     });
 
-     $('.video-zone').unbind('click').on('click',function (){
+    $('.video-zone').unbind('click').on('click',function (){
         $('#video_table').fadeIn('slow');
-        $('#player1').mediaelementplayer({
-                success: function(player, node) {
-                    player.addEventListener('ended', function(e){
-                    });
-                }
-        });
-    });   
+        $('#video_table').find('#player1').attr('src',videos[$(this).attr('id')].file);
+    });  
 
 }
 
@@ -811,8 +769,6 @@ function showGame(gameId) {
 
         var $projector = $('<div class="projector projection" style="top:48px"></div>').appendTo($storyZone);
         $('#story-zone-close').unbind('click').on('click', function () {
-//            if($('.projector iFrame').length>0) {
-//            }
 
             $('.projection').remove();
             $('#story-nameplate').fadeIn();

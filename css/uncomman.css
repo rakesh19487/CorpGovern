@@ -1476,7 +1476,7 @@ body.story-page {
 #button-bank {
     left: 48.25%;
     position: absolute;
-    top: 42% !important;
+    top: 48%;
     width: 36%;
     text-align:center;
 }
@@ -2597,8 +2597,23 @@ a
     height: 30%;
 }
 
-.video-zone{
+#video-zone-0{
     margin-left: 11%;
+    text-decoration: none !important;
+    background: url("../img/start_buttoncaveman.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+}
+#video-zone-1{
+    /*margin-left: 11%;*/
+    text-decoration: none !important;
+    background: url("../img/start_buttoncaveman.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+}
+#video-zone-2{
+    /*margin-left: 11%;*/
+    text-decoration: none !important;
+    background: url("../img/start_buttoncaveman.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+}
+#video-zone-3{
+    /*margin-left: 11%;*/
     text-decoration: none !important;
     background: url("../img/start_buttoncaveman.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
 }

@@ -19,8 +19,6 @@ var storyConfig = {
         py: 64,
         width: 17
     },
-
-
     compass: {
         image: "comapss.gif",
         px: 2,

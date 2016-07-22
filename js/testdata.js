@@ -28,14 +28,6 @@ var platformData = {
                 videos: [3],
                 backpack: [2]
             },
-            // {
-            //     description: "Everything is under snow. All the roads towards the peak must be blocked now. You need to find a way out of this mess. Try solving this quiz; it might lead you to your saviour!",
-            //     sequence: 4,
-            //     decks: [3],
-            //     games: [2],
-            //     videos: [],
-            //     backpack: [1]
-            // },
             {
                 description: "So, you're ready to climb the Everest? Not so fast! You have to go through a Security Check first. Answer my questions correctly and I'll let you pass.",
                 sequence: 4,
@@ -44,16 +36,6 @@ var platformData = {
                 videos: [],
                 backpack: [3]
             }
-            
-            // {
-            //     description: "Lost your way?! I could help but I am hungry and have no money to eat at the taverns. Plus I am so bored.",
-            //     sequence: 5,
-            //     decks: [4],
-            //     games: [3],
-            //     videos: [],
-            //     backpack: [3]
-            // },
-            
         ]
     };
 
@@ -101,7 +83,6 @@ var games = [
         id: '1',
         title: "The Final Test",
         backpack: "Go through Backpack",
-        //html: "Click here to play the game!",
         name: "hangman",
         fullscreen: false
     },
@@ -109,7 +90,6 @@ var games = [
         id: '3',
         title: "Engage the Yeti",
         backpack: "Go through Backpack",
-        //html: "Click here to play the game!",
         name: "yeti",
         fullscreen: false
     },
@@ -117,7 +97,6 @@ var games = [
         id: '2',
         title: "Find a Way",
         backpack: "Go through Backpack",
-        //html: "Click here to play the game!",
         name: "video",
         fullscreen: false
     },
@@ -125,7 +104,6 @@ var games = [
         id: '4',
         title: "Begin Security Check",
         backpack: "Go through Backpack",
-        //html: "Click here to play the game!",
         name: "securitypost",
         fullscreen: false
     },
@@ -134,7 +112,6 @@ var games = [
         id: '5',
         title: "Advise the Caveman",
         backpack: "Go through Backpack",
-        //html: "Click here to play the game!",
         name: "cavemandilema",
         fullscreen: false
     },
@@ -142,7 +119,6 @@ var games = [
         id: '6',
         title: "<span class='brown-text'>Trap the Snow Leopard</span>",
         backpack: "Go through Backpack",
-        //html: "Click here to play the game!",
         name: "hunt",
         fullscreen: false
     }
@@ -151,17 +127,17 @@ var games = [
 var videos = [
     {
         id: '1',
-        title: "The Ptotem Video",
+        title: "The Ptotemm Videoo",
         file: "http://www.w3schools.com/tags/movie.mp4"
     },
     {
         id: '2',
-        title: "The Ptotemy Video",
+        title: "The Ptotemyy Videoo",
         file: "http://techslides.com/demos/sample-videos/small.mp4"
     },
     {
         id: '3',
-        title: "The Ptotem Videoy",
+        title: "The Ptotemm Videoy",
         file: "http://www.w3schools.com/tags/movie.mp4"
     }
 ];
