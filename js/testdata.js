@@ -152,17 +152,17 @@ var videos = [
     {
         id: '1',
         title: "The Ptotem Video",
-        file: "video/NeruppuDa.mp4"
+        file: "http://www.w3schools.com/tags/movie.mp4"
     },
     {
         id: '2',
         title: "The Ptotemy Video",
-        file: "video/adserving.mp4"
+        file: "http://techslides.com/demos/sample-videos/small.mp4"
     },
     {
         id: '3',
         title: "The Ptotem Videoy",
-        file: "video/hindivideo.3gp"
+        file: "http://www.w3schools.com/tags/movie.mp4"
     }
 ];
 

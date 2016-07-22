@@ -283,6 +283,13 @@ function initVideo(){
         $('#video_table').fadeOut('200');
     })
 
+    $('#player1').mediaelementplayer({
+        success: function(player, node) {
+            player.addEventListener('ended', function(e){
+            });
+        }
+    });
+
 }
 
 function getSubSlide(sub_slide_id,slide_id){
@@ -557,14 +564,14 @@ function bindZoneSections(direction) {
     $('.video-zone').unbind('click').on('click',function (){
         $('#video_table').fadeIn('slow');
         $('#video_table').find('#player1').attr('src',videos[$(this).attr('id')].file);
-        setTimeout(function(){
-            $('#player1').mediaelementplayer({
-                    success: function(player, node) {
-                        player.addEventListener('ended', function(e){
-                        });
-                    }
-            });
-        },500)
+        // setTimeout(function(){
+        //     $('#player1').mediaelementplayer({
+        //             success: function(player, node) {
+        //                 player.addEventListener('ended', function(e){
+        //                 });
+        //             }
+        //     });
+        // },500)
     });
 }
 
