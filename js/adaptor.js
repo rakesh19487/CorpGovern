@@ -254,7 +254,7 @@ function initBackpack() {
 function initVideo(){
     $("#story-wrapper").append('<div class="video_content"  style="display: none" id="video_table">' +
         '<div class="close-btn video-close"><img src="img/close_grey.png" id="close_btn" class="slide_btn" width="60%" ></div>' +
-        '<video id="player1" src="http://techslides.com/demos/sample-videos/small.mp4" width=100% height=100%></video>' +
+        '<video id="player1" src="http://www.w3schools.com/tags/movie.mp4" width=100% height=100%></video>' +
     '</div>');
 
     $('.video-close').unbind('click').on('click',function(){
@@ -458,7 +458,7 @@ function showStoryZone(sequence) {
         for (i in thisNode.videos) {
             var videoTitle = ''
             if(videos[thisNode.videos[i]] != undefined){
-                $video = $('<div id="video-anchor-'+i+'"><a href="#" class="zone-button video-zone"  id="video-zone-'+thisNode.backpack[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
+                $video = $('<div id="video-anchor-'+i+'"><a href="#" class="zone-button video-zone"  id="video-zone-'+thisNode.videos[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
             }
         }
         
@@ -533,7 +533,8 @@ function bindZoneSections(direction) {
 
     $('.video-zone').unbind('click').on('click',function (){
         $('#video_table').fadeIn('slow');
-        $('#video_table').find('#player1').attr('src',videos[$(this).attr('id')].file);
+        id = parseInt($(this).attr('id').split("-")[2])
+        $('#video_table').find('#player1').attr('src',videos[id].file);
     });
 }
 

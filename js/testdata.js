@@ -9,7 +9,7 @@ var platformData = {
                 sequence: 1,
                 decks: [2],
                 games: [5],
-                videos: [1],
+                videos: [0],
                 backpack: [0]
             },
             {
@@ -17,7 +17,7 @@ var platformData = {
                 sequence: 2,
                 decks: [6],
                 games: [1],
-                videos: [2],
+                videos: [1],
                 backpack: [1]
             },
             {
@@ -25,7 +25,7 @@ var platformData = {
                 sequence: 3,
                 decks: [3],
                 games: [6],
-                videos: [3],
+                videos: [2],
                 backpack: [2]
             },
             {
@@ -128,12 +128,12 @@ var videos = [
     {
         id: '1',
         title: "The Ptotemm Videoo",
-        file: "http://www.w3schools.com/tags/movie.mp4"
+        file: "http://techslides.com/demos/sample-videos/small.mp4"
     },
     {
         id: '2',
         title: "The Ptotemyy Videoo",
-        file: "http://techslides.com/demos/sample-videos/small.mp4"
+        file: "http://www.w3schools.com/tags/movie.mp4"
     },
     {
         id: '3',
