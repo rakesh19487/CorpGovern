@@ -245,7 +245,7 @@ function displayMessage(str,n) {
         $("#try-again").unbind('click').on('click', function() {
             if(flag!=0) {
                 quesbank = [];
-                for(var i=flag; i<5; i++) {
+                for(var i=flag; i<8; i++) {
                     if(i==flag) {
                         quesbank.push(Question.getBySubCat(6, question.category));
                     }
@@ -307,7 +307,7 @@ function shuffle(o) {
 };
 
 function sendScore(){
-    return 0.20;
+    return 0.25;
 }
 
 function setNodeId(nodeId){

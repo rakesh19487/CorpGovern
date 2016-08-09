@@ -21,8 +21,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:1,
+        slide: 1,
+        subslide: 1,
 		category: 1
     },
 	{
@@ -45,8 +45,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:8,
+        slide: 1,
+        subslide: 8,
 		category: 4
     },
     {
@@ -69,8 +69,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:3,
+        slide: 1,
+        subslide: 3,
 		category: 3
     },
     {
@@ -93,8 +93,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:5,
+        slide: 1,
+        subslide: 5,
 		category: 2
     },
     {
@@ -117,8 +117,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:5,
+        slide: 1,
+        subslide: 5,
 		category: 2
     },
     {
@@ -141,8 +141,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:3,
+        slide: 1,
+        subslide: 3,
 		category: 3
     },
     {
@@ -161,12 +161,12 @@ questionbank.questions = [
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "All three" ,
+        optd: "All three",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:2,
+        slide: 1,
+        subslide: 2,
 		category: 1
     },
     {
@@ -185,12 +185,12 @@ questionbank.questions = [
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Neither a nor b" ,
+        optd: "Neither a nor b",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:2,
+        slide: 1,
+        subslide: 2,
 		category:1
     },
     {
@@ -213,8 +213,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:5,
+        slide: 1,
+        subslide: 5,
 		category: 2
     },
     {
@@ -233,12 +233,12 @@ questionbank.questions = [
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: " Virgin Music",
+        optd: "Virgin Music",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:1,
+        slide: 1,
+        subslide: 1,
 		category: 1
     },
     {
@@ -257,12 +257,12 @@ questionbank.questions = [
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: " All three",
+        optd: "All three",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:1,
+        slide: 1,
+        subslide: 1,
 		category: 1
     },
     {
@@ -285,8 +285,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:3,
-        subslide:1,
+        slide: 3,
+        subslide: 1,
 		category: 1
     },
     {
@@ -309,8 +309,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:1,
+        slide: 3,
+        subslide: 1,
 		category: 1
     },
 
@@ -336,8 +336,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:8,
+        slide: 1,
+        subslide: 8,
 		category: 4
     },
 
@@ -361,8 +361,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:8,
+        slide: 1,
+        subslide: 8,
 		category: 4
     },
     {
@@ -385,8 +385,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:4,
+        slide: 1,
+        subslide: 4,
 		category: 3
     },
     {
@@ -409,8 +409,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:5,
-        subslide:3,
+        slide: 5,
+        subslide: 3,
 		category: 1
     },
     {
@@ -433,8 +433,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:3,
+        slide: 5,
+        subslide: 3,
 		category: 1
     },
     {
@@ -457,8 +457,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:6,
+        slide: 5,
+        subslide: 6,
 		category: 2
     },
     {
@@ -473,7 +473,7 @@ questionbank.questions = [
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: " Cash",
+        optc: "Cash",
         optccorrect: "false",
         optcpoints: "0",
 
@@ -481,8 +481,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:3,
+        slide: 5,
+        subslide: 3,
 		category: 1
     },
     {
@@ -505,8 +505,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:5,
+        slide: 5,
+        subslide: 5,
 		category: 2
     },
     {
@@ -525,12 +525,12 @@ questionbank.questions = [
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Ask for benefits given to army personnel" ,
+        optd: "Ask for benefits given to army personnel",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:2,
+        slide: 5,
+        subslide: 2,
 		category: 2
     },
     {
@@ -553,8 +553,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:2,
+        slide: 5,
+        subslide: 2,
 		category: 3
     },
     {
@@ -577,8 +577,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:2,
+        slide: 5,
+        subslide: 2,
 		category: 3
     },
     {
@@ -601,8 +601,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:3,
-        subslide:3,
+        slide: 3,
+        subslide: 3,
 		category: 2
     },
     {
@@ -625,8 +625,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:3,
+        slide: 3,
+        subslide: 3,
 		category: 2
     },
 	{
@@ -649,8 +649,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:4,
+        slide: 3,
+        subslide: 4,
 		category: 2
     },
 	{
@@ -673,8 +673,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:4,
+        slide: 3,
+        subslide: 4,
 		category: 2
     },
 	{
@@ -697,8 +697,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:6,
+        slide: 3,
+        subslide: 6,
 		category: 2
     },
     {
@@ -721,8 +721,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:5,
-        subslide:5,
+        slide: 5,
+        subslide: 5,
 		category: 1
     },
     {
@@ -745,8 +745,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:4,
+        slide: 3,
+        subslide: 4,
 		category: 2
     },
     {
@@ -769,8 +769,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:4,
+        slide: 3,
+        subslide: 4,
 		category: 1
     },
     {
@@ -789,12 +789,12 @@ questionbank.questions = [
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Yes, if approved by HOD" ,
+        optd: "Yes, if approved by HOD",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:6,
+        slide: 3,
+        subslide: 6,
 		category: 3
     },
 	{
@@ -817,8 +817,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:6,
+        slide: 3,
+        subslide: 6,
 		category: 3
     },
     {
@@ -841,8 +841,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:6,
+        slide: 3,
+        subslide: 6,
 		category: 3
     },
     {
@@ -865,8 +865,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:2,
+        slide: 2,
+        subslide: 2,
 		category: 1
     },
 	{
@@ -889,8 +889,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:2,
+        slide: 2,
+        subslide: 2,
 		category: 1
     },
     {
@@ -913,8 +913,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:2,
-        subslide:2,
+        slide: 2,
+        subslide: 2,
 		category: 1
     },
     {
@@ -937,8 +937,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:2,
+        slide: 2,
+        subslide: 2,
 		category: 1
     },
     {
@@ -961,8 +961,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:10,
+        slide: 2,
+        subslide: 10,
 		category: 2
     },
     {
@@ -985,8 +985,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:2,
-        subslide:10,
+        slide: 2,
+        subslide: 10,
 		category: 2
     },
     {
@@ -1009,8 +1009,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:10,
+        slide: 2,
+        subslide: 10,
 		category: 1
     },
     {
@@ -1033,8 +1033,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:3,
+        slide: 4,
+        subslide: 3,
 		category: 1
     },
 
@@ -1058,8 +1058,8 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:4,
-        subslide:3,
+        slide: 4,
+        subslide: 3,
 		category: 1
     },
 
@@ -1084,8 +1084,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:1,
+        slide: 4,
+        subslide: 1,
 		category: 2
     },
     {
@@ -1108,8 +1108,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:2,
+        slide: 4,
+        subslide: 2,
 		category: 2
     },
     {
@@ -1132,8 +1132,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:2,
+        slide: 4,
+        subslide: 2,
 		category: 2
     },
     {
@@ -1156,8 +1156,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:4,
+        slide: 4,
+        subslide: 4,
 		category: 1
     },
 	{
@@ -1180,8 +1180,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:4,
+        slide: 4,
+        subslide: 4,
 		category: 2
     },
     {
@@ -1204,8 +1204,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:10,
+        slide: 2,
+        subslide: 10,
 		category: 1
     },
     {
@@ -1228,8 +1228,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:1,
+        slide: 4,
+        subslide: 1,
 		category: 2
     },
     {
@@ -1252,8 +1252,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:4,
+        slide: 3,
+        subslide: 4,
 		category: 1
     },
     {
@@ -1276,8 +1276,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:4,
+        slide: 4,
+        subslide: 4,
 		category: 2
     },
     {
@@ -1300,8 +1300,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:5,
+        slide: 1,
+        subslide: 5,
 		category: 3
     },
 	{
@@ -1324,8 +1324,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:5,
+        slide: 1,
+        subslide: 5,
 		category: 3
     },
 	{
@@ -1348,8 +1348,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:10,
+        slide: 2,
+        subslide: 10,
 		category: 1
     },
 	{
@@ -1372,8 +1372,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:1,
+        slide: 3,
+        subslide: 1,
 		category: 1
     },
 	{
@@ -1396,8 +1396,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:4,
-        subslide:3,
+        slide: 4,
+        subslide: 3,
 		category: 3
     },
 	{
@@ -1420,8 +1420,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:3,
+        slide: 1,
+        subslide: 3,
 		category: 3
     },
 	{
@@ -1444,8 +1444,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:1,
+        slide: 2,
+        subslide: 1,
 		category: 2
     },
 	{
@@ -1468,8 +1468,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:3,
+        slide: 2,
+        subslide: 3,
 		category: 2
     },
 	{
@@ -1492,8 +1492,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:2,
-        subslide:6,
+        slide: 2,
+        subslide: 6,
 		category: 3
     }
 ];

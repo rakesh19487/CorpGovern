@@ -132,40 +132,17 @@ function initTheme() {
 function runGlobalObservers() {
 
     $("#lifeline1img").unbind('mouseover').on('mouseover', function() {
-        //if(poolcount>0){
-
-        //}
         lifelines.text.setState('lifeline1');
-        //$(this).find("img").attr('src', getImg("pollover"));
     });
-    //$("#lifeline1img").unbind('mouseout').on('mouseout', function() {
-    //    $(this).find('img').attr('src', getImg("kbc-lifeline1-img"))
-    //});
-    //$("#lifeline1img").mouseover(function() {
-    //
-    //    //jQuery('#lifeline1img .default').css("background-image", "url(../../img/pollhover.png)");
-    //
-    //});
 
     $("#lifeline2img").mouseover(function() {
-
-
         lifelines.text.setState('lifeline2');
-        //$(this).find("img").attr('src', getImg("50over"));
     });
-    //$("#lifeline2img").unbind('mouseout').on('mouseout', function() {
-    //    $(this).find('img').attr('src', getImg("kbc-lifeline2-img"))
-    //});
 
     $("#lifeline3img").mouseover(function() {
-
         lifelines.text.setState('lifeline3');
-        //$(this).find("img").attr('src', getImg("changeover"));
     });
 
-    //$("#lifeline3img").unbind('mouseout').on('mouseout', function() {
-    //    $(this).find('img').attr('src', getImg("kbc-lifeline3-img"))
-    //});
     $("#lifelines .location").mouseout(function() {
         lifelines.text.setState('default');
     });
@@ -193,11 +170,15 @@ function initGame() {
         shuffle(quesbank);
     }
     else {
-        for(var i=flag; i<5; i++) {
-            if(i==flag)
+        for(var i=flag; i<13; i++) {
+            if(i==flag){
                 quesbank.push(Question.getBySubCat(1, question.category));
-            else
+                console.log("if if if if if");
+            }    
+            else{
                 quesbank.unshift(Question.getByWeightExSubcat(1,question.category));
+                console.log("else else else else");
+            }    
         }
     }
 }
@@ -399,6 +380,8 @@ function playGame() {
                     player.lives.is(-1);
                 }, 500);
                 flag = gcount;
+                console.log(flag);
+                console.log("flaggggggggggggggg");
             }
         }
     });
@@ -629,7 +612,7 @@ function endGame(message, question) {
 }
 
 function sendScore(){
-    return 0.16;
+    return 0.25;
 }
 
 function setNodeId(nodeId){

@@ -100,7 +100,7 @@ Question.getAllByWeight = function(weight, amount) {
 Question.getBySubCat = function(weight, subcategory) {
 
     var questions = $.grep(Question.all, function(a) {
-        if(a.weight==weight && a.category == subcategory && a.answered === false)
+        if(a.weight == weight && a.category == subcategory && a.answered === false)
             return a;
     });
 

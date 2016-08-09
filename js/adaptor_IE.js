@@ -132,7 +132,7 @@ function initPage() {
             changeNodeState();
         }
 		
-		if(currentNode<6) {
+		if(currentNode<4) {
             // TODO: uncomment this later
 			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO: uncomment this later
@@ -448,12 +448,12 @@ function showStoryZone(sequence) {
             var backpackid=backpack[thisNode.backpack[i]].file;
             $backpack = $('<div id="backpack_anchor" onclick="getbackpack(i)"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + thisNode.games[i] + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
         }
-        for (i in thisNode.videos) {
-            var videoTitle = ''
-            if(videos[thisNode.videos[i]] != undefined){
-                $video = $('<div id="video-anchor-'+i+'"><a href="#" class="zone-button video-zone"  id="video-zone-'+thisNode.videos[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
-            }
-        }
+        // for (i in thisNode.videos) {
+        //     var videoTitle = ''
+        //     if(videos[thisNode.videos[i]] != undefined){
+        //         $video = $('<div id="video-anchor-'+i+'"><a href="#" class="zone-button video-zone"  id="video-zone-'+thisNode.videos[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
+        //     }
+        // }
         bindZoneSections("left");
     } else {
         for (i in thisNode.decks) {
@@ -879,10 +879,10 @@ function changeNodeState(){
         }
     }
 
-    if(currentNode<6)
+    if(currentNode<4)
         currentNode++;
 
-    if(currentNode<=6) {
+    if(currentNode<=4) {
         $(".story-node").unbind('click')
         $("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
     }
@@ -897,7 +897,7 @@ function changeNodeState(){
 		})
 	}
 
-	if(currentNode>=6 || getCompletionStatus()==="completed") {
+	if(currentNode>=4 || getCompletionStatus()==="completed") {
         $("#score_node_name" ).html(storyConfig.nodes[currentNode-1].name);
         $(".story-node").unbind('click');
         bindToNodes("click2", "completed-node");

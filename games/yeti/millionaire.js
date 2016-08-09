@@ -591,7 +591,7 @@ function endGame(message, question) {
 }
 
 function sendScore(){
-    return 0.16;
+    return 0.25;
 }
 
 function setNodeId(nodeId){
