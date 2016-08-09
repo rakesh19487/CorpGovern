@@ -61,7 +61,7 @@ var slide_config= [
                 "<p>These policies apply to all employees managed and supervised by STAR India and its affiliate and group companies" +
                 " in India.</p>" + 
 				"<h5>And that includes ... </h5>" +
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Overseas Staff</li>" +
                 "<li> Employees of Third Party Service Providers</li>" +
                 "<li>Independent Contractors providing Services exclusively to STAR India and</li>" +
@@ -73,7 +73,7 @@ var slide_config= [
                 sub_header:"NOW LET'S FIND OUT ABOUT THE DIFFERENT KINDS OF POLICIES ...",
                 sub_contents:
                 "The different kinds of Corporate Governance and Compliance Policies at STAR India include" +
-                " <ul style='text-align: left'>" +
+                " <ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Conflict of Interest Policy</li>" +
                 "<li>Guidelines on Gifts and Entertainment</li>" +
                 "<li>Guidelines on Event Tickets</li>" +
@@ -87,7 +87,7 @@ var slide_config= [
                 sub_contents:
                 "You should not keep the information to yourself, but report the case to the CGC. You should provide as much detail as possible including incidents, dates and people that are involved. You should avoid making general, broad and sweeping statements." +
                 "<p>The types of issues that you can report include ...</p>" +
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Theft/ Fraud/ Bribery</li>" +
                 "<li>Conflict of Interest</li>" +
                 "<li>Discrimination or Harassment</li>" +
@@ -108,7 +108,7 @@ var slide_config= [
                 sub_contents:
                 "As an employee of Star India, you may encounter various government officials." +
                 "<p>Remember, in reference to the Corporate Governance policies, government officials are not just people who are part of the central or state government. They also include any person who is in the service or on the payroll of:</p>" +
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Regulatory bodies such as the MIB, TRAI, etc.</li>" +
                 "<li>Local Authority/ Municipal Corporations such as the BMC</li>" +
                 "</ul>"
@@ -117,7 +117,7 @@ var slide_config= [
                 id:6,
                 sub_header:"NOW LET US DISCUSS ABOUT GOVERNMENT OFFICIALS ...",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>State owned companies such as BSNL, MTNL, BEST, etc.</li>" +
                 "<li>Public Sector Undertakings such as SBI, LIC, etc.</li>" +
                 "<li>The Police Force or The Armed Forces</li>" +
@@ -130,7 +130,7 @@ var slide_config= [
                 sub_header:"MORE ON GOVERNMENT OFFICIALS",
                 sub_contents:
                 "Also, the following are considered to be government officials or government related ..." +
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Judges or Members of the judiciary or any person appointed by a court to perform a duty</li>" +
                 "</br>" +
                 "<li>Lecturers or Professors at any university or any person who is responsible for holding or" +
@@ -145,7 +145,7 @@ var slide_config= [
                 sub_header:"DUE DILIGENCE OF THIRD PARTIES",
                 sub_contents:
                 "Prior due diligence is required to be conducted for the following third parties before a contract is executed with them:</li>" +
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
 				"</br>" +
                 "<li>If such third party will interact with a government official, government related entity or state-owned enterprise on behalf of STAR;</li>" +
                 "</br>" +
@@ -173,7 +173,7 @@ var slide_config= [
                 id:2,
                 sub_header:"BASIC RULES - CONFLICT OF INTEREST",
                 sub_contents:
-                " <ul style='text-align: left'>" +
+                " <ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>" +
                 "You are not allowed to serve as a Director of any company other than companies which are" +
                 " STAR subsidiaries (such as Vijay TV) or where that Directorship was expressly requested by STAR " +
@@ -189,7 +189,7 @@ var slide_config= [
                 id:3,
                 sub_header:"BASIC RULES - CONFLICT OF INTEREST",
                 sub_contents:
-                " <ul style='text-align: left'>" +
+                " <ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>" +
                 "You should NOT accept any position with another company if doing so would adversely affect your ability to act in the best interests of STAR or fulfil your obligations to STAR" +
                 "</li>" +
@@ -203,7 +203,7 @@ var slide_config= [
                 id:4,
                 sub_header:"BASIC RULES - CONFLICT OF INTEREST",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>" +
                 " You should not participate in the negotiation / selection or evaluation of another company" +
                 " (such as a supplier or customer) that STAR may do business with if that company has an existing" +
@@ -223,7 +223,7 @@ var slide_config= [
                 id:5,
                 sub_header:"BASIC RULES - CONFLICT OF INTEREST",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>" +
                 "You should not participate in selection and /or evaluation of a prospective employee if you/ your spouse/ relative have an existing relationship with him. For example, you cannot select or evaluate your brother for a job. You must report the said conflict to your HOD and recuse yourself from the activity." +
                 "</li>" +
@@ -239,7 +239,7 @@ var slide_config= [
                 sub_header:"BASIC RULES - CONFLICT OF INTEREST",
                 sub_contents:
 
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>You should not seek or accept elected or appointed public office, unless you have received prior written approval of the CGC and the President & General Counsel, STAR India</li>" +
                 "</br>" +
                 "<li>You should immediately report to your head of department and the CGC, any potential conflict that may arise from your relation in any way (whether a related party or not), with another person or party in another company or organisation</li>" +
@@ -250,7 +250,7 @@ var slide_config= [
                 sub_header:"BASIC RULES - CONFLICT OF INTEREST",
                 sub_contents:
 
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Whenever you wish to accept any commitment (on your own behalf or on behalf of STAR) that may present a conflict of interest as described in this Policy, you must obtain written approval in advance from the CGC</li>" +
                 "</ul>"
             },
@@ -259,7 +259,7 @@ var slide_config= [
                 sub_header:"HOW TO SEEK APPROVALS",
                 sub_contents:
 
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>All waiver requests must be counter-signed by your immediate supervisor.</li>" +
                 "</br>" +
                 "<li>No requests will be approved by the CGC unless first approved by your immediate supervisor.</li>" +
@@ -270,7 +270,7 @@ var slide_config= [
                 sub_header:"CONFLICT OF INTEREST POLICY – PROHIBITING BRIBERY",
                 sub_contents:
 
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>It is STAR’s fundamental policy to maintain fairness and honesty in all business dealings.</li>" +
                 "</br>" +
                 "<li>STAR thus has Zero Tolerance for any non-compliance with its Anti-Bribery and Anti-Corruption Policy.</li>" +
@@ -307,7 +307,7 @@ var slide_config= [
                 id:2,
                 sub_header:"GIFTING - EXAMPLE",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Providing a vendor with tickets to an event without hosting him at the event</li>" +
                 "</br>" +
 				"<li>Donations or contributions made at the request or for the benefit of a Third Party</li>" +
@@ -319,7 +319,7 @@ var slide_config= [
                 id:3,
                 sub_header:"BASIC RULES TO BE FOLLOWED WHILE GIVING GIFTS",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "1. Never give cash gifts, cash equivalents or gifts that can be easily converted to cash. For example, you cannot gift someone with a prepaid debit card." +
                 "</br>" +
                 "</br>" +
@@ -330,7 +330,7 @@ var slide_config= [
                 id:4,
                 sub_header:"BASIC RULES TO BE FOLLOWED WHILE GIVING GIFTS",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "3. The cumulative value of gifts to a single person should not exceed INR 15,000/- per financial year i.e. July 01 to June 30 in the following year. So you may not give a client gifts 4 times a year each time of a value of Rs. 5000" +
                 "</br>" +
                 "</br>" +
@@ -344,7 +344,7 @@ var slide_config= [
                 id:5,
                 sub_header:"BASIC RULES TO BE FOLLOWED WHILE GIVING GIFTS",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "6. Contest prizes are not considered as gifts.  However, all contests need to be skill based and any prize in the form of cash or gifts vouchers or the like must receive the prior written approval of your HOD and the CGC" +
                 "</ul>"
             },
@@ -352,7 +352,7 @@ var slide_config= [
                 id:6,
                 sub_header:"GUIDELINES FOR RECEIVING GIFTS",
                 sub_contents:
-                "<ol style='text-align: left'>" +
+                "<ol style='text-align: left;font-size: 0.98em;'>" +
                 "<li>No gifts should be accepted from government officials or related unless approved by CGC</li>" +
                 "</br>" +
                 "<li>You may receive gifts from non-government third parties after reporting to your HOD if the cumulative value of gifts from the entity/person is less than Rs. 6,000. In case the cumulative value of gift from the entity/person is more than Rs. 6,000, a written approval from CGC and HOD is required.</li>" +
@@ -369,7 +369,7 @@ var slide_config= [
                 sub_header:"BASICS OF BUSINESS ENTERTAINMENT",
                 sub_contents:
                 "You may sometimes, as part of your job, go out for dinners with clients/ vendors or have to accompany them to concerts, etc. You have to keep a few pointers in mind while doing this." +
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                  "</br>" +
                 "'Entertainment expenses' may include hosting an actual or potential client</li>" +
                 "<ul>" +
@@ -383,7 +383,7 @@ var slide_config= [
                 id:2,
                 sub_header:"BASICS OF BUSINESS ENTERTAINMENT",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>At business entertainment/ hospitality functions hosted by STAR where more than one STAR representative attends, the most senior STAR representative present must pay the bill.</li>"+
                 "</br>" +
                 "<li>'Hostess clubs' and similar forms of entertainment are NOT permitted.</li>"+
@@ -395,7 +395,7 @@ var slide_config= [
                 id:3,
                 sub_header:"BASICS OF BUSINESS ENTERTAINMENT",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Also, remember that form and cost of acceptable business entertainment/ hospitality will depend on a number of factors, including the nature of your role and responsibilities in the company, the nature of the relationship with the host/ guest, the cost and standard of living in the region and the acceptable forms of business entertainment/ hospitality in the region.</li>" +
                 "</ul>"
 
@@ -404,7 +404,7 @@ var slide_config= [
                 id:4,
                 sub_header:"GUIDELINES ON BUSINESS ENTERTAINMENT/ HOSPITALITY",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "1. You shall not provide entertainment or hospitality to any Government Official unless specifically authorised by STAR via a policy notification or approved by CGC.</li>" +
                 "</br>" +
                 "</br>" +
@@ -423,7 +423,7 @@ var slide_config= [
                 id:1,
                 sub_header:"BASICS OF EVENT TICKETS",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Events include sporting events, concerts, shows, and any/ all other events which are ticketed.</li>" +
                 "</br>" +
                 "<li>Event tickets are company property and are provided to employees primarily for business use.</li>" +
@@ -435,7 +435,7 @@ var slide_config= [
                 id:2,
                 sub_header:"BASICS OF EVENT TICKETS",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>Any use of event tickets for non-government third parties would need CGC approval above the specified limits as per STAR CG Policy.</li>" +
                 "</br>" +
                 "<li>HODs may approve tickets to be used by STAR employees for personal use as reward/incentive for performance or in the event there are extra tickets which are not being consumed for business purposes.</li>" +
@@ -457,7 +457,7 @@ var slide_config= [
                 id:4,
                 sub_header:"RULES ON EVENT TICKETS GIVEN TO YOU BY THE COMPANY FOR BUSINESS USE OR AS A REWARD",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "4. Providing tickets to ANYONE with the expectation of personal future benefit or as a thank you for a personal benefit received unrelated to company business initiatives is not acceptable" +
                 "</ul>" +
                 "</br>" +
@@ -467,7 +467,7 @@ var slide_config= [
                 id:5,
                 sub_header:"REMEMBER!",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>If you give away event tickets to a client/ business associate and do not accompany him to the event in question, it is considered to be a gift</li>"+
                 "</br>" +
                 "<li>In case you host a client and his family at an event, the ticket used for the client is considered under entertainment but the tickets to his family members is considered to be a gift. Under exceptional circumstances, the ticket to the client’s spouse may be considered entertainment.</li>"+
@@ -477,7 +477,7 @@ var slide_config= [
                 id:6,
                 sub_header:"REMEMBER!",
                 sub_contents:
-                "<ul style='text-align: left'>" +
+                "<ul style='text-align: left;font-size: 0.98em;'>" +
                 "<li>In the case of complimentary tickets, the value stated on the tickets must be specified. If no value is stated on the tickets, then the value of the highest priced ticket for the sporting event must be considered.</li>"+
                 "</br>" +
                 "<li>In the event of tickets given as gifts, it is mandatory to include Instructions (as mentioned in the STAR CG Policy) for use of STAR provided tickets.</li>" +
