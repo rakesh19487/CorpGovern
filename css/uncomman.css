@@ -2441,6 +2441,7 @@ text-align:left;
 }
 #zone-tale-1{
     background: url("../img/speechbubble.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-size: 100% 100%; 
 }
 #zone-tale-2{
     background: url("../img/speechbubble.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -2467,7 +2468,7 @@ text-align:left;
 }
 #zone-tale-1 span{
     left: 14%;
-    top: 8%;
+    top: 12%;
 }
 #zone-tale-6 span{
     left: 14%;
