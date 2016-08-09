@@ -45,8 +45,8 @@ var storyConfig = {
             photo: "2caveman.jpg",
             description: "Warning: Snowstorm! You need shelter. Lucky for you.",
             sequence: 1,
-            px: 40.5,
-            py: 68
+            px: 47,
+            py: 58
         },
         {
             name: "Fairy Tale",
@@ -56,8 +56,8 @@ var storyConfig = {
             photo: "6spirit.jpg",
             description: "Almost there! Oh ... wait a minute!",
             sequence: 2,
-            px: 47,
-            py: 58
+            px: 38.8,
+            py: 46.5
         },
         {
             name: "Flight or Fight",
@@ -67,8 +67,8 @@ var storyConfig = {
             photo: "3snow_leopard.jpg",
             description: "Oh look! There's a Snow Leopard ready to pounce.",
             sequence: 3,
-            px: 38.8,
-            py: 45.5
+            px: 32.5,
+            py: 32.8
         },
         {
             name: "Security Post",

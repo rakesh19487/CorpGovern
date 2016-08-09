@@ -1780,7 +1780,7 @@ a.zone-button:visited{
     padding: 5px 5px 15px 5px;
     background-repeat: no-repeat;
     color:white;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .video_content{
