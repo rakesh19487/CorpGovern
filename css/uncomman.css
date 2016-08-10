@@ -2046,7 +2046,8 @@ font-weight:bold;
     right: 16%;
     cursor:pointer;
     background-color:#4a2f23;
-    color:#000; 
+    text-align: center;
+    color:#fff; 
     border-radius:7px;
     padding:5px;
 }

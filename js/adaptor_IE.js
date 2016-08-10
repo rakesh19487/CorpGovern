@@ -150,7 +150,7 @@ function instruction_click(){
 function initBackpack() {
     $("#story-wrapper").append("<table id='backpack-icon-wrapper' style='display: none;margin-top:19px;margin-left:1%;'></table>");
     $("#backpack-icon-wrapper").append("<tr></tr><tr></tr>");
-    for(i in back_pack) {
+    for(i in back_pack ) {
         $("#backpack-icon-wrapper tr:first-child").append("<td class='back_pack_img' id='back_pack_img-"+ parseInt(i)+"'><img class='back-pack-icon' src='img/" + back_pack[i].icon + "' currid='" + back_pack[i].id + "'  slideid='" + back_pack[i].slide_id + "' /></td>");
         $("#backpack-icon-wrapper tr:last-child").append("<td class='back-pack-icon-name'>" + back_pack[i].name + "</td>");
     }
@@ -169,9 +169,11 @@ function initBackpack() {
         $('#back_pack_table').fadeIn('slow');
         var slidid = parseInt($(this).attr("currid"));
         for(var i=0;i<back_pack.length;i++) {
-            $("#back_pack_img-"+i+" img").attr("src", 'img/' + back_pack[i].icon);
-            $(this).attr("src", 'img/' + back_pack[slidid - 1].icon_active);
-            $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
+            if (typeof back_pack[i]  !== "undefined"){
+                $("#back_pack_img-"+i+" img").attr("src", 'img/' + back_pack[i].icon);
+                $(this).attr("src", 'img/' + back_pack[slidid - 1].icon_active);
+                $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
+            }
         }
         $(".back-pack-icon-name").eq($(this).parent().index()).addClass("back-pack-icon-active");
         var data;
@@ -304,7 +306,7 @@ function initInstructions(){
     }, 200);
 
     $('.close-inst-backdrop').unbind('click').on('click',function(){
-         $("#instruction_table").fadeOut(200);
+         $("#inst-backdrop").fadeOut(200);
     })
 }
 function initSideIcons() {
