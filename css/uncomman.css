@@ -1191,7 +1191,7 @@ body
     left: 49%;
 }
 .icyterror #lifeline2img, .yeti #lifeline2img{
-    visibility: hidden;
+    /*visibility: hidden;*/
 }
 
 

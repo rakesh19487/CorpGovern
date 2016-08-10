@@ -883,7 +883,7 @@ function changeNodeState(){
         $("#story-node-"+ i +" img").attr("src",'img/'+ nodeData.icon_complete);
         $("#story-node-"+ i).removeClass( "click_inactive")
         $("#story-node-"+ i).removeClass( "incomplete-node this-node").addClass("complete-node");
-        if(i<6) {
+        if(i<4) {
             var curnode = storyConfig.nodes[i];
             $("#story-node-" + (i + 1) + " img").attr("src", 'img/' + curnode.icon_active);
             $("#story-node-"+ (i + 1)).removeClass( "click_inactive")
