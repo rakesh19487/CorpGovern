@@ -83,7 +83,7 @@ var storyConfig = {
             description: "Beware! This guy is always hungry!",
             sequence: 4,
             px: 38,
-            py: 19
+            py: 19,
             iex: 40
         }
       
