@@ -463,7 +463,7 @@ function showStoryZone(sequence) {
         //     if(videos[thisNode.videos[i]] != undefined){
         //         $video = $('<div id="video-anchor-'+i+'"><a href="#" class="zone-button video-zone"  id="video-zone-'+thisNode.videos[i]+'">' + videos[thisNode.videos[i]].title +'</a></div>').appendTo($buttonBank);
         //     }
-        }
+        // }
         
 
 
