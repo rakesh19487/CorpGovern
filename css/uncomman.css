@@ -2045,10 +2045,14 @@ font-weight:bold;
     top: 77%;
     right: 16%;
     cursor:pointer;
+    background-color:#4a2f23;
+    color:#000; 
+    border-radius:7px;
+    padding:5px;
 }
 
 #ack-date{
-    top: 80.75%;
+    top: 79.5%;
     position: absolute;
     font-size: 16px;
     font-weight: bold;

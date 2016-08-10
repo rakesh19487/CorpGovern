@@ -973,8 +973,8 @@ function modale_last()
 
         setTimeout(function() {
             $(".modal-main").empty();
-            $(".modal-main").append("<img src='img/acknowledgement.jpg'/>");
-            $(".modal-main").append("<div id='ack-btn'></div>");
+            $(".modal-main").append("<img src='img/acknowledgement.png'/>");
+            $(".modal-main").append("<div id='ack-btn'>Ok</div>");
             $(".modal-main").append("<span id='ack-date'>" + d + "</span>");
 
             $("#ack-btn").unbind('click').on('click', function() {
