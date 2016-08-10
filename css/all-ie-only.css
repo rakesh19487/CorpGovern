@@ -182,7 +182,7 @@
     .story-zone-tale {
         position: absolute;
         padding: 20px;
-        top: 16%;
+        top: 29%;
         right: 44px;
         font-size: 1.1em;
         background: white;
@@ -260,5 +260,29 @@
     top: 23%;
     width: 43%;
     }
+
+    .caveman .btn-ok {
+        left: 40% !important ;
+    }
+
+
+    #ack-date{
+        top: 80.5% !important;
+        position: absolute;
+        font-size: 16px;
+        font-weight: bold;
+        color: #222;
+        left: 24%;;
+    }
+
+    #lifelinepanel .lifeline-panel {
+        background: white !important;
+    }
+
+    .hangman #continue:hover, #try-again:hover, #backpack:hover {
+        background: none !important;
+        background-size: 0 !important;
+    }
+
 
     

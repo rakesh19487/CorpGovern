@@ -44,7 +44,7 @@ var storyConfig = {
             icon_complete: "2cc.png",
             photo: "2caveman.jpg",
             description: "Warning: Snowstorm! You need shelter. Lucky for you.",
-            sequence: 1,
+            sequence: 4,
             px: 47,
             py: 58
         },
@@ -71,13 +71,13 @@ var storyConfig = {
             py: 32.8
         },
         {
-            name: "Security Post",
-            icon_active: "1.png",
-            icon_inactive: "1ii.png",
-            icon_complete: "1cc.png",
-            photo: "gamebackground.png",
-            description: "You are at the Base Camp! Time for a Security Check!",
-            sequence: 4,
+            name: "Hunger Game",
+            icon_active: "5.png",
+            icon_inactive: "5ii.png",
+            icon_complete: "5cc.png",
+            photo: "4yeti.jpg",
+            description: "Beware! This guy is always hungry!",
+            sequence: 1,
             px: 38,
             py: 19
         }

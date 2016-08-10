@@ -285,7 +285,9 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".top-content" ).empty();
     $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon">'+'<b class="backpack-txt">'+data[sub_slide_id-1].sub_header+'</b>');
     $(".mid-slide" ).empty();
+    console.log(data[sub_slide_id-1].sub_contents);
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
+    $('.mid-slide ul li:empty').remove();
 }
 
 function initInstructions(){
@@ -347,7 +349,7 @@ function addNodes() {
                 }
             }
             $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
-            $("#story-node-1 img").attr("src", 'img/1.png');
+            $("#story-node-1 img").attr("src", 'img/2.png');
             $( "#story-node-1" ).addClass("click-active this-node").removeClass("click_inactive");
             $( "#story-node-1" ).click(function(){
                 $("#arrow_first").css('display','none');

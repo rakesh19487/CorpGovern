@@ -31,7 +31,7 @@ config.instruction= {
                 "<div id='inst-content' class='mCustomScrollbar'>" +
                 "<p class='content'>The entrance of the cave is hidden behind the fog.</p>" +
                 "<p class='content'>Select the correct answer to clear the fog.</p>" +
-                "<p class='content'>You need to answer all the 3 questions correctly to enter the cave.</div>"}
+                "<p class='content'>You need to answer all the 5 questions correctly to enter the cave.</div>"}
         ]},
         {name: "inst-btn", states: [
             {name: "inst-btn", representation: "<img src='../../img/start_buttoncaveman.png'><span class='inst-btn-txt'>Start Game</span>"}
@@ -71,7 +71,7 @@ config.leftPanel = {
     ],
     locations: [
         {name: "statusPanel", states: [
-            {name: "default", representation: "<img src='../../img/about_task1.png'><span>The Caveman has a couple of tickets. His wife wants these tickets to exchange them for a new dress while his friend is ready to buy them all. Also, the army man stationed at the nearest post wants these. And there's this client who wants all the tickets to take his family and does not want the caveman to accompany them. Please advise.</span>"},
+            {name: "default", representation: "<img src='../../img/about_task1.png'><span>Your questions will appear on the right. Answer all of them correctly and I will let you enter.</span>"},
 
         ]},
         {name: "gameDisplay", states: [

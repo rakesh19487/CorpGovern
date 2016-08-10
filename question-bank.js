@@ -2,18 +2,42 @@ var questionbank = {};
 
 questionbank.questions = [
     {
-        name: "STAR Corporate Governance Corporate Governance Policies and Procedures apply to ...",
-        weight: 1,
+        name: "In how many countries does Aditya Birla Group has its operations?",
+        weight: 2,
 
-        opta: "Overseas Staff of Star India and its affiliate and group companies",
+        opta: "42",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Independent contractors providing services exclusively to Star India/Affiliate/Group Cos.",
+        optb: "24",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Employees of 3rd party service providers managed & supervised by  Star India/Affiliate/Group Cos.",
+        optc: "63",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "36",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:1,
+        subslide:1,
+		category: 1
+    },
+    {
+        name: "Aditya Birla Group has leadership positions in these businesses.",
+        weight: 2,
+
+        opta: "Telecom",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Insurance",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Aluminium",
         optccorrect: "false",
         optcpoints: "0",
 
@@ -21,1204 +45,189 @@ questionbank.questions = [
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide: 1,
-        subslide: 1,
+        slide:1,
+        subslide:3,
 		category: 1
     },
 	{
-        name: "Prior due diligence is required to be conducted for ...",
-        weight: 1,
+        name: "Which of these companies is part of the Aditya Birla Group?",
+        weight: 2,
 
-        opta: "3rd party that will interact with Govt. official’s/entity or state-owned enterprise on behalf of STAR",
+        opta: "MTS",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "3rd party being a production house which produces promos for STAR",
+        optb: "Telenor",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "If the 3rd party is organizing an event for or on behalf of STAR",
+        optc: "Vodafone",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "All the three",
+        optd: "Idea Cellular",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide: 1,
-        subslide: 8,
+        slide:1,
+        subslide:11,
 		category: 4
     },
     {
-        name: "You know that a colleague has accepted an Omega watch as a gift from a vendor. What should you do?",
-        weight: 1,
+        name: "This company is not part of the Aditya Birla Group.",
+        weight: 2,
 
-        opta: "Inform your team and boycott him",
+        opta: "Grasim",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Report to your HOD and/or CGC",
+        optb: "Nalco",
         optbcorrect: "true",
         optbpoints: "10",
 
-        optc: "Ask the vendor for a watch for yourself",
+        optc: "Hindalco",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Do nothing. It does not concern you.",
+        optd: "Ultratech",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 1,
-        subslide: 3,
+        slide:1,
+        subslide:3,
 		category: 3
     },
     {
-        name: "Which of these would be considered as a Government Official?",
-        weight: 1,
+        name: "ABG has created India's largest online money management platform. Can you guess what is it called?",
+        weight: 2,
 
-        opta: "Person on the payroll of TRAI",
+        opta: "Money Control",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "A High Court judge",
+        optb: "FundsIndia",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "An employee of Life Insurance Corporation of India",
+        optc: "Mint",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "All three",
+        optd: "My Universe",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide: 1,
-        subslide: 5,
+        slide:1,
+        subslide:9,
 		category: 2
     },
     {
-        name: "Which of these would be considered as a Government Official?",
-        weight: 1,
+        name: "The values that drive ABG are - Integrity, Commitment, Passion, Seamlessness and ____________.",
+        weight: 2,
 
-        opta: "Person working with the Municipal",
+        opta: "Speed",
         optacorrect: "true",
         optapoints: "10",
 
-        optb: "An employee of Hindustan Unilever",
+        optb: "Truth",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "A pilot employed by Jet Airways",
+        optc: "Service",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "An employee of Reliance Industries",
+        optd: "Sensitivity",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 1,
-        subslide: 5,
+        slide:1,
+        subslide:7,
 		category: 2
     },
     {
-        name: "Which of these ethical concerns should you report?",
-        weight: 1,
+        name: "Aditya Birla Financial Services is part of ABNL. What does ABNL stand for?",
+        weight: 6,
 
-        opta: "Theft/ Fraud",
+        opta: "",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Harassment of a fellow employee",
+        optb: "",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "A conflict of Interest",
+        optc: "",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "All three",
+        optd: "Aditya Birla Nuvo Limited",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide: 1,
-        subslide: 3,
+        slide:2,
+        subslide:1,
 		category: 3
     },
     {
-        name: "What are the different policies one must keep in mind?",
-        weight: 1,
+        name: "ABFS is in the process of seeking a licence from IRDAI for launching which business?",
+        weight: 6,
 
-        opta: "Conflict of interest policy",
+        opta: "",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Gifting policy",
+        optb: "",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Sponsoring travel for third parties",
+        optc: "",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "All three",
+        optd: "Health Insurance" ,
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide: 1,
-        subslide: 2,
+        slide:2,
+        subslide:2,
 		category: 1
     },
     {
-        name: "What are the different policies one must keep in mind?",
-        weight: 1,
+        name: "Name the CEO of ABFS.",
+        weight: 6,
 
-        opta: "Prohibition of bribery",
+        opta: "",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Event tickets",
+        optb: "",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Both a and b",
+        optc: "Ajay Srinivasan",
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Neither a nor b",
+        optd: "" ,
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 1,
-        subslide: 2,
+        slide:2,
+        subslide:9,
 		category:1
     },
     {
-        name: "Which of these would not be considered as a government official?",
-        weight: 1,
-
-        opta: "A sessions court judge",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "An employee of Hindustan Unilever",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "A clerk at the Bombay Municipal Corporation",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Member of the Legislative Council",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 1,
-        subslide: 5,
-		category: 2
-    },
-    {
-        name: "STAR Corporate Governance Corporate Governance Policies and Procedures apply to ...",
-        weight: 1,
-
-        opta: "FIFA",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Independent contractors providing services exclusively to Star India/Affiliate/Group Cos.",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "Universal Studios",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Virgin Music",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 1,
-        subslide: 1,
-		category: 1
-    },
-    {
-        name: "STAR Corporate Governance Corporate Governance Policies and Procedures apply to ...",
-        weight: 1,
-
-        opta: "Star Movies employees",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Star Sports employees",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Vijay TV employees",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All three",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 1,
-        subslide: 1,
-		category: 1
-    },
-    {
-        name: "Which of these can be considered as a 'gift'?",
-        weight: 3,
-
-        opta: "A donation made at the request of a third party ",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "A voucher for a discount on a refrigerator",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Event tickets where a Star employee does not accompany the third party",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All three",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 3,
-        subslide: 1,
-		category: 1
-    },
-    {
-        name: "Which of these is not considered as a 'gift'?",
-        weight: 3,
-
-        opta: "Allowing a third party use of your holiday home in Lonavla",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "A voucher for a discount on a refrigerator",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Tickets to a concert where a Star employee accompanies the third party",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "A donation made to an NGO at a third party's behest",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 1,
-		category: 1
-    },
-
-
-
-    {
-        name: "What steps are to be taken when Star directly acquires TV rights from Doordarshan?",
-        weight: 1,
-
-        opta: "Approvals as per Contract Approval Policy",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Ensuring that the deal is at an arm's length",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Ensuring that the deal is at fair market value",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All three",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 1,
-        subslide: 8,
-		category: 4
-    },
-
-    {
-        name: "What step is to be taken if the Indian Ministry of External Affairs wants to advertise on Star plus using an intermediary?",
-        weight: 1,
-
-        opta: "Ensure deal is transparent and at fair value i.e. at rates and terms comparable to non government customers",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Approvals as per Contract Approval Policy",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Due diligence of the intermediary if appointed by STAR to obtain the said government business",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All three",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 1,
-        subslide: 8,
-		category: 4
-    },
-    {
-        name: "What action will Star India take if an employee reports a violation in good faith but it turns out to be incorrect",
-        weight: 1,
-
-        opta: "The employee will be reprimanded",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "The employee will pay a hefty fine",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "No action will be taken",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "The employee will receive negative ratings in performance appraisal",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 1,
-        subslide: 4,
-		category: 3
-    },
-    {
-        name: "For what reason can the caveman give the tickets to his wife?",
-        weight: 2,
-
-        opta: "To exchange the tickets for clothing",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "To take her relatives for the match  ",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "To send the child's school teachers for the match",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Event tickets are to be used primarily for business purposes and not for personal gain",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 5,
-        subslide: 3,
-		category: 1
-    },
-    {
-        name: "How can the caveman give the tickets to his friend?",
-        weight: 2,
-
-        opta: "Sell the tickets to the friend",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Event tickets are to be used primarily for business purposes and hence these cannot be given to the friend",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "Invite the friend to the match",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "He is a friend, just give him the tickets",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 3,
-		category: 1
-    },
-    {
-        name: "What should be ensured before giving tickets to the client for his use?",
-        weight: 2,
-
-        opta: "Compute cumulative value of tickets, obtain CGC approval & provide instructions for their use",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Give the tickets against a discount voucher for a television",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Ask the client to give feedback on employee's excellent service",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Make sure the client gives something equal in return",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 6,
-		category: 2
-    },
-    {
-        name: "What can the caveman take in return from the friend in lieu of giving the tickets?",
-        weight: 2,
-
-        opta: "The caveman should not exchange the tickets for any benefits",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Tickets for another show",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Cash",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Gift vouchers",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 3,
-		category: 1
-    },
-    {
-        name: "The employee accompanies the client for the match. Can he book this as entertainment?",
-        weight: 2,
-
-        opta: "Absolutely. An appropriate thing to do",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "No, the caveman must book it as a gift",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "No, he does not need to account for any tickets given to him ",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "He can choose to book it as either entertainment or a gift",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 5,
-		category: 2
-    },
-    {
-        name: "What is the right way of giving the tickets to the army man?",
-        weight: 2,
-
-        opta: "Gift the tickets to the army man",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Ask for a favour that would benefit Star",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Get prior approval from CGC and HOD",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Ask for benefits given to army personnel",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 2,
-		category: 2
-    },
-    {
-        name: "Can an employee sponsor the stay of an army man along with giving him the event tickets?",
-        weight: 2,
-
-        opta: "Only if there is a legitimate business purpose and a CGC approval",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Yes. Army men are exceptions",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Only if his family is accompanying him",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "A minimum of three army men need to go",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 2,
-		category: 3
-    },
-    {
-        name: "The client requests sponsorship of stay in addition to the ticket. Can this be done?",
-        weight: 2,
-
-        opta: "Only if there is a legitimate business purpose and a CGC approval",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Of course, client travels can be",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Sponsored travel is prohibited by Company policy",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Only if the client has spoken to a Senior STAR officer",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 2,
-		category: 3
-    },
-    {
-        name: "What is the protocol for giving any gift to Government Officials?",
-        weight: 3,
-
-        opta: "Gifts below INR 6000 can be given without any approval",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Gifts irrespective of the value can be given after informing the HOD",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Gifts irrespective of the value can be given after informing the CGC",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Gifts irrespective of the value need prior written permission from HOD & CGC",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 3,
-        subslide: 3,
-		category: 2
-    },
-    {
-        name: "Pre-paid gift cards are a great convenience. Are employees of Star allowed to gift them?",
-        weight: 3,
-
-        opta: "Yes. It gives the client freedom to choose",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Gifts in the form of cash or cash equivalent are prohibited by STAR Corporate Governance policy",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "Only if the HOD approves",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Only if the client insists",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 3,
-		category: 2
-    },
-	{
-        name: "What is mandatory in case a STAR employee wants to give festival gifts to third parties?",
-        weight: 3,
-
-        opta: "Value must be below INR 6000",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Must be approved by HOD and CGC in all cases",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "Must be STAR branded products",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Any gift to government officials need prior written permission from HOD & CGC",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 4,
-		category: 2
-    },
-	{
-        name: "What protocol is to be followed if a gift in excess of INR 6000 is to be presented to any non-governmental third party?",
-        weight: 3,
-
-        opta: "CGC approval is mandatory",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Informing the HOD is mandatory",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "None as long as Star benefits in return",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "It is at the employee's discretion",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 4,
-		category: 2
-    },
-	{
-        name: "What is the protocol of receiving gifts worth less than INR 6000 from a non-government third party?",
-        weight: 3,
-
-        opta: "Report to HOD if the value is less than 6,000",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "It is a private matter between adults",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Written permission from HOD is required",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Make an entry in the employee receiving gifts ledger",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 6,
-		category: 2
-    },
-    {
-        name: "When are tickets considered to be a 'gift' to the client?",
-        weight: 3,
-
-        opta: "If the employee does not accompany the client to the event",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "If the employee accompanies the client to event",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Both a and b",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Neither a nor b",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 5,
-        subslide: 5,
-		category: 1
-    },
-    {
-        name: "For festivals, what is the maximum value of Star branded products that can be gifted?",
-        weight: 3,
-
-        opta: "INR 6,000",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "INR 10,000",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "INR 7,000",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "INR 8,000",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 4,
-		category: 2
-    },
-    {
-        name: "What protocol is to be followed if a gift in excess of INR 6000 is to be presented to any non-governmental third party?",
-        weight: 3,
-
-        opta: "CGC approval is mandatory",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Informing the HOD is mandatory",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "None as long as Star benefits in return",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "It is at the employee's discretion",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 4,
-		category: 1
-    },
-    {
-        name: "Can an employee receive gifts from government officials?",
-        weight: 3,
-
-        opta: "Yes, it is a private matter between adults",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Yes, if informed to HOD",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Yes, if approved by HOD and CGC",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Yes, if approved by HOD",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 6,
-		category: 3
-    },
-	{
-        name: "A non-government client sends you a Diwali gift worth INR 5500. What should you do?",
-        weight: 3,
-
-        opta: "Report to HOD for guidance",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Keep the gift since it is an appreciation for your hard work",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Obtain a written permission from CGC",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Make an entry in the gift receipt register",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 6,
-		category: 3
-    },
-    {
-        name: "A non-government related vendor sends you a birthday gift worth INR 7500. What should you do?",
-        weight: 3,
-
-        opta: "Obtain written approval from HOD & CGC",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Keep the gift since its an appreciation for your hard work",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Obtain an approval from the HOD",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Obtain an approval from the CGC",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 6,
-		category: 3
-    },
-    {
-        name: "While working with Star, an employee can serve as a Director of another company, only if ...",
-        weight: 4,
-
-        opta: "Star expressly requests it",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "The other company is an international one",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "The company is headed by an Indian",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "The company is based out of India",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 2,
-		category: 1
-    },
-	{
-        name: "While working with Star, an employee can serve as a Director of another company, only if ...",
-        weight: 4,
-
-        opta: "Written approval of CGC is available",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "The other company is an international one",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "The company is headed by an Indian",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "The company is based out of India",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 2,
-		category: 1
-    },
-    {
-        name: "If Goodwill Ltd. is a supplier of Star, then an employee cannot ...",
-        weight: 4,
-
-        opta: "Serve as a Director in Goodwill Ltd.",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Join Goodwill Ltd. as an employee",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Be a Consultant for Goodwill Ltd.",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Do any of the above",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 2,
-        subslide: 2,
-		category: 1
-    },
-    {
-        name: "While working with Star, accepting a position with another company is ...",
-        weight: 4,
-
-        opta: "Allowed",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Not allowed",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "an employee's personal decision",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "a common practice",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 2,
-		category: 1
-    },
-    {
-        name: "The act of giving or receiving anything of value with the intention of influencing the recipient in some way favourable to the party who is giving is termed as a",
-        weight: 4,
-
-        opta: "Bribe",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Gift",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Appreciation",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "None of the above",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 10,
-		category: 2
-    },
-    {
-        name: "Which of the following could be perceived as a bribe?",
-        weight: 4,
-
-        opta: "A salesman hosting an agency executive to discuss business and not unduly influence him",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Giving a gift of nominal value to a client on the occasion of his wedding",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "An employee accompanying a client for a company sponsored event   ",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Gift of jewellery from a vendor who has a project lined up for your approval",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 2,
-        subslide: 10,
-		category: 2
-    },
-    {
-        name: "Which of the following is not a violation of the CG code?",
-        weight: 4,
-
-        opta: "Accepting a perfume (INR 3000) as gift from a third party after reporting to HOD",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Becoming a director in your brother's company without permission from the CGC",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Becoming a paid creative consultant for an agency",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Participate in the evaluation of your spouse's father's company as a vendor",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 10,
-		category: 1
-    },
-    {
-        name: "Which of the following is a factor(s) for the form and cost of acceptable business entertainment or hospitality?",
-        weight: 5,
-
-        opta: "Nature of your role and responsibilities in the company",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Your relationship with the host/guest",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Both a and b",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "None of the above",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 3,
-		category: 1
-    },
-
-    {
-        name: "Which of the following is a factor for the form and cost of acceptable business entertainment or hospitality?",
-        weight: 5,
-
-        opta: "Nature of the employee's role",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Cost and standard of living in the region",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Acceptable forms of business entertainment/hospitality in the region",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All three",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide: 4,
-        subslide: 3,
-		category: 1
-    },
-
-
-    {
-        name: "Which of the following can be considered as 'Entertainment Expenses'?",
-        weight: 5,
-
-        opta: "An employee taking his family out for a meal",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Hosting a potential or actual client for a meal or drinks",
-        optbcorrect: "true",
-        optbpoints: "10",
-
-        optc: "STAR Manager taking his team out for dinner",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Providing a client tickets to a concert where the employee is not accompanying him",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 1,
-		category: 2
-    },
-    {
-        name: "Who should pay the bill in a business hospitality function organised by Star?",
-        weight: 5,
-
-        opta: "The senior most Star representative",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "The person who invited",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "An HR must be present and should pay the bill",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "None of the above",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 2,
-		category: 2
-    },
-    {
-        name: "What is not permitted under Star's business/hospitality policy?",
-        weight: 5,
-
-        opta: "Going to a hostess club with a client",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Lunch with a client in a hotel",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Drinks with a prospect at a business related conference",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Accompanying a client to a sporting event",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 2,
-		category: 2
-    },
-    {
-        name: "Under Star's business entertainment policy, the maximum amount per attendee per meal that a private commercial employee may spend is ________.",
-        weight: 5,
-
-        opta: "INR 5,000",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "INR 10,000",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "INR 20,000",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "There's no limit",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 4,
-		category: 1
-    },
-	{
-        name: "A manager of Ad sales team wishes to take an LIC official to dinner. What are the rules that he needs to consider?",
-        weight: 5,
-
-        opta: "Prior approval of CGC is mandatory irrespective of value",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "He can entertain up to INR 5000 per person per meal",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "HOD approval would suffice",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "All three",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 4,
-		category: 2
-    },
-    {
-        name: "The act of giving or receiving anything of value with the intention of influencing the recipient in some way favourable to the party who is giving is termed as a ...",
+        name: "Complete ABFS' mission statement - To be a leader and ____________ in a broad-based and integrated financial services business.",
         weight: 6,
 
-        opta: "Bribe",
-        optacorrect: "true",
-        optapoints: "10",
+        opta: "",
+        optacorrect: "false",
+        optapoints: "0",
 
-        optb: "Gift",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Donation",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Exemption",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 10,
-		category: 1
-    },
-    {
-        name: "Hosting a potential or actual client for a meal or drinks",
-        weight: 6,
-
-        opta: "Business Entertainment",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
+        optb: "role model",
+        optbcorrect: "true",
+        optbpoints: "10",
 
         optc: "",
         optccorrect: "false",
@@ -1228,21 +237,21 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 4,
-        subslide: 1,
+        slide:2,
+        subslide:3,
 		category: 2
     },
     {
-        name: "The cumulative value of gifts to a single person that can be given in a financial year is ________ thousand.",
+        name: "_________________ is an umbrella brand for all the financial service businesses of the Aditya Birla Group.",
         weight: 6,
 
-        opta: "Fifteen",
-        optacorrect: "true",
-        optapoints: "10",
+        opta: "",
+        optacorrect: "false",
+        optapoints: "0",
 
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
+        optb: "Aditya Birla Financial Services",
+        optbcorrect: "true",
+        optbpoints: "10",
 
         optc: "",
         optccorrect: "false",
@@ -1252,249 +261,801 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 3,
-        subslide: 4,
+        slide:2,
+        subslide:1,
 		category: 1
     },
     {
-        name: "Under Star's business entertainment policy, the maximum amount per attendee per meal that a private commercial employee may spend is _____ thousand.",
+        name: "ABFS is planning to enter the health insurance business in a joint venture with ____________ group of South Africa.",
         weight: 6,
 
-        opta: "Five",
-        optacorrect: "true",
-        optapoints: "10",
+        opta: "",
+        optacorrect: "false",
+        optapoints: "0",
 
-        optb: "Ten",
-        optbcorrect: "false",
-        optbpoints: "0",
+        optb: "MMI",
+        optbcorrect: "true",
+        optbpoints: "10",
 
-        optc: "Twenty",
+        optc: "",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "No Limit",
+        optd: "",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 4,
-        subslide: 4,
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "ABFS has about 112000 _________ across the country.",
+        weight: 6,
+
+        opta: "",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "channel partners",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "ABFS has more than 1350 ______________.",
+        weight: 6,
+
+        opta: "",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "points of presence",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "'WOO' stands for ...",
+        weight: 3,
+
+        opta: "A World Of Offerings",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "A World Of Options",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "A World Of Openings",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "A World Of Opportunities",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:3,
+        subslide:1,
+		category: 1
+    },
+    {
+        name: "There are ______ pillars of 'WOO'.",
+        weight: 3,
+
+        opta: "seven",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "six",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "three",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "four",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:3,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "Which of these is not a pillar of 'WOO'?",
+        weight: 3,
+
+        opta: "Opportunities to enhance your career",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Opportunities to learn and develop",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Opportunities to be celebrated",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Opportunities to be rewarded and recognized",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "Which of these is not a pillar of 'WOO'?",
+        weight: 3,
+
+        opta: "Opportunities to lead an enriched life",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Opportunities to learn and develop",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Opportunities to access to technology",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Opportunities to be rewarded and recognized",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "This is not one of the 'WOO' initiatives.",
+        weight: 3,
+
+        opta: "Xplore",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Nishchint",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Vitamin H",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Sanskruti",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "GVC stands for ...",
+        weight: 3,
+
+        opta: "Gyansagar Virtual Campus",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Gunsagar Virtual Campus",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Gyanodaya Virtual Campus",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Gyanganga Virtual Campus",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "Which one is a unique 'Death in Service' contributory term Insurance benefit plan?",
+        weight: 3,
+
+        opta: "Nisarg",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Nivrutti",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Nishchint",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Nivant",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "Which one is an informative portal which offers all health and wellness related information with a range of possible solutions for employees and their family members?",
+        weight: 3,
+
+        opta: "Vitamin H",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Stay Well",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Health and Wealth",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Daily Dose",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "In how many countries does Aditya Birla Group has its operations?",
+        weight: 1,
+
+        opta: "42",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "24",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "63",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "36",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:1,
+        subslide:1,
+		category: 1
+    },
+    {
+        name: "Aditya Birla Group has leadership positions in these businesses.",
+        weight: 1,
+
+        opta: "Telecom",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Insurance",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Aluminium",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "All the three",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:1,
+        subslide:3,
+		category: 1
+    },
+	{
+        name: "Which of these companies is part of the Aditya Birla Group?",
+        weight: 1,
+
+        opta: "MTS",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Telenor",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Vodafone",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Idea Cellular",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:1,
+        subslide:11,
+		category: 4
+    },
+    {
+        name: "This company is not part of the Aditya Birla Group.",
+        weight: 1,
+
+        opta: "Grasim",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Nalco",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "Hindalco",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Ultratech",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:1,
+        subslide:3,
+		category: 3
+    },
+    {
+        name: "ABG has created India's largest online money management platform. Can you guess what is it called?",
+        weight: 1,
+
+        opta: "Money Control",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "FundsIndia",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Mint",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "My Universe",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:1,
+        subslide:9,
 		category: 2
     },
     {
-        name: "A High Court judge will be termed as a ...",
-        weight: 6,
+        name: "The values that drive ABG are - Integrity, Commitment, Passion, Seamlessness and ____________.",
+        weight: 1,
 
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
+        opta: "Speed",
+        optacorrect: "true",
+        optapoints: "10",
 
-        optb: "",
+        optb: "Truth",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Government Official",
-        optccorrect: "true",
-        optcpoints: "10",
+        optc: "Service",
+        optccorrect: "false",
+        optcpoints: "0",
 
-        optd: "",
+        optd: "Sensitivity",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 1,
-        subslide: 5,
-		category: 3
-    },
-	{
-        name: "A Person on the payroll of TRAI will be termed as a ...",
-        weight: 6,
-
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Government Official",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 1,
-        subslide: 5,
-		category: 3
-    },
-	{
-        name: "Gift of jewellery to a Star India employee from a vendor who has a project lined up for your approval would be termed as ...",
-        weight: 6,
-
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Bribe",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 10,
-		category: 1
-    },
-	{
-        name: "A donation made at the request of a third party would be considered as a ...",
-        weight: 6,
-
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Gift",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 3,
-        subslide: 1,
-		category: 1
-    },
-	{
-        name: "Nature of the employee's role is a factor for the form and cost of acceptable _________________",
-        weight: 6,
-
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "business entertainment or hospitality",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 4,
-        subslide: 3,
-		category: 3
-    },
-	{
-        name: "If one of your colleagues has received a World Cup ticket as a gift from a vendor, then you should report to your _____________ and/or ___________________",
-        weight: 6,
-
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "HOD CGC",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 1,
-        subslide: 3,
-		category: 3
-    },
-	{
-        name: "_______________________ contains guidelines to help you avoid any conflict between your private interests and the interests of STAR.",
-        weight: 6,
-
-        opta: "",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Conflict of Interest Policy",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide: 2,
-        subslide: 1,
+        slide:1,
+        subslide:7,
 		category: 2
     },
-	{
-        name: "As per the Conflict of Interest Policy, you should not take away a __________________ from STAR, or divert a _________________ away from STAR",
-        weight: 6,
+    {
+        name: "Aditya Birla Financial Services is part of ABNL. What does ABNL stand for?",
+        weight: 1,
 
-        opta: "",
+        opta: "Aditya Birla New Limited",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "",
+        optb: "Aditya Birla Nirman Limited",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "business opportunity",
+        optc: "Aditya Birla Neo Limited",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Aditya Birla Nuvo Limited",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:2,
+        subslide:1,
+		category: 3
+    },
+    {
+        name: "ABFS is in the process of seeking a licence from IRDAI for launching which business?",
+        weight: 1,
+
+        opta: "Travel Insurance",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "General Insurance",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Vehicle Insurance",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Health Insurance" ,
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "Name the CEO of ABFS.",
+        weight: 1,
+
+        opta: "A. Dhananjaya",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Subhro Bhaduri",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Ajay Srinivasan",
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "",
+        optd: "Ajay Kakar" ,
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 2,
-        subslide: 3,
+        slide:2,
+        subslide:9,
+		category:1
+    },
+    {
+        name: "Complete ABFS' mission statement - To be a leader and ____________ in a broad-based and integrated financial services business.",
+        weight: 1,
+
+        opta: "evangelist",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "role model",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "pioneer",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "ambassador",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:3,
 		category: 2
     },
-	{
-        name: "No ______ should be accepted from government officials or related unless approved by CGC",
-        weight: 6,
+    {
+        name: "_________________ is an umbrella brand for all the financial service businesses of the Aditya Birla Group.",
+        weight: 1,
 
-        opta: "",
+        opta: "Aditya Birla Nuvo Limited",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "",
-        optbcorrect: "false",
-        optbpoints: "0",
+        optb: "Aditya Birla Financial Services",
+        optbcorrect: "true",
+        optbpoints: "10",
 
-        optc: "Gifts",
-        optccorrect: "true",
-        optcpoints: "10",
+        optc: "Aditya Birla Money Limited",
+        optccorrect: "false",
+        optcpoints: "0",
 
-        optd: "",
+        optd: "Aditya Birla Nirman Limited",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide: 2,
-        subslide: 6,
-		category: 3
+        slide:2,
+        subslide:1,
+		category: 1
+    },
+    {
+        name: "ABFS is planning to enter the health insurance business in a joint venture with ____________ group of South Africa.",
+        weight: 1,
+
+        opta: "MMF",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "MMI",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "MMM",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "MMO",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "ABFS has about ___________ agents/ channel partners across the country.",
+        weight: 1,
+
+        opta: "121000",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "112000",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "111000",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "110200",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "ABFS has more than __________ points of presence.",
+        weight: 1,
+
+        opta: "1530",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "1350",
+        optbcorrect: "true",
+        optbpoints: "10",
+
+        optc: "1330",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "1550",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "'WOO' stands for ...",
+        weight: 1,
+
+        opta: "A World Of Offerings",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "A World Of Options",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "A World Of Openings",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "A World Of Opportunities",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:3,
+        subslide:1,
+		category: 1
+    },
+    {
+        name: "There are ______ pillars of 'WOO'.",
+        weight: 1,
+
+        opta: "seven",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "six",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "three",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "four",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:3,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "Which of these is not a pillar of 'WOO'?",
+        weight: 1,
+
+        opta: "Opportunities to enhance your career",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Opportunities to learn and develop",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Opportunities to be celebrated",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Opportunities to be rewarded and recognized",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "Which of these is not a pillar of 'WOO'?",
+        weight: 1,
+
+        opta: "Opportunities to lead an enriched life",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Opportunities to learn and develop",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Opportunities to access to technology",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Opportunities to be rewarded and recognized",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "This is not one of the 'WOO' initiatives.",
+        weight: 1,
+
+        opta: "Xplore",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Nishchint",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Vitamin H",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Sanskruti",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "GVC stands for ...",
+        weight: 1,
+
+        opta: "Gyansagar Virtual Campus",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Gunsagar Virtual Campus",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Gyanodaya Virtual Campus",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Gyanganga Virtual Campus",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "Which one is a unique 'Death in Service' contributory term Insurance benefit plan?",
+        weight: 1,
+
+        opta: "Nisarg",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "Nivrutti",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Nishchint",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Nivant",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "Which one is an informative portal which offers all health and wellness related information with a range of possible solutions for employees and their family members?",
+        weight: 1,
+
+        opta: "Vitamin H",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Stay Well",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Health and Wealth",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Daily Dose",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:7,
+		category: 4
     }
 ];
 

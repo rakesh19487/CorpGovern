@@ -5,8 +5,8 @@ var platformData = {
         sequential: false,
         nodes: [
             {
-                description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but I need your expert advice first. Give me sound advice and I promise to provide you with shelter.",
-                sequence: 1,
+                description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but you need to answer a couple of questions first.",
+                sequence: 4,
                 decks: [2],
                 games: [5],
                 videos: [0],
@@ -29,10 +29,10 @@ var platformData = {
                 backpack: [2]
             },
             {
-                description: "So, you're ready to climb the Everest? Not so fast! You have to go through a Security Check first. Answer my questions correctly and I'll let you pass.",
-                sequence: 4,
-                decks: [1],
-                games: [4],
+                description: "Lost your way?! I could help but I am hungry and have no money to eat at the taverns. Plus I am so bored.",
+                sequence: 1,
+                decks: [4],
+                games: [3],
                 videos: [],
                 backpack: [3]
             }
@@ -81,7 +81,7 @@ var decks = [
 var games = [
     {
         id: '1',
-        title: "The Final Test",
+        title: "Seek Blessing",
         backpack: "Go through Backpack",
         name: "hangman",
         fullscreen: false

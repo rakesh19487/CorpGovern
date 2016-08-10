@@ -20,37 +20,37 @@ window.getText = getText
 //this is the object which contains path for default text and images
 defaultImages = {}
 defaultImages.path = "../../img/"
-defaultImages["kbc-background"] = "backgroundsecurity.png";
+defaultImages["kbc-background"] = "b1.jpg";
+defaultImages["kbc-background1"] = "b2.jpg";
 defaultImages["loading"] = "load.gif";
-defaultImages["kbc-background1"] = "qholderimg.png";
-//defaultImages["kbc-logo"] = "game_logo.png";
-defaultImages["kbc-button-start"] = "active-btn.png";
+defaultImages["pollover"] = "pollhover.png";
+defaultImages["50over"] = "50hover.png";
+defaultImages["changeover"] = "changehover.png";
 defaultImages["correct"] = "correctsecurity.png";
 defaultImages["incorrect"] = "incorrectsecurity.png";
-defaultImages["pollover"] = "pollhover.png";
-defaultImages["pollclick"] = "pollclick.png";
-defaultImages["50over"] = "50hover.png";
-defaultImages["50click"] = "50click.png";
-defaultImages["changeover"] = "changehover.png";
-defaultImages["changeclick"] = "changeclick.png";
-defaultImages["kbc-button-start-hover"] = "btn-hover.png";
-defaultImages["kbc-button-instruction"] = "active_instructionbuttonsecurity.png";
-defaultImages["kbc-button-instruction-hover"] = "kbc-start-button-hoversecurity.png";
-defaultImages["kbc-button-play-again"] = "active_instructionbuttonsecurity.png";
-defaultImages["kbc-button-play-again-hover"] = "kbc-start-button-hoversecurity.png";
-defaultImages["kbc-button-know-more"] = "kbc-start-button-hoversecurity.png";
-defaultImages["kbc-button-know-more-hover"] = "active_instructionbuttonsecurity.png";
+//defaultImages["kbc-logo"] = "game_logo.png";
+defaultImages["kbc-button-start"] = "active_instructionbutton.png";
+defaultImages["kbc-button-start-hover"] = "hovestartbutton.png";
+defaultImages["kbc-button-instruction"] = "active_instructionbutton.png";
+defaultImages["kbc-button-instruction-hover"] = "hovestartbutton.png";
+defaultImages["kbc-button-play-again"] = "active_instructionbutton.png";
+defaultImages["kbc-button-play-again-hover"] = "hovestartbutton.png";
+defaultImages["kbc-button-know-more"] = "hovestartbutton.png";
+defaultImages["kbc-button-know-more-hover"] = "active_instructionbutton.png";
 //defaultImages["kbc-character"] = "character.png";
-defaultImages["kbc-answer-back"] = "active_instructionbuttonsecurity.png";
-defaultImages["kbc-answer-hover-back"] = "kbc-start-button-hoversecurity.png";
-defaultImages["kbc-answer-correct-back"] = "active_instructionbuttonsecurity.png";
+defaultImages["kbc-answer-back"] = "active_instructionbutton.png";
+defaultImages["kbc-answer-hover-back"] = "hovestartbutton.png";
+defaultImages["kbc-answer-correct-back"] = "active_instructionbutton.png";
+defaultImages["50click"] = "50click.png";
+defaultImages["changeclick"] = "changeclick.png";
+defaultImages["pollclick"] = "pollclick.png";
 defaultImages["kbc-lifeline1-img"] = "poll.png";
 defaultImages["kbc-lifeline1-img-disabled"] = "poll-disabled.png";
 defaultImages["kbc-lifeline2-img"] = "50-50.png";
 defaultImages["kbc-lifeline2-img-disabled"] = "50-50-disabled.png";
 defaultImages["kbc-lifeline3-img"] = "change.png";
 defaultImages["kbc-lifeline3-img-disabled"] = "change-disabled.png";
-defaultImages["kbc-ladder-current"] = "kbc-start-button-hoversecurity.png";
+defaultImages["kbc-ladder-current"] = "hovestartbutton.png";
 
 
 defaultText = {};
@@ -66,9 +66,8 @@ defaultText["kbc-text-ladder09"] = "Question 09";
 defaultText["kbc-text-ladder10"] = "Question 10";
 
 defaultText["kbc-text-instruction-header"] = "HOW TO PLAY";
-defaultText["kbc-text-instructions"] = "<p>Select the correct answer from the options.You have 1 lifeline for this.</p>" +
-    "<img class='img-50-1'src='"+getImg("50over")+"'/> <p style='left: 8%;'> 50-50 Lifeline: Removes two incorrect options. </p><p style='left: 8%;'>You can use this lifeline only once. Once used, it will turn to grey.</p> " +
-    "<p><b>So, go ahead and answer all questions correctly to overcome this hurdle!</b></p> ";
+defaultText["kbc-text-instructions"] ="<p>Select the correct answer from the given options.</p>"+
+"<p>Answer all the questions correctly to reach the top.</p> ";
 
 
 

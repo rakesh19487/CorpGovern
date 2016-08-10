@@ -41,7 +41,7 @@ config.instruction= {
             {name: "inst-btn", representation: "<div id='inst-header'>HOW TO PLAY</div>" +
                 "<div id='inst-content'><p>To save yourself, you will have to trap the beast.</p>" +
                 "<p>Select the correct answer to bring down the trap.</p>" +
-                "<p>You need to answer all the 3 questions correctly to get away safely.</p></div>"}
+                "<p>You need to answer all the 5 questions correctly to get away safely.</p></div>"}
         ]},
         {name: "inst-btn", states: [
             {name: "inst-btn", representation: "<img src='../../img/start_buttonhunt.png' /><span class='inst-btn-txt'>Start Game</span>"}

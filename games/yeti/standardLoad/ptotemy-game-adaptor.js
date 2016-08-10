@@ -137,8 +137,6 @@ function defineStateFn(obj, stateName, representation) {
     var thisState = $.grep(obj.states, function (a) {
         return ( a.name == stateName );
     })[0];
-//    console.log(thisState)
-//    console.log($.inArray(thisState, obj.states));
     if ($.inArray(thisState, obj.states) != -1) obj.states.splice(obj.states.indexOf(thisState), 1);
 
     obj.states.push(new State(stateName, representation));

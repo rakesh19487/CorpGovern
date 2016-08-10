@@ -9,11 +9,11 @@ config.base = {
 //            {name: "default", representation: "<img src='" + getImg("kbc-logo") + "' />"}
 //        ]},
         {name: "help", states: [
-            {name: "default", representation: "<img /><span >Help</span>"}
-        ]},
-        {name: "textboxdisplay", states: [
-            {name: "default", representation: "Click on this lifeline to<br />help you win the game:"}
+            {name: "default", representation: "<img /><span>Help</span>"}
         ]}
+        // {name: "textboxdisplay", states: [
+        //     {name: "default", representation: "Click on this lifeline to<br />help you win the game:"}
+        // ]}
     ]
 };
 
@@ -31,9 +31,10 @@ config.qholder = {
 config.correctmessage = {
     type: "environment",
     states: [
-        {name: "default", representation: "<img src='../../img/correctmesssecurity.jpg'/>"}
+        {name: "default", representation: "<img src='../../img/correctmessyeti.jpg'/>"}
     ]
 };
+
 
 config.messagebox = {
     type: "environment",
@@ -48,14 +49,13 @@ config.messagebox = {
             "<div id='showinst' class='startpage-button'>" +
                 "<img src='"+getImg("kbc-button-instruction")+"' />" +
                 "<span>Instructions</span>" +
-            "</div>"
-        },
+            "</div>"},
 
         {name: "instruction", representation:
             '<div id="game-back"><img src='+getImg("kbc-background")+' /></div>' +
 //                '<div id="game-logo-inst"><img src='+getImg("kbc-logo")+' /></div>' +
                 '<div id="instructions">' +
-                    '<div id="inst-header"><span>'+getText("kbc-text-instruction-header")+'</span></div>' +
+                    '<div id="inst-header"><span style="color: white;">'+getText("kbc-text-instruction-header")+'</span></div>' +
                     '<div id="inst-content" >' +
                         '<span class="content">' + getText("kbc-text-instructions") + '</span>' +
                     '</div>' +
@@ -66,17 +66,16 @@ config.messagebox = {
                 '</div>'},
 
         {name: "endgame", representation:
-            "<div id='game-back'><img src='../../img/backgroundendsecurity.png' /></div>" +
+            "<div id='game-back'><img src='../../img/backgroundend.jpg' /></div>" +
             "<div id='endmessage'></div>" +
             "<div id='playagain' class='startpage-button'>" +
-                "<img src='"+getImg("kbc-button-play-again")+"' />" +
-                "<span>Try Again</span>" +
+            "<img src='"+getImg("kbc-button-play-again")+"' />" +
+            "<span>Try Again</span>" +
             "</div>"+
-                "<div id='backpack' class='backpack-button' style='display: block;'>" +
-                "<img src='"+getImg("kbc-button-play-again")+"' />" +
-                "<span>Use BackPack</span>" +
-                "</div>"
-        },
+            "<div id='backpack' class='backpack-button' style='display: none;'>" +
+            "<img src='"+getImg("kbc-button-play-again")+"' />" +
+            "<span>Use BackPack</span>" +
+            "</div>"},
         {name: "default", representation: "<img src='"+getImg("kbc-background")+"' />"}
     ],
     locations: [
@@ -143,6 +142,7 @@ config.ladder = {
 config.lifelinepanel = {
     type: "environment",
     states: [
+//        {name: "default", representation: ""}
         {name: "lifeline3", representation: "<div id='lifeline3' class='lifeline-panel'>" +
                                                 "<div id='change-text' class='lifeline-text'>" +
                                                     "<span>This lifeline changes this question for another.</span>" +
@@ -196,6 +196,8 @@ config.lifelines = {
             {name: "lifeline1", representation: "<span id='ll1'>Poll</span>"},
             {name: "default", representation: ""}
         ]}
+
+
     ]
 };
 
@@ -216,13 +218,9 @@ config.howtoData = [
     {loc: "player", description: "<span>This is your current position.</span>", sequence: 5}
 ]
 
-
-
-//config.messagebox = {
-//    type: "environment",
-//    states:
-//        {name: "loading", representation:
-//        "<img src='../../img/load.gif'/' />"
-//        }
-//
-//};
+config.loading = {
+    type: "environment",
+    states: [
+        {name: "default", representation: "<div></div>"}
+    ]
+};

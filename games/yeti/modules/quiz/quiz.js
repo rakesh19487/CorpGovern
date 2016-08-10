@@ -21,7 +21,7 @@ config.quiz = {
 function initQuiz() {
     quiz = new Environment("quiz");
     loadConfig(quiz);
-    loadQuestionBank();
+	loadQuestionBank();
 }
 
 function loadQuestionBank() {
@@ -84,7 +84,7 @@ Question.getByWeight = function (weight) {
 
 Question.getAllByWeight = function(weight, amount) {
     var questions = $.grep(Question.all, function(a) {
-        return (a.weight == weight && a.answered === false);
+        return (a.weight == weight && a.answered !== true);
     });
 
 //    if(amount!=null) {
@@ -100,7 +100,7 @@ Question.getAllByWeight = function(weight, amount) {
 Question.getBySubCat = function(weight, subcategory) {
 
     var questions = $.grep(Question.all, function(a) {
-        if(a.weight == weight && a.category == subcategory && a.answered === false)
+        if(a.weight==weight && a.category == subcategory && a.answered !== true)
             return a;
     });
 
@@ -108,9 +108,8 @@ Question.getBySubCat = function(weight, subcategory) {
 }
 
 Question.getByWeightExSubcat = function(weight, subcat) {
-
     var questions = $.grep(Question.all, function(a) {
-        if(a.weight==weight && a.category != subcat && a.answered === false)
+        if(a.weight==weight && a.category != subcat && a.answered !== true)
             return a;
     });
 

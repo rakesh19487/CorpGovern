@@ -4,10 +4,10 @@
 
 }
 
-#question {
+#question{
     height: 21%;
     width: 83%;
-    top: 15.5% !important;
+    top: 15.5%;
     left: 9.5%;
     color: black;
     position: absolute;
@@ -16,7 +16,9 @@
     display: table;
     text-align: left;
     /* background-color: red; */
+    /*background-color: red;*/
 }
+
 
 #question span{
     display: table-cell;
@@ -29,6 +31,18 @@
     top: 40%;
     width: 88%;
 }
+/*.answer-block {*/
+    /*display: inline-block;*/
+    /*margin-left: 2%;*/
+    /*margin-top: 5%;*/
+    /*cursor: pointer;*/
+    /*color: white;*/
+    /*width: 47%;*/
+    /*height: 23%;*/
+    /*position: relative;*/
+
+    /*background: rgba(1, 1, 1, 0.5);*/
+/*}*/
 
 .answer-block {
     margin-left: 15px !important;
@@ -40,18 +54,17 @@
     position: relative;
     float: left;
     width: 263px;
-    font-size: 11px;
+    font-size: 12px;
 
     /*background: rgba(1, 1, 1, 0.5);*/
 }
-
 .answer-block div{
     overflow: hidden;
     position: relative;
     z-index: 1;
     height: 90%;
-    /*width: 94%;*/
-    margin-left: 3%;
+    /*width: 88%;*/
+    margin-left: 7%;
     margin-top: 1%;
     display: table;
     text-align: left;
@@ -111,4 +124,16 @@
 
 #options-ol li {
     list-style: upper-alpha;
+}
+#answer-block-span0{
+    text-align: left;
+}
+#answer-block-span1 {
+    text-align: right;
+}
+#answer-block-span2 {
+    text-align: left;
+}
+#answer-block-span3 {
+    text-align: right;
 }
