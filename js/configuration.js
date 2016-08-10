@@ -44,7 +44,7 @@ var storyConfig = {
             icon_complete: "2cc.png",
             photo: "2caveman.jpg",
             description: "Warning: Snowstorm! You need shelter. Lucky for you.",
-            sequence: 4,
+            sequence: 1,
             px: 47,
             py: 58
         },
@@ -77,7 +77,7 @@ var storyConfig = {
             icon_complete: "5cc.png",
             photo: "4yeti.jpg",
             description: "Beware! This guy is always hungry!",
-            sequence: 1,
+            sequence: 4,
             px: 38,
             py: 19
         }

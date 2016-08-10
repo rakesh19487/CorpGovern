@@ -6,7 +6,7 @@ var platformData = {
         nodes: [
             {
                 description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but you need to answer a couple of questions first.",
-                sequence: 4,
+                sequence: 1,
                 decks: [2],
                 games: [5],
                 videos: [0],
@@ -30,7 +30,7 @@ var platformData = {
             },
             {
                 description: "Lost your way?! I could help but I am hungry and have no money to eat at the taverns. Plus I am so bored.",
-                sequence: 1,
+                sequence: 4,
                 decks: [4],
                 games: [3],
                 videos: [],
