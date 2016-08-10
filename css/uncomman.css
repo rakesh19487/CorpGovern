@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url("../fonts/GOTHICB.TTF");
+    src: url("/fonts/GOTHICB.TTF");
 }
 body
 {
