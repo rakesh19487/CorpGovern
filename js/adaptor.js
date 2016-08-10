@@ -239,8 +239,10 @@ function initBackpack() {
             $("#backpack-icon-wrapper").fadeOut(200);
             $(".side-icon-image:first-child").removeClass('no-click');
             for(var i=0;i<=back_pack.length;i++){
-                $("#back_pack_img-"+i+" img").attr("src",'img/'+ back_pack[i].icon);
-                $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
+                if (typeof back_pack[i]  !== "undefined"){
+                    $("#back_pack_img-"+i+" img").attr("src",'img/'+ back_pack[i].icon);
+                    $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
+                }
             }
         });
 

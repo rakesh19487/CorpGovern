@@ -325,7 +325,6 @@ function playGame() {
             if (data.correct == "true") {
 				window.parent.correctMusic();
                 gcount++;
-                console.log(gcount);
 				questionbank.questions[question._id].answered = true;
 				Question.all[question._id].answered = true;
                 correct_ansanimation($this);
@@ -360,7 +359,6 @@ function playGame() {
                     player.lives.is(-1);
                 }, 500);
                 flag=gcount;
-                console.log(flag);
             }
         }
     });
