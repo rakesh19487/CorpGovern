@@ -138,7 +138,7 @@ function initPage() {
 
 		if(currentNode<4)
             // TODO:- Need to uncomment this later
-            console.log("LMSSetValue");
+            // console.log("LMSSetValue");
 			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO:- Need to uncomment this later
     });
@@ -287,7 +287,6 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".top-content" ).empty();
     $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon">'+'<b class="backpack-txt">'+data[sub_slide_id-1].sub_header+'</b>');
     $(".mid-slide" ).empty();
-    console.log(data[sub_slide_id-1].sub_contents);
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
     $('.mid-slide ul li:empty').remove();
 }
@@ -522,7 +521,6 @@ function bindZoneSections(direction) {
         showDeck($(this).attr("id").split("-")[2]);
     });
     zoneGames.on('click', function () {
-        console.log ("nodeId: " + nodeId);
         showGame($(this).attr("id").split("-")[2]);
         setTimeout(function () {
             var frm = $('.projector iFrame')[0].contentWindow;
@@ -941,7 +939,6 @@ function appendScore(gamescore){
 
     score+=gamescore*100;
     $("#score_node").html(score + " / 100");
-    console.log(gamescore);
 
 // TODO:- Need to uncomment this later
     // a.LMSSetValue("cmi.core.score.raw", score);

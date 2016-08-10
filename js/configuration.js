@@ -72,7 +72,7 @@ var storyConfig = {
             sequence: 3,
             px: 32.5,
             py: 32.8,
-            iex: 41
+            iepx: 41
         },
         {
             name: "Hunger Game",
@@ -84,7 +84,7 @@ var storyConfig = {
             sequence: 4,
             px: 38,
             py: 19,
-            iex: 40
+            iepx: 40
         }
       
     ]

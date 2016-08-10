@@ -277,6 +277,7 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon">'+'<b class="backpack-txt">'+data[sub_slide_id-1].sub_header+'</b>');
     $(".mid-slide" ).empty();
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
+    $('.mid-slide ul li:empty').remove();
 }
 
 function initInstructions(){
