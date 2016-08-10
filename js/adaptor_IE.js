@@ -341,7 +341,7 @@ function addNodes() {
                     nodeClass = "incomplete-node";
                 }
             }
-            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.px + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
+            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.iepx + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
             $("#story-node-1 img").attr("src", 'img/2.png');
             $( "#story-node-1" ).addClass("click-active this-node").removeClass("click_inactive");
             $( "#story-node-1" ).click(function(){

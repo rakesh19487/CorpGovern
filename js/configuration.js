@@ -46,7 +46,8 @@ var storyConfig = {
             description: "Warning: Snowstorm! You need shelter. Lucky for you.",
             sequence: 1,
             px: 47,
-            py: 58
+            py: 58,
+            iepx:50
         },
         {
             name: "Fairy Tale",
@@ -57,7 +58,9 @@ var storyConfig = {
             description: "Almost there! Oh ... wait a minute!",
             sequence: 2,
             px: 38.8,
-            py: 46.5
+            py: 46.5,
+            iepx:35.5
+
         },
         {
             name: "Flight or Fight",
@@ -68,7 +71,8 @@ var storyConfig = {
             description: "Oh look! There's a Snow Leopard ready to pounce.",
             sequence: 3,
             px: 32.5,
-            py: 32.8
+            py: 32.8,
+            iex: 41
         },
         {
             name: "Hunger Game",
@@ -80,6 +84,7 @@ var storyConfig = {
             sequence: 4,
             px: 38,
             py: 19
+            iex: 40
         }
       
     ]
