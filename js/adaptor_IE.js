@@ -451,7 +451,7 @@ function showStoryZone(sequence) {
         }
         for (i in thisNode.backpack) {
             var backpackid=backpack[thisNode.backpack[i]].file;
-            $backpack = $('<div id="backpack_anchor" onclick="getbackpack(i)"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + thisNode.games[i] + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
+            $backpack = $('<div id="backpack_anchor" onclick="getbackpack('+thisNode.backpack[i]+')"><a href="#" class="zone-button ' + gameStatus + '" id="backpack-' + i + '-' + thisNode.games[i] + '">' + backpack[thisNode.backpack[i]].title + '</a></div>').appendTo($buttonBank);
         }
         // for (i in thisNode.videos) {
         //     var videoTitle = ''
