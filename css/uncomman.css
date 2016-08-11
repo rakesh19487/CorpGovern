@@ -2088,13 +2088,15 @@ font-weight:bold;
 
 #btnSubmit
 {
-    background: url(../img/reset_button.png);
     background-size: 100% 100%;
-    /* background-color: #4B72D5; */
+    background-color: #fab857;
     border: 0px;
     width: 25%;
-    height:32px;
+    height: 32px;
     color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .close-inst-backdrop {
@@ -2396,11 +2398,11 @@ text-align:left;
 }
 #game-0-6{
     text-decoration: none;
-    background: url("../img/start_buttonhang.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    background: url("../img/start_buttonhang.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0) !important;
 }
 #backpack-0-6{
     text-decoration: none;
-    background: url("../img/start_buttonhang.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    background: url("../img/start_buttonhang.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0) !important;
 }
 #game-0-6 #backpack-0-6 :hover {
     background: url("../img/start_buttonhoverhunt.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);

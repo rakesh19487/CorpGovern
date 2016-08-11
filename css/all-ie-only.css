@@ -299,15 +299,6 @@
         width: 45%;
     }
 
-    #btnSubmit
-    {
-        /*background: url(../img/reset_button.png);*/
-        background-size: 100% 100%;
-         background-color: #fab857; 
-        border: 0px;
-        width: 25%;
-        height:32px;
-        color: #ffffff;
-    }
+
 
     
