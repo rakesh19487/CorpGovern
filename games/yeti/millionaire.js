@@ -177,7 +177,7 @@ function initGame() {
         shuffle(quesbank);
     }
     else {
-        for(var i=flag; i<16; i++) {
+        for(var i=flag; i<13; i++) {
             if(i==flag)
                 quesbank.push(Question.getBySubCat(1, question.category));
             else
@@ -320,7 +320,7 @@ function playGame() {
         flag++;
         if(answered == false) {
             answered = true;
-            if(gcount==15)
+            if(gcount==12)
                 gameOn = false;
             if (data.correct == "true") {
 				window.parent.correctMusic();
