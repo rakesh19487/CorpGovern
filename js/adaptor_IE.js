@@ -997,7 +997,7 @@ function modale_last()
         },500);
     }, 2500);
 });
-
+}
 
 function openbackPack(n,sub){
     $("#back_pack_img").trigger('click');
