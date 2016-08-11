@@ -508,7 +508,7 @@ img {
 {
     font-size: 17px;
     font-weight: bold;
-    left: 39%;
+    left: 41% !important;
     position: absolute;
     top: 41%;
     color: white;

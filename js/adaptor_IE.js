@@ -968,7 +968,7 @@ function modale_last()
     var  d = new Date();
     d = d.toLocaleDateString();
     $(".modal-main").empty().append("<img src='img/final.jpg' />");
-	$(".modal-main").append("<div id='left-firework'><img src='img/left-firework.gif' /></div><div id='right-firework'><img src='img/right-firework.gif' /></div>");
+    $(".modal-main").append("<div id='left-firework'><img src='img/left-firework.gif' /></div><div id='right-firework'><img src='img/right-firework.gif' /></div>");
 
     setTimeout(function() {
         $(".modal-main").fadeOut(500);
@@ -982,22 +982,26 @@ function modale_last()
             $("#ack-btn").unbind('click').on('click', function() {
                 $("#story-wrapper").css({opacity: 1, filter: "alpha(opacity=100)"});
                 $('.modal-main').fadeOut(500);
-                // $("#dialog2").fadeIn();
-                // $("#dialog2 #btnClose").unbind('click').on('click', function(){
-                // $("#dialog2").fadeOut();
+                $("#dialog2").fadeIn();
+                $("#dialog2 #btnClose").unbind('click').on('click', function(){
+                    $("#dialog2").fadeOut();
+                })
+                // TODO:- Need to uncomment this later
+                // a.LMSSetValue("cmi.core.lesson_status", "completed");
+                // a.LMSCommit("");
+                // a.LMSFinish("");
+                // TODO:- Need to uncomment this later
+                //show completion text
                
-                // TODO: Later uncomment this
-    //            	a.LMSSetValue("cmi.core.lesson_status", "completed");
-    //             a.LMSCommit("");
-				// a.LMSFinish("");
-                // TODO: Later uncomment this
+
+
             });
 
             $(".modal-main").fadeIn(500);
         },500);
     }, 2500);
-});
 }
+
 
 function openbackPack(n,sub){
     $("#back_pack_img").trigger('click');

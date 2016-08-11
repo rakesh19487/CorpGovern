@@ -562,7 +562,7 @@ function endGame(message, question) {
             window.parent.modale_last();
             setTimeout(function(){
                 parent.$("#story-zone-close").trigger('click').trigger('click');
-            },1500);
+            },800);
         });
     }
      else
