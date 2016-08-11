@@ -85,6 +85,7 @@ var storyConfig = {
             px: 38,
             py: 19,
             iepx: 40
+            
         }
       
     ]

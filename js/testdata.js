@@ -4,6 +4,7 @@ var platformData = {
         formal: true,
         sequential: false,
         nodes: [
+        
             {
                 description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but you need to answer a couple of questions first.",
                 sequence: 1,
