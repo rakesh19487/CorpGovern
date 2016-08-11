@@ -982,16 +982,16 @@ function modale_last()
             $("#ack-btn").unbind('click').on('click', function() {
                 $("#story-wrapper").css({opacity: 1, filter: "alpha(opacity=100)"});
                 $('.modal-main').fadeOut(500);
-                $("#dialog2").fadeIn();
-                $("#dialog2 #btnClose").unbind('click').on('click', function(){
-                $("#dialog2").fadeOut();
+                // $("#dialog2").fadeIn();
+                // $("#dialog2 #btnClose").unbind('click').on('click', function(){
+                // $("#dialog2").fadeOut();
                
                 // TODO: Later uncomment this
     //            	a.LMSSetValue("cmi.core.lesson_status", "completed");
     //             a.LMSCommit("");
 				// a.LMSFinish("");
                 // TODO: Later uncomment this
-            });
+            // });
 
             $(".modal-main").fadeIn(500);
         },500);
