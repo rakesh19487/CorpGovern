@@ -991,7 +991,7 @@ function modale_last()
     //             a.LMSCommit("");
 				// a.LMSFinish("");
                 // TODO: Later uncomment this
-            // });
+            });
 
             $(".modal-main").fadeIn(500);
         },500);
