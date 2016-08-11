@@ -180,9 +180,12 @@ function initBackpack() {
         $('#back_pack_table').fadeIn('slow');
         var slidid = parseInt($(this).attr("currid"));
         for(var i=0;i<back_pack.length;i++) {
-            $("#back_pack_img-"+i+" img").attr("src", 'img/' + back_pack[i].icon);
-            $(this).attr("src", 'img/' + back_pack[slidid - 1].icon_active);
-            $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
+            if(back_pack[i] && back_pack[i].icon){
+                $("#back_pack_img-"+i+" img").attr("src", 'img/' + back_pack[i].icon);
+                $(this).attr("src", 'img/' + back_pack[slidid - 1].icon_active);
+                $(".back-pack-icon-name").eq(i).removeClass("back-pack-icon-active");
+            }
+                
         }
         $(".back-pack-icon-name").eq($(this).parent().index()).addClass("back-pack-icon-active");
         var data;

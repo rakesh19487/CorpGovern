@@ -996,7 +996,7 @@ function modale_last()
             $(".modal-main").fadeIn(500);
         },500);
     }, 2500);
-}
+});
 
 
 function openbackPack(n,sub){
