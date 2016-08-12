@@ -94,7 +94,7 @@ function playQuiz() {
 	
     question = quesbank.pop();
 	var answered = question.answered;
-	while(answered!==false) {
+	if(answered!==false) {
 		quesbank.unshift(question);
 		question=quesbank.pop();
 		answered = question.answered;

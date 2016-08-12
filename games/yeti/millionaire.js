@@ -281,7 +281,7 @@ function playGame() {
     $("#lifelines .location").css({'pointer-events': "auto", 'cursor': "pointer"});
     question=quesbank.pop();
 	var answered = question.answered;
-	while(answered!==false) {
+	if(answered!==false) {
 		quesbank.unshift(question);
 		question=quesbank.pop();
 		answered = question.answered;
