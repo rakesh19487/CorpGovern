@@ -170,7 +170,7 @@ function initBackpack() {
     '</div></div>');
 
     $(".back-pack-icon").unbind('click').on('click', function() {
-        var display_status_header=$('#back_pack_table').css('display');
+        var display_status_header=$('#back_pack_table').css('display','block');
 
         $(".side-icon-image:first-child").addClass('no-click');
         $('#back_pack_table').fadeIn(200);
