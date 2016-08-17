@@ -173,7 +173,8 @@ function initBackpack() {
         var display_status_header=$('#back_pack_table').css('display');
 
         $(".side-icon-image:first-child").addClass('no-click');
-        $('#back_pack_table').fadeIn('slow');
+        $('#back_pack_table').fadeIn(200);
+        flexibility($('#back_pack_table')[0]);
         var slidid = parseInt($(this).attr("currid"));
         for(var i=0;i<back_pack.length;i++) {
             if (typeof back_pack[i]  !== "undefined"){
