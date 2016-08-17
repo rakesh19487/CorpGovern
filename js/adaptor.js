@@ -135,6 +135,7 @@ function initPage() {
         $("#story-wrapper").append("<div id='story-scoreboard-container'><img src='img/scoreboard.png' /><span class='score_hurdle-name' id='score_node_name'></span><span class='score_hurdle-time' id='score_node_time'>" + timedisp + "</span><span class='score_hurdle-score' id='score_node'>"+score+" / 100</span></div>");
         $("#start_button").css("display","none");
         $("#story-compass").css("display","none");
+        $("#abfslogo").css("display","none");
         $("#story-nodes").css("display","block");
         $("#score_node_name" ).html(storyConfig.nodes[0].name);
         if(parseInt(scormGetValue("cmi.objectives.0.id"))!=0 || scormGetValue("cmi.objectives.0.id") != "") {
