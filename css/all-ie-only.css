@@ -311,5 +311,5 @@
     }
 
     .back_pack_img{
-        height: none
+        height: none !important;
     }
