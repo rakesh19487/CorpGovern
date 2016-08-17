@@ -32,7 +32,7 @@ var slide_config= [
     {
         slide_id:1,
         header:"<center>INTRODUCTION TO <br/>ADITYA BIRLA GROUP",
-        slideImg:"img/abglogo.png",
+        slideImg:"img/abglogo.jpg",
         sub_slide:[
             {
                 id:1,
