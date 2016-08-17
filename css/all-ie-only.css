@@ -305,8 +305,9 @@
     }
 
     .back_pack_content{
-        display: flex !important;
-        height: auto !important;
+        -js-display:flex;
+        display: flex ;
+        height: auto;
     }
 
     .back_pack_img{
