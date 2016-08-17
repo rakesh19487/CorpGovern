@@ -63,7 +63,7 @@ function initPage() {
     $('#abfslogo').css({
         left: "2%",
         top: "5%",
-        width: "22%"
+        width: "15%"
     }).attr('src', 'img/abfinancial-logo.jpg');
 
     setTimeout(function () {

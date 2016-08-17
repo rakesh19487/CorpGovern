@@ -273,11 +273,11 @@ var slide_config= [
     {
         slide_id:2,
         header:"INTRODUCTION TO ABFS",
-        slideImg:"img/abfinancial-logo.jpg",
+        slideImg:"img/ab-financial-logo2.jpg",
         sub_slide:[
             {
                 id:1,
-                sub_header:"ABOUT ADITYA BIRLA FINANCIAL SERVICES (ABFS)",
+                sub_header:"ABOUT ADITYA BIRLA FINANCIAL SERVICES<br/>(ABFS)",
                 sub_contents:
                     "<p>Aditya Birla Financial Services (ABFS) is an umbrella brand for all the financial service businesses of the Aditya Birla Group.</p>" +
                     "<p>It is a part of Aditya Birla Nuvo Limited (ABNL) and has a strong presence across the life insurance, general insurance, asset management, private equity, wealth management, broking, personal finance, housing finance, pension fund management and NBFC sectors.</p>"
@@ -355,7 +355,7 @@ var slide_config= [
     {
         slide_id:3,
         header:"A World Of Opportunities (WOO)",
-        slideImg:"img/woologo.jpg",
+        slideImg:"img/woologo2.jpg",
         sub_slide:[
             {
                 id:1,
