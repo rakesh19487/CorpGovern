@@ -1666,6 +1666,12 @@ a.zone-button:visited{
     margin-left: 65%;
 }
 
+#abfslogo {
+    width: 35%;
+    margin-left: 3%;
+    margin-top: -60%;
+}
+
 #img_first {
     width: 74px;
     height: 74px;
@@ -1875,7 +1881,7 @@ a.zone-button:visited{
 }
 .start_button
 {
-    top: 17%;
+    top: 10%;
     width: 50%;
     position: absolute;
     /* background: url(../img/start_button.png); */
@@ -2511,7 +2517,7 @@ text-align:left;
     float: left;
     margin-top: 0%;
     text-align: left;
-    width: 86%;
+    width: 65%;
 }
 a
 {
