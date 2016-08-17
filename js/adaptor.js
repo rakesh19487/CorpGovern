@@ -64,6 +64,12 @@ function initPage() {
         width: storyConfig.compass.width + "%"
     }).attr('src', 'img/' + storyConfig.compass.image);
 
+    $('#abfslogo').css({
+        left: "2%",
+        top: "5%",
+        width: "22%"
+    }).attr('src', 'img/AB-Financial-Services-Colour-Low-Logo.jpg');
+
     setTimeout(function () {
         $('#story-wrapper').fadeIn('slow', function() { $("#loadingMessage").fadeOut();})
         addNodes();
@@ -79,7 +85,7 @@ function initPage() {
     function startPagebtn(){
 
         $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
-        $("#start_button").append("<img src='img/AB-Financial-Services-Colour-Low-Logo.jpg' id='abfslogo'/>");
+        // $("#start_button").append("<img src='img/AB-Financial-Services-Colour-Low-Logo.jpg' id='abfslogo'/>");
         $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
         $("#start_button").append("<img src='img/cureach.png' id='canureach'/>");
         

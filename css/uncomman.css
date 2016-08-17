@@ -1351,7 +1351,12 @@ body.story-page {
     position: absolute;
     pointer-events: none;
 }
-#story-presenter, #story-compass {
+#abfslogo {
+    position: absolute;
+    pointer-events: none;
+    z-index: 99;
+}
+#story-presenter, #story-compass{
     position: absolute;
     pointer-events: none;
 }
@@ -1666,11 +1671,11 @@ a.zone-button:visited{
     margin-left: 65%;
 }
 
-#abfslogo {
+/*#abfslogo {
     width: 40%;
     margin-left: 76%;
     margin-bottom: 3%;
-}
+}*/
 
 #img_first {
     width: 74px;

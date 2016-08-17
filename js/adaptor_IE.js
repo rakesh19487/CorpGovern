@@ -60,6 +60,12 @@ function initPage() {
         width: storyConfig.compass.width + "%"
     }).attr('src', 'img/' + storyConfig.compass.image);
 
+    $('#abfslogo').css({
+        left: "2%",
+        top: "5%",
+        width: "22%"
+    }).attr('src', 'img/AB-Financial-Services-Colour-Low-Logo.jpg');
+
     setTimeout(function () {
         $('#story-wrapper').fadeIn('slow', function() { $("#loadingMessage").fadeOut();})
         addNodes();
