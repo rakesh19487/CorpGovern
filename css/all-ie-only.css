@@ -108,7 +108,7 @@
 
     .back-pack-icon{
         width:40%;
-        height:30%;
+        /*height:30%;*/
     }
 
     /*Back Pack Contants IE* Styles Start*/
@@ -304,9 +304,9 @@
     }
 
     .back_pack_content{
-        
+
     }
 
-    .back_pack_img{
+    .back_pack_icon{
         height: initial !important;
     }
