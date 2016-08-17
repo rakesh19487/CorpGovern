@@ -300,8 +300,15 @@
     }
 
     .backpack-icon-logo{
-        margin-left: -1%;
-        margin-top: -2%;
+        margin-left: -3%;
+        margin-top: 50%;
     }
 
-    
+    .back_pack_content{
+        display: flex !important;
+        height: auto !important;
+    }
+
+    .back_pack_img{
+        height: none
+    }
