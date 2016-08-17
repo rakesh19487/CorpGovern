@@ -305,11 +305,8 @@
     }
 
     .back_pack_content{
-        -js-display: flex;
-        display: flex;
-        height: auto;
+        
     }
 
     .back_pack_img{
-        height: none !important;
     }
