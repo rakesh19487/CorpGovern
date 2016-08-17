@@ -1886,7 +1886,7 @@ a.zone-button:visited{
 }
 .start_button
 {
-    top: 6%;
+    top: 10%;
     width: 50%;
     position: absolute;
     /* background: url(../img/start_button.png); */
