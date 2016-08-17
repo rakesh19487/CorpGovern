@@ -64,7 +64,7 @@ function initPage() {
         left: "2%",
         top: "5%",
         width: "22%"
-    }).attr('src', 'img/AB-Financial-Services-Colour-Low-Logo.jpg');
+    }).attr('src', 'img/abfinancial-logo.jpg');
 
     setTimeout(function () {
         $('#story-wrapper').fadeIn('slow', function() { $("#loadingMessage").fadeOut();})

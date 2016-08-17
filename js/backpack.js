@@ -32,6 +32,7 @@ var slide_config= [
     {
         slide_id:1,
         header:"<center>INTRODUCTION TO <br/>ADITYA BIRLA GROUP",
+        slideImg:"img/abglogo.png",
         sub_slide:[
             {
                 id:1,
@@ -272,6 +273,7 @@ var slide_config= [
     {
         slide_id:2,
         header:"INTRODUCTION TO ABFS",
+        slideImg:"img/abfinancial-logo.jpg",
         sub_slide:[
             {
                 id:1,
@@ -353,6 +355,7 @@ var slide_config= [
     {
         slide_id:3,
         header:"A World Of Opportunities (WOO)",
+        slideImg:"img/woologo.jpg",
         sub_slide:[
             {
                 id:1,
