@@ -75,6 +75,7 @@ function initPage() {
     function startPagebtn(){
 
         $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
+        $("#start_button").append("<img src='img/AB-Financial-Services-Colour-Low-Logo.jpg' id='abfslogo'/>");
         $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
         $("#start_button").append("<img src='img/cureach.png' id='canureach'/>");
         $("#start_button").append("<img src='img/AB-Financial-Services-Colour-Low-Logo.jpg' id='abfslogo'/>");
