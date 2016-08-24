@@ -204,7 +204,7 @@ function initBackpack() {
         for(i in slide_config) {
             if(slide_config[i].slide_id==slidid){
                 data=slide_config[i].sub_slide;
-                slideImage = slide_config[i].slideImg;
+                // slideImage = slide_config[i].slideImg;
             }
         }
 
@@ -214,7 +214,7 @@ function initBackpack() {
         $("#right_slide_btn").attr("slide_id",slidid);
         $( ".top-content" ).empty();
         $( ".mid-slide" ).empty();
-        $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon" style="float:left">'+'<b class="backpack-txt">'+data[0].sub_header+'</b><img src="'+ slideImage +'" class="backpack-icon-logo">')
+        $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon" style="float:left">'+'<b class="backpack-txt">'+data[0].sub_header)
         $(".mid-slide").append(data[0].sub_contents);
 
         $("#left_slide_btn").unbind('click').on('click', function() {
@@ -292,14 +292,14 @@ function getSubSlide(sub_slide_id,slide_id){
     for(i in slide_config) {
         if(slide_config[i].slide_id==slide_id){
             data=slide_config[i].sub_slide;
-            slideImage = slide_config[i].slideImg;
+            // slideImage = slide_config[i].slideImg;
         }
     }
     if(sub_slide_id==data.length){
         $('.right-slide').css('visibility', 'hidden');
     }
     $(".top-content" ).empty();
-    $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon">'+'<b class="backpack-txt">'+data[sub_slide_id-1].sub_header+'</b><img src="'+slideImage+'" class="backpack-icon-logo">');
+    $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon">'+'<b class="backpack-txt">'+data[sub_slide_id-1].sub_header);
     $(".mid-slide" ).empty();
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
     $('.mid-slide ul li:empty').remove();
