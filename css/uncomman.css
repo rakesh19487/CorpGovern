@@ -1847,13 +1847,17 @@ a.zone-button:visited{
     text-align: left;
     padding:3% ;
     height:255px;
+    /*display: none;*/
 }
 .mid-slide-div{
     display:inline-block;
     float:left;
+    display: none;
 }
 .img-div{
      width:40%; 
+     display: none;
+
 }
 .img-div img{
     width:90%;

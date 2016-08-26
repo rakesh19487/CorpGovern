@@ -39,7 +39,7 @@ var slide_config= [
                 sub_header:"ADITYA BIRLA GROUP",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abglogo.jpg'>" +
+                    "<img src='img/wanted.png'>" +
                     "</div>" +
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "<p>One of India's largest and most reputed business houses" +
@@ -63,7 +63,7 @@ var slide_config= [
                     "</ul>" +
                     "</div>" +
                     "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abglogo.jpg'>" +
+                    "<img src='img/spirit.png'>" +
                     "</div>"
             },
             {
