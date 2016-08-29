@@ -1845,9 +1845,11 @@ a.zone-button:visited{
     float: left;
     width: 90%;
     text-align: left;
-    padding:3% ;
-    height:255px;
-    /*display: none;*/
+    padding:1% 3% 3% 3%;
+    min-height:220px;
+    max-height: 290px;
+    display: flex;
+    align-items: center;
 }
 .mid-slide-div{
     display:inline-block;
@@ -2537,7 +2539,7 @@ text-align:left;
     float: left;
     margin: 2%;
     width: 8%;
-    margin-top:-2%;
+    margin-top:0%;
 }
 .backpack-icon-logo{
     margin-left: -12%;
@@ -2547,7 +2549,7 @@ text-align:left;
 .backpack-txt
 {
     float: left;
-    margin-top: 0%;
+    margin-top: 2%;
     text-align: left;
     width: 65%;
 }

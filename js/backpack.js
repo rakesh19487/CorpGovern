@@ -300,7 +300,7 @@ var slide_config= [
                     "<li>Mr. Thomas Varghese- Business Head, Textiles</li>" +
                     "<li>Mr. Himanshu Kapania- Business Head, Telecom</li>" +
                     "<li>Ms. Pinky Mehta - Chief Financial Officer, ABNL</li>" +
-                    "<br/><br/>Each business is run as an independent SBU under the leadership one of these business heads." +
+                    "<br/>Each business is run as an independent SBU under the leadership one of these business heads." +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -364,7 +364,7 @@ var slide_config= [
                     "<li>Telecom leads the Segment EBIT with a 48% contribution,Divisions 21% & Financial Services at 31% respectively.<li/>" +
                     "</ul>" +
                     "</div>" +
-                    // "<div class='mid-slide-div img-div padding-left'>" +
+                    "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/abglogo.jpg'>" +
                     "</div>"
             }
@@ -450,7 +450,7 @@ var slide_config= [
                     "<div class='mid-slide-div content-div '>" +
                     "We will not become leaders by cutting corners or making compromises. Whatever we do, we will strive to be the best in class. And if we are the best, then our customer will have no reason to go elsewhere – therefore our leadership is assured, on pure merit."+
                     "</div>"+
-                    "<div class='mid-slide-div img-div'> padding-left" +
+                    "<div class='mid-slide-div img-div padding-left' >" +
                     "<img src='img/ab-financial-logo2.jpg'>" +
                     "</div>"
             },
