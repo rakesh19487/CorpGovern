@@ -290,7 +290,7 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "ABFS has about 112000 _________ across the country.",
+        name: "ABFS has about 112000 _______________ across the country.",
         weight: 6,
 
         opta: "",
@@ -314,7 +314,7 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "ABFS has more than 1350 ______________.",
+        name: "ABFS has more than 1350 ________________. (Enter your answer in numerals)",
         weight: 6,
 
         opta: "",
@@ -677,11 +677,11 @@ questionbank.questions = [
         name: "Aditya Birla Financial Services is part of ABNL. What does ABNL stand for?",
         weight: 1,
 
-        opta: "Aditya Birla New Limited",
+        opta: "Aditya Birla Nirman Limited",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Aditya Birla Nirman Limited",
+        optb: "Aditya Birla Neon Limited",
         optbcorrect: "false",
         optbpoints: "0",
 
@@ -701,15 +701,15 @@ questionbank.questions = [
         name: "ABFS is in the process of seeking a licence from IRDAI for launching which business?",
         weight: 1,
 
-        opta: "Travel Insurance",
+        opta: "General Insurance",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "General Insurance",
+        optb: "Vehicle Insurance",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Vehicle Insurance",
+        optc: "Travel Insurance",
         optccorrect: "false",
         optcpoints: "0",
 
@@ -725,7 +725,7 @@ questionbank.questions = [
         name: "Name the CEO of ABFS.",
         weight: 1,
 
-        opta: "A. Dhananjaya",
+        opta: "Pankaj Razdan",
         optacorrect: "false",
         optapoints: "0",
 
@@ -737,7 +737,7 @@ questionbank.questions = [
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Ajay Kakar" ,
+        optd: "A. Dhananjaya" ,
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -749,7 +749,7 @@ questionbank.questions = [
         name: "Complete ABFS' mission statement - To be a leader and ____________ in a broad-based and integrated financial services business.",
         weight: 1,
 
-        opta: "evangelist",
+        opta: "pioneer",
         optacorrect: "false",
         optapoints: "0",
 
@@ -757,11 +757,11 @@ questionbank.questions = [
         optbcorrect: "true",
         optbpoints: "10",
 
-        optc: "pioneer",
+        optc: "explorer",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "ambassador",
+        optd: "evangelist",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -781,11 +781,11 @@ questionbank.questions = [
         optbcorrect: "true",
         optbpoints: "10",
 
-        optc: "Aditya Birla Money Limited",
+        optc: "Aditya Birla Finance Limited",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Aditya Birla Nirman Limited",
+        optd: "Aditya Birla Money Limited",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -805,11 +805,11 @@ questionbank.questions = [
         optbcorrect: "true",
         optbpoints: "10",
 
-        optc: "MMM",
+        optc: "MMO",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "MMO",
+        optd: "MML",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -818,7 +818,7 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "ABFS has about ___________ agents/ channel partners across the country.",
+        name: "ABFS has about _________ agents / channel partners across the country. (Enter your answer in numerals)",
         weight: 1,
 
         opta: "121000",
@@ -833,7 +833,7 @@ questionbank.questions = [
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "110200",
+        optd: "110100",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -842,7 +842,7 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "ABFS has more than __________ points of presence.",
+        name: "ABFS has more than ______ points of presence. (Enter your answer in numerals)",
         weight: 1,
 
         opta: "1530",
@@ -853,11 +853,11 @@ questionbank.questions = [
         optbcorrect: "true",
         optbpoints: "10",
 
-        optc: "1330",
+        optc: "1305",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "1550",
+        optd: "1503",
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -1056,7 +1056,247 @@ questionbank.questions = [
         slide:3,
         subslide:7,
 		category: 4
-    }
+    },
+    {
+        name: "Aditya Birla Money Limited is registered as a _____ Participant with both NSDL and CDSL",
+        weight: 1,
+
+        opta: "Depository",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Collection",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Series",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Confirmed",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:3,
+		category: 1
+    },
+    {
+        name: "_____ is a fund which is focused on investing in residential realty, primarily in major metros like Mumbai, Pune, Bangalore, Chennai & Hyderabad.",
+        weight: 1,
+
+        opta: "Aditya Birla Real Estate Fund – I",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Aditya Birla Private Equity- Sunrise Fund",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Birla Sun Life Tax Relief 96",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Birla Sun Life Tax Shield 96",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:3,
+		category: 4
+    },
+    {
+        name: "Our leadership is assured, on pure ____.",
+        weight: 1,
+
+        opta: "merit ",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "quality",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "superiority",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "trust",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:1,
+        subslide:2,
+		category: 1
+    },
+    {
+        name: "____ refers to our steadfast loyalty to the company's principles. ",
+        weight: 1,
+
+        opta: "Integrity",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "honesty",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "committment",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "trust",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:7,
+		category: 4
+    },
+    {
+        name: "___ is the program for returning women professionals. ",
+        weight: 1,
+
+        opta: "Encore",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "We Care",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Second Career",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Career Plan",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:3,
+		category: 3
+    },
+    {
+        name: "___ is the Aditya Birla Group 24 x 7 Emergency Helpline service which caters to any kind of exigency faced by employees and their families. ",
+        weight: 1,
+
+        opta: "Code Red",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Helpline 247",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Second Call",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Helpline ABG",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:3,
+		category: 3
+    },
+    {
+        name: "___ Facilities in our remote locations provide the best of healthcare at the doorstep at a minimal cost ",
+        weight: 1,
+
+        opta: "Telemedicine",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Medicine247",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Pharma 247",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Healthline ABG",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:3,
+		category: 3
+    },
+    {
+        name: "___are facilitated for every employee based on the ABG competency requirements ",
+        weight: 1,
+
+        opta: "My Development Plans",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "My Resume",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "My Career",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Careerline ABG",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:2,
+		category: 3
+    },
+    {
+        name: "_____is the process of identifying your strengths and areas of development in your current role. ",
+        weight: 1,
+
+        opta: "Competency Assessment and Development Discussion (CADD)",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Potential Assessment ",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "My Career",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Careerline ABG",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:2,
+		category: 3
+    },
+    {
+       name: "The ______Investment Advisory business of BSL AMC enables investors to access 'Real Estate investments' opportunities, which otherwise as an individual investor may find difficult to do.. ",
+        weight: 1,
+
+        opta: "Real Estate",
+        optacorrect: "true",
+        optapoints: "10",
+
+        optb: "Estate Planning ",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Portfolio Management",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "Consultancy",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:2,
+		category: 1 
+    },
 ];
 
 for(var i=0, len=questionbank.questions.length; i<len; i++) {

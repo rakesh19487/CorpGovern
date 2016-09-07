@@ -35,7 +35,7 @@ var slide_config= [
         // slideImg:"img/abglogo.jpg",
         sub_slide:[
             {
-                id:1,
+                id: 1,
                 sub_header:"ADITYA BIRLA GROUP",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -52,7 +52,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:2,
+                id: 2,
                 sub_header:"ADITYA BIRLA GROUP",
                 sub_contents:
                     "<div class='mid-slide-div content-div'>"+
@@ -67,7 +67,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:3,
+                id: 3,
                 sub_header:"ADITYA BIRLA GROUP - FLAGSHIP COMPANIES",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -85,7 +85,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:4,
+                id: 4,
                 sub_header:"ADITYA BIRLA GROUP'S BUSINESSES - INDIA",
                 sub_contents:
                     "<div class='mid-slide-div content-div'>" +
@@ -101,7 +101,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:5,
+                id: 5,
                 sub_header:"ADITYA BIRLA GROUP'S LEADERSHIP - OVERSEAS",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -120,7 +120,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:6,
+                id: 6,
                 sub_header:"ABG'S VISION & MISSION?",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -141,7 +141,7 @@ var slide_config= [
 
             },
             {
-                id:7,
+                id: 7,
                 sub_header:"ABG'S POWER OF 5",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -155,12 +155,12 @@ var slide_config= [
                     "<li>Passion</li>" +
                     "<li>Seamlessness</li>" +
                     "<li>Speed</li>" +
-                    "</ul>"+
+                    "</ul>"  +
                     "</div>"
             },
             {
-                id:8,
-                sub_header:"ADITYA BIRLA NUVO LIMITED",
+                id: 8,
+                sub_header: " ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "Also known as ABNL, it is part of the Aditya Birla Group. It has interests in " +
@@ -175,7 +175,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:9,
+                id: 9,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -192,7 +192,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:10,
+                id: 10,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -208,7 +208,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:11,
+                id: 11,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -225,7 +225,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:12,
+                id: 12,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -242,7 +242,7 @@ var slide_config= [
 
             },
             {
-                id:13,
+                id: 13,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -254,12 +254,12 @@ var slide_config= [
                     "<li>Standalone balance sheet has been ABNL’s growth engine & a platform to drive synergy of capital resources.</li>" +
                     "<li>With steady FCF generation from divisions & its ability to pool cash resources," + "ABNL’s standalone balance sheet stands strong to drive its growth plans.</li>" +
                     "<li>In FY16, it incurred capex of 110 Cr. for divisions and infused capital of 967 Cr. in Financial Services.</li>" + 
-                    "<li>Adjusting for sale proceeds & subsidy realisation, Net Debt / EBITDA for ABNLstands at comfortable position.</li>" +
+                    "<li>Adjusting for sale proceeds & subsidy realisation, Net Debt / EBITDA for ABNL stands at comfortable position.</li>" +
                     "</ul>" +
                     "</div>"
             },
             {
-                id:14,
+                id: 14,
                 sub_header:"ADITYA BIRLA NUVO LIMITED - DELIVERING VALUE",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -275,7 +275,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:15,
+                id: 15,
                 sub_header:"ADITYA BIRLA NUVO LIMITED - THE TEAM",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -289,18 +289,17 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:16,
+                id: 16,
                 sub_header:"ADITYA BIRLA NUVO LIMITED - MANAGEMENT",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "ABNL is anchored by a strong management team..." +
+                    "ABNL is anchored by a strong management team.Each business is run as an independent SBU under the leadership one of these business heads." +
                     "<ul style='text-align: left'>" +
                     "<li>Mr. Lalit Naik, Managing Director: VFY , Chemicals, Agri, Insulators</li>" +
                     "<li>Mr. Ajay Srinivasan- Business Head, Financial Services</li>" +
                     "<li>Mr. Thomas Varghese- Business Head, Textiles</li>" +
                     "<li>Mr. Himanshu Kapania- Business Head, Telecom</li>" +
                     "<li>Ms. Pinky Mehta - Chief Financial Officer, ABNL</li>" +
-                    "<br/>Each business is run as an independent SBU under the leadership one of these business heads." +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -308,7 +307,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:17,
+                id: 17,
                 sub_header:"CORPORATE SOCIAL RESPONSIBILITY (CSR)",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -323,7 +322,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:18,
+                id: 18,
                 sub_header:"CORPORATE SOCIAL RESPONSIBILITY (CSR)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -331,7 +330,6 @@ var slide_config= [
                     "<ul style='text-align: left'>" +
                     "Initiated special coaching classes and career counselling programmes for students. Uniforms, books, notebooks, writing pads, bags and stationery was distributed to 6,965 children." +
                     "<br/><br/>Our hospitals & medical centres at plant locations in remote areas of the country attended to over 1 lac patients for minor and major ailments." +
-                    "<br/><br/>Helping farmers earn better through farmer training programmes on advance cropping techniques and other processes to improve yield." +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -339,14 +337,14 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:19,
+                id: 19,
                 sub_header:"CORPORATE SOCIAL RESPONSIBILITY (CSR)",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
                     "<img src='img/abglogo.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
-                    "Some of the 'new' social initiatives taken by ABNL..." +
+                    " Helping farmers earn better through farmer training programmes on cropping techniques and other processes to improve yield." +
                     "<ul style='text-align: left'>" +
                     "Through our 17 production centres at Jagdishpur , Veraval and Rishra we trained 717 rural women in Apparel and Jute products manufacturing." +
                     "<br/><br/>To promote dowry less marriages, distribution of  40,478 garments to underprivileged people at various charitable organisations at Bangalore." +
@@ -354,7 +352,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:20,
+                id: 20,
                 sub_header:"WE TOPPED IT AND WE HAVE THE NUMBERS TO SHOW",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -371,12 +369,12 @@ var slide_config= [
         ]
     },
     {
-        slide_id:2,
+        slide_id: 2,
         header:"INTRODUCTION TO ABFS",
         // slideImg:"img/ab-financial-logo2.jpg",
         sub_slide:[
             {
-                id:1,
+                id: 1,
                 sub_header:"ABOUT ADITYA BIRLA FINANCIAL SERVICES<br/>(ABFS)",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -388,8 +386,8 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:2,
-                sub_header:"QUICK OVERVIEW OF ABFS",
+                id: 2,
+                sub_header:"ABFS: A QUICK OVERIEW",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "ABFS is committed to serve the end-to-end financial services needs of its retail and corporate customers." +
@@ -397,6 +395,20 @@ var slide_config= [
                     "<li> Ranks among the top 5 fund managers in India (excluding LIC)</li>" +
                     "<li> Anchored by more than 11,500 employees and trusted by over 7.4 million customers</li>" +
                     "<li> 1,350 points of presence and about 112,000 agents / channel partners across the country</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {        
+                id: 3,
+                sub_header:"QUICK OVERVIEW OF ABFS",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "ABFS is a significant player in the non-banking financial services space." +
+                    " <ul style='text-align: left'>" +
+                    "<li> ABFS has an AUM of INR 185,515 Crore as on 31st December 2015.</li>" +
                     "<li> In the process of seeking a licence from IRDAI for launching health Insurance business in a joint venture with MMI Group of South Africa</li>" +
                     "</ul>" +
                     "</div>"+
@@ -404,8 +416,199 @@ var slide_config= [
                     "<img src='img/ab-financial-logo2.jpg'>" +
                     "</div>"
             },
+            {    
+                id: 4,
+                sub_header:"ABFS GROUP COMPANIES",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "ABFSG Businesses operate across 7 segments." +
+                    " <ul style='text-align: left'>" +
+                    "<li> Let's start with Aditya Birla Finance Limited.</li>"+
+                    "<li> Incorporated in 1991, Aditya Birla Finance Limited is one of India's most reputed non-banking financial companies, offering customized solutions in areas of Capital Markets, Corporate Finance, Commercial Real Estate & Mortgages and Project & Structured Finance.</li>" +
+                    "<li> Capital Market solutions offers the best opportunity to meet liquidity requirements by providing finance against the security of various investments in the capital market.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {        
+                id: 5,
+                sub_header:"Aditya Birla Finance Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +                                            
+                    "<li> Corporate Finance solutions are aimed towards SMEs, mid-corporate and large corporate clients to meet their working capital and growth finance needs.</li>" +
+                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting and commercial property purchase loan, enabling customers to tap the hidden potential of their commercial or residential property to fulfill their financial objectives.</li>" +
+                    "<li> Aditya Birla Finance set up the Project And Structured Finance Group,further augmented by a dedicated desk for Debt Capital Markets and Syndication Services. </li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },        
             {
-                id:3,
+                id: 6,
+                sub_header:"Aditya Birla Housing Finance Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "The company offers a complete range of housing finance solutions such as home loans, home improvement and home construction loans, balance transfer and top-up loans, loans against property and construction finance." +
+                    "<ul style='text-align: left'>" +
+                    "<li> ABHFL presents a fully loaded bundled home loan offer.</li>" +
+                    "<li> ABHFL offers home improvement loans to carry out repairs / improvements / extensions within your existing owned residential property.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 7,
+                sub_header:"Aditya Birla Housing Finance Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " The company also offers Home Construction Finance." +
+                    " <ul style='text-align: left'>" +
+                    "<li> Home Construction Finance based on a detailed cost estimate provided by architect/engineer for the property.</li>" +
+                    "<li> We offer balance transfers and top-up loans at attractive and competitive interest rates.</li>"+
+                    "<li> Loan Against Property is offered against existing residential/ commercial property. </li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 8,
+                sub_header:"Aditya Birla Insurance Brokers Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " The company,a leading composite general insurance intermediary, specializes in providing insurance broking and risk management solutions for corporates and individuals,also offering reinsurance solutions to insurance companies ." +
+                    " <ul style='text-align: left'>" +
+                    "<li> The company focuses on cost-effective and customized insurance packages while ensuring the process of claim settlements is swift and painless.</li>" +
+                    "<li> Experts analyze a client's business and estimate the level of risk exposure before structuring an appropriate general insurance solution.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },        
+            {
+                id: 9,
+                sub_header:"Aditya Birla Money Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " Aditya Birla Money is a single brand offering combined products and services of Aditya Birla Money Mart Limited, Aditya Birla Money Limited and Aditya Birla Customer Services Private Limited." +
+                    " <ul style='text-align: left'>" +
+                    "<li> Aditya Birla Money Mart Limited provides a range of third party financial products like company deposits, mutual fund, structured products, alternate investments, property services and wealth management services to cater to HNI customers . It also provides insurance products through its subsidiary company.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 10,
+                sub_header:"Aditya Birla Money Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " Aditya Birla Money Limited is a broking and distribution player." +
+                    " <ul style='text-align: left'>" +
+                    "<li> It offers equity and derivatives trading through NSE and BSE and currency derivative on MCX-SX. It is a registered Depository Participant.</li>" +
+                    "<li> MyUniverse,an online money management platform is offered through Aditya Birla Customer Services Private Limited.</li>" +
+                    "<li> MyUniverse provides customers with a single window view of their financial universe thereby helping them evaluate their net worth.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 11,
+                sub_header:"Aditya Birla Capital Advisors Private Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " Aditya Birla Capital Advisors Private Limited offers investment management and advisory services as Aditya Birla Private Equity to domestic and global investors." +
+                    " <ul style='text-align: left'>" +
+                    "<li> ABPE focuses on growth investments in mid-market companies, with India as the investment destination.</li>" +
+                    "<li> It currently manages Rs. 1,179 crore under two funds i.e. Aditya Birla Private Equity - Fund I and Aditya Birla Private Equity – Sunrise Fund.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 12,
+                sub_header:"Birla Sun Life Insurance Company Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " BSLI is a joint venture between the Aditya Birla Group and Sun Life Financial Inc., one of the leading international financial services organizations from Canada." +
+                    " <ul style='text-align: left'>" +
+                    "<li> BSLI has a customer base of over two and half million policy holders. The Company offers a complete range of offerings comprising protection solutions, children's future solutions, wealth with protection solutions.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+            id: 13,
+                sub_header:"Birla Sun Life Insurance Company Limited",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "<li> It has an extensive distribution reach through its network of over 550 branches and total assets under management of Rs. 22,300 Crores.</li>" +
+                    "<li> Their portfolio also includes health and wellness solutions, retirement solutions and savings with protection solutions.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 14,
+                sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " Established in 1994,BSLAMC is the 4th largest asset management company in India based on domestic average assets under management as published by AMFI for the quarter, January - March 2012" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Aditya Birla Real Estate Fund – I is a fund,focused on investing in residential realty, primarily in major metros like Mumbai, Pune, Bangalore, Chennai & Hyderabad. </li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 15,
+                sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "<li> The underlying philosophy across all opportunities where the fund proposes participation is 'protection of investors capital'.</li>" +
+                    "<li> Portfolio Management Service is a highly customized service from Birla Sun Life Asset Management Company.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            
+            {
+                id: 16,
+                sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "BSLAMC has an international presence, it operates in Dubai and Singapore. " +
+                    " <ul style='text-align: left'>" +
+                    "<li> Strong investment performance has helped the company garner over 2.3 million investor scheme accounts.</li>" +
+                    "<li> BSLAMC has received recognition from various institutes of international repute like CNBC TV 18, CRISIL, Lipper, Outlook Money and e Asset Magazine - Hong Kong.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },    
+            {
+                id: 17,
                 sub_header:"MISSION AND VISION",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -416,7 +619,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:4,
+                id: 18,
                 sub_header:"4 PILLARS OF OUR VISION",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -433,7 +636,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:5,
+                id: 19,
                 sub_header:"1. TO BE A LEADER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -444,7 +647,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:6,
+                id: 20,
                 sub_header:"2. TO BE A ROLE MODEL",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -455,7 +658,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:7,
+                id: 21,
                 sub_header:"3. TO BE A BROAD-BASED PLAYER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -467,7 +670,7 @@ var slide_config= [
 
             },
             {
-                id:8,
+                id: 22,
                 sub_header:"4. WE AIM TO BE AN INTEGRATED PLAYER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -478,45 +681,176 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:9,
+                id: 23,
+                sub_header:"OUR VALUES",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "We adhere to a set of values that embrace every aspect of our core ideology:" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Integrity</li>" +
+                    "<li> Commitment</li>" +
+                    "<li> Passion</li>" +
+                    "<li> Seamlessness </li>" +
+                    "<li> Speed</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 24,
+                sub_header:"1. INTEGRITY",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    "Our steadfast loyalty to the company's principles.Integrity means acting and taking decisions in a manner that is fair, honest, following the highest standards of professionalism and is also perceived to be so."+ 
+                    "This is not only financial and intellectual integrity, but in all other forms as are commonly understood."+
+                    "</div>"
+            },
+            {
+                id: 25,
+                sub_header:"2. COMMITMENT",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " Towards our clients and stakeholders to provide them with the best. It means doing whatever it takes to deliver value to all stakeholders, on the foundation of integrity."+ 
+                    " Taking ownership of our own actions and decisions, those of our team and that part of the organisation we are responsible for."+
+                    "</div>"
+            },
+            {
+                id: 26,
+                sub_header:"3. PASSION",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " Reiterates our determination to outperform competition and set a benchmark for others to follow"+ 
+                    " A missionary zeal arising out of emotional engagement with the organisation, making work joyful and inspires each one of us to give his or her best."+
+                    " Relentlessly pursue our goals and objectives with the highest level of energy and enthusiasm that is voluntary and spontaneous."+
+                    "</div>"
+            },
+            {
+                id: 27,
+                sub_header:"4. SEAMLESSNESS",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " Describes the smooth and unobstructed functioning of our divisions, thinking and working together across functional silos, hierarchies, businesses and geographies."+ 
+                    " Garner synergy benefits from the available diversity and promote oneness through sharing and collaborative efforts."+
+                    "</div>"
+            },
+            {
+                 id: 28,
+                sub_header:"5. SPEED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " Our prompt action and swift delivery of results."+ 
+                    " Responding to internal and external customers with a sense of urgency. Continuously seeking to crash timelines and choosing the right rhythm to optimize organization efficiency."+
+                    "</div>"
+            },
+            {
+                id: 29,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "ABFS is led by a strong and experienced team" +
                     " <ul style='text-align: left'>" +
-                    "<li>Mr. Ajay Srinivasan (CEO)</li>" +
-                    "<li>Mr. Pankaj Razdan (Deputy CEO) </li>" +
-                    "<li>Mr. G. V. Gopalakrishnan (Deputy COO) </li>" +
-                    "<li>Mr. Subhro Bhaduri (CHRO)</li>" +
-                    "<li>Mr. A. Dhananjaya (Chief Risk & Compiance Officer)</li>" +
-                    "<li>Mr. Ajay Kakar (CMO)</li>" +
+                    "<li>Mr. Ajay Srinivasan (CEO): Under his leadership the financial services business has grown rapidly with an annual turnover of about $ 1 bn and a workforce of over 15000 people. Both the life insurance and mutual fund have become top 5 businesses in the last two years beating industry growth by a large margin.He sets the vision and provides strategic direction and leadership for the Group's Financial Services business. </li>" +
                     "</ul>" +
                     "</div>"+ 
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/ab-financial-logo2.jpg'>" +
                     "</div>"
-            }
-            ]
+            },
+            {
+                id: 30,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "ABFS is led by a strong and experienced team:" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr. Pankaj Razdan (Deputy CEO):He is a part of the core think tank that strategizes and operationalizes the Aditya Birla Group's growth in the financial services business.</li>" +
+                    "<li>Mr. Ajay Kakar (CMO): As the Customer Champion, his mandate includes customer research and insights, brand and communication, product marketing, corporate communications, CRM and providing a unified customer experience.</li>" +
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 31,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr.Mukesh Malik ( COO) is responsible for Technology and Operations for the financial services business covering strategy, policy, process and implementation, as well as Quality and Business Excellence.</li>" +
+                    "<li>Mr. Subhro Bhaduri (CHRO):  He is responsible for the HR strategy, policy and the program management for the financial services businesses of Aditya Birla Group.</li>" +
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 32,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr. A. Dhananjaya (Chief Risk & Compiance Officer): He is responsible for overseeing the compliance and risk functions across all Financial Services businesses. This includes inter alia, credit risk, investment risk, operational risk, regulatory affairs, corporate governance etc.</li>" +
+                    "<li>Dr. Sandeep Dadia: The CEO & Principal officer with ABIBL.</li>"+
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 33,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr.Rakesh Singh: The Chief Executive Officer of Aditya Birla Finance Ltd.In this role, he develops and implements robust business plans and builds a team with a culture of high performance, transparency and accountability.</li>"+
+                    "<li>Mr.Tushar Shah: The CEO for the Infrastructure, Project and Structured finance business of the Aditya Birla Financial Services (ABFS). The Infrastructure Finance space encompasses infrastructure & project linked lending, debt syndication and an infrastructure PE fund.</li>"+
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/ab-financial-logo2.jpg'>" +
+                    "</div>"
+            },
+        ]
     },
     {
-        slide_id:3,
+        slide_id: 3,
         header:"A World Of Opportunities (WOO)",
         // slideImg:"img/woologo2.jpg",
         sub_slide:[
             {
-                id:1,
+                id: 1,
                 sub_header:"ABOUT WOO",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
                     "<img src='img/woologo2.jpg'>" +
                     "</div>"+
                    "<div class='mid-slide-div content-div padding-left'>" +
-                   "<p>At the Aditya Birla Group, we believe that your growth is our collective growth, hence you will receive opportunities to build your career, have your contribution rewarded, your commitment recognised, your professional skills honed and thus, lead an enriched life as an individual.</p>" + 
+                   "<p>At the Aditya Birla Group, we believe that your growth is our collective growth, hence you will receive opportunities to build your career, have your contribution rewarded, your commitment recognised, your professional skills honed and, lead an enriched life as an individual.</p>" + 
                    "<p>With an abundance of possibilities, a reservoir of knowledge and the desire to augment the growth of its people, the Group believes in offering each and every one of you ‘A World of Opportunities'.</p>"+
                    "</div>"
             },
             {
-                id:2,
+                id: 2,
                 sub_header:"THE PILLARS OF WOO",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -533,7 +867,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:3,
+                id: 3,
                 sub_header:"OPPORTUNITIES TO ENHANCE YOUR CAREER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -543,30 +877,253 @@ var slide_config= [
                     "To provide employees with a bouquet of career choices. We offer careers to employees, spanning across functions, business sectors and geographies."+
                     "</div>"
             },
-            {
-                id:4,
-                sub_header:"OPPORTUNITIES TO LEARN AND DEVELOP",
-                sub_contents:
-                    "<div class='mid-slide-div content-div '>" +
-                    "To be at the core of an effective learning network, that as a strategic business partner, harnesses knowledge and intellectual capital, to 'contribute' to the goals and objectives of the Business"+
-                    "</div>"+
-                    "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/woologo2.jpg'>" +
-                    "</div>"
-            },
-            {
-                id:5,
-                sub_header:"OPPORTUNITIES TO BE REWARDED AND RECOGNIZED",
+            {    
+                id: 4,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
                     "<img src='img/woologo2.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
-                    "To be recognized amongst the leading organizations in implementing effective Rewards and Benefits programs across the world in each of our Businesses" +
+                    "Here are a few key initiatives under the WOO programme." +
+                    " <ul style='text-align: left'>" +
+                    "<li> Xplore (Taking Opportunities to Employees) </li>" +
+                    "<li> ABG Competency Framework comprises Behavioral and Functional Competencies, serve as the common yardstick for identifying your strengths and the areas for development, both for cu rrent and future roles.</li>" +
+                    "<li> Talent Management Framework articulates the various processes that are included in Talent Management</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 5,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Talent Management Framework articulates the various processes that are included in Talent Management</li>" +
+                    "<li> Competency Assessment and Development Discussion is the process of identifying your strengths and areas of development in your current role, using the ABG Competency Framework.</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 6,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Potential Assessment is a confidential exercise done by your manager and / or other senior members.</li>" +
+                    "<li> Talent Segmentation is the process of segmenting the employees using the 3 X 3 performance -potential grid.</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 7,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Development and Assessment Centre is validating by renowned external agencies and calibrating the potential assessed during the Talent Segmentation process.</li>" +
+                    "<li> Succession Planning is a process for identifying and developing internal talent with the potential to fill critical positions</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 8,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Talent Reviews is an annual facilitated engagement process wherein the leadership team discusses the high potential employeesfrom the talent pool. </li>" +
+                    "<li> Transition Management & On-Boarding processes enable employees settle down in their new roles smoothly and be productive at the earliest.</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 9,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Mobility Support Framework: employee explores wider career opportunities across units, circles, businesses functions, within the Aditya Birla Group.</li>" +
+                    "<li> Short Term Assignments provide unique opportunities to develop and hone specific functional and behavioral competencies.</li>" +
+                    "<li> My Resume enables all recruiters within the Aditya Birla Groupto understand you better.</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 9,
+                sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Available for Role Change: Employees declare their interest for a role change within the Aditya Birla Group.</li>" +
+                    "<li> Career Conversations: Facilitate meaningful dialogues around your career with your manager / mentor.</li>" +
+                    "<li> Career Management Services: Information on the availability of possible career paths, job preferences. </li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {    
+                id: 10,
+                sub_header:"WOO INITIATIVES:TO ENHANCE YOUR CAREER",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Job Analysis & Evaluation is an intuitively accepted tool providing critical analysis to individuals and the organization to drive job clarity, performance and development.</li>" +
+                    "<li> Performance Highway is a technology enabled goal setting tool that aligns large workforces to key organizational priorities through an automated process.</li>" +
+                    "</ul>" +
+                    "</div>"
+               },
+               {
+                id: 11,
+                sub_header:"OPPORTUNITIES TO LEARN AND DEVELOP",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "To be at the core of an effective learning network, as a strategic business partner, harness knowledge and intellectual capital, to 'contribute' to the goals and objectives of the Business"+
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"
+               },
+               {
+                id: 12,
+                sub_header:"WOO INITIATIVES: TO LEARN AND DEVELOP",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Gyanodaya designs and delivers relevant and current knowledge and competence-building learning opportunities across the entire spectrum of the Group.</li>" +
+                    "<li> Gyanodaya Virtual Campus: the Group's e-Learning platform,includes e-learning modules from Harvard Manage Mentor.</li>" +
+                    "<li> Functional Training Programs: Designed to enhance domain knowledge in line with industry best practices.</li>" +
+                    "</ul>" +
                     "</div>"
             },
             {
-                id:6,
+                id: 13,
+                sub_header:"WOO INITIATIVES: TO LEARN AND DEVELOP",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> My Development Plans:Are facilitated for every employee based on the ABG competency requirements.</li>" +
+                    "<li> Continuing Education Policy: Facilitates learning through a wide range of sponsorships. </li>" +
+                    "<li> Leadership Development Programs: Designed and delivered using innovative methodologies for delivering learning.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 14,
+                sub_header:"WOO INITIATIVES: TO LEARN AND DEVELOP",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Coaching & Mentoring: An engagement format between Senior Managers and individuals or teams, focuses on formation of new leadership habits.</li>" +
+                    "<li> Knowledge Integration Programs: A platform to share success stories, best practices & learn from each other.</li>" +
+                    "<li> Outreach Programs: A suite of high quality programs delivered by Gyanodaya certified faculty. </li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 15,
+                sub_header:"OPPORTUNITIES: TO BE REWARDED AND RECOGNIZED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    "At the Aditya Birla Group, success comes to those who believe in themselves and push their boundaries. The Group encourages you to reach and surpass your best performance. With emphasis on competitive compensation, performance incentives, international assignments, Group-wide recognition and much more. To shine, you need to truly impress only yourself!." +
+                    "</div>" +
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 16,
+                sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Annual Compensation Review: A process with defined internal governance ensuring fairness, equity and parity across the group.</li>" +
+                    "<li> Performance Differentiation aligns 'performance continuum' to 'pay continuum'.</li>" +
+                    "<li> Sector Benchmarking: Ensures rewards are sector and geography driven, through market benchmarking studies. </li>" +
+                    "<li> Peer Benchmarking: Facilitates benchmarking similar skill sets.</li>" +
+                    "<li> Compensation Budgeting: Defining the annual compensation budgets.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 17,
+                sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Incentive Plans: Variable Pay-a sector aligned team incentive,integrated with individual performance. Long Term Incentive Plan enables strategic alignments between business growth and individual rewards.</li>" +
+                    "<li> Retention Plans: Deferred Compensation Program offered to high potential-performing middle management to distinguish them from their peers.Retiral programs are designed to honor continuity of service across businesses and help support talent mobility.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 18,
+                sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Unit Level & Business Level Recognition Programs: Recognize individual and team achievements at the business level.</li>" +
+                    "<li> Appreciation cards: A practice for spontaneously recognizing and appreciating good work of peers and teams.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 19,
+                sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Employment Benefits: Nishchint a unique 'Death in Service' contributory term Insurance benefit plan providing monetary relief to the family of an employee in the event of his/ her death while in service.Insurance in the form of medical, personal accident and hospitalization is offered to all employees. </li>" +
+                    "<li> Recognition Benefits: Aditya Birla Awards for Outstanding Achievement for individuals and teams.Performance Recognition in Delivering Excellence is a business level monetary recognition program for employees who excel in delivering business critical projects.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 20,
                 sub_header:"OPPORTUNITIES TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -577,22 +1134,95 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:7,
-                sub_header:"SOME OF OUR WOO INITIATIVES",
+                id: 21,
+                sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
                     "<img src='img/woologo2.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
-                    "Here are a few key initiatives under the WOO programme. You can find the complete list here - http://careers.adityabirla.com/pages/world-of-opportunities" +
                     " <ul style='text-align: left'>" +
-                    "<li> Xplore (Taking Opportunities to Employees)</li>" +
-                    "<li> Gyanodaya Virtual Campus (GVC)</li>" +
-                    "<li> Nishchint (A unique 'Death in Service' contributory term Insurance benefit plan) </li>" +
-                    "<li> Vitamin H (An informative portal which offers all health and wellness related information)  </li>" +
+                    "<li> Vitamin H: An informative portal which offers all health and wellness related information.</li>" +
+                    "<li> Life Unlimited: Our Employee Assistance Program which provides free and confidential counseling support. </li>" +
+                    "<li> Annual Health Check-Up: Offered to employees at all business locations providing them a detailed health report along with a doctor consultation.</li>" +
                     "</ul>" +
                     "</div>"
-            }
+            },
+            {
+                id: 22,
+                sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Infrastructural Support at Units & Offices includes hospitals, gymnasiums and yoga classes thereby promoting a healthy life.</li>" +
+                    "<li> Telemedicine Facilities in our remote locations providing the best of healthcare at the doorstep at a minimal cost.</li>" +
+                    "<li> Maternity Support Program: A combination of various benefits supporting a woman employee during her maternity.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 23,
+                sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> A World of Opportunity Foundation: A registered charitable trust committed to providing timely educational scholarships to deserving and capable youths.</li>" +
+                    "<li> Policies encouraging Work Life Balance such as flexible work an compulsory annual leave programs.</li>" +
+                    "<li> A Quality of Life initiative: Creating an urban and modern life experience for employees and families at our manufacturing locations. </li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 24,
+                sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Pratibha Scholarships: A group wide employee scholarship program offered to employees' children pursuing higher education.</li>" +
+                    "<li> Near Relations Policy: Enables and encourages our existing employees to refer their competent and professionally qualified relatives.</li>" +
+                    "<li> Code Red: A 24x7 Aditya Birla Group Helpline service catering to any kind of exigency faced by employees and their families.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+           {
+                id: 25,
+                sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Pre Trip Advisory: A service providing alerts related to safety, travel and medical risks of the country / destination.</li>" +
+                    "<li> Building awareness and educating each employee: On the subject of prevention of sexual harassment at the workplace, to attain a safe, secure and non-discriminatory working environment.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 26,
+                sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
+                last_slide:true,
+                sub_contents:
+                    "<div class='mid-slide-div img-div last-backpack-slide'>" +
+                    "<img src='img/woologo2.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Creation of Communities: Such as World of Women Network,Retiree Network,Wellness Champions.</li>" +
+                    "<li> Encore: A program for returning women professionals.</li>" +
+                    "<li> Springboard: Managers facilitate self-insight and enable awareness of strengths, address gender specific challenges to take charge of careers and make best use of the available opportunities.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
         ]
     }
 ]

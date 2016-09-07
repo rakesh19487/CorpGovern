@@ -73,6 +73,7 @@ function initPage() {
 
 
     initSideIcons();
+    $('#story-nodes').css('pointer-events','none');
     startPagebtn();
 
 }
@@ -289,6 +290,11 @@ function getSubSlide(sub_slide_id,slide_id){
     }
     if(sub_slide_id==data.length){
         $('.right-slide').css('visibility', 'hidden');
+        if ((data[sub_slide_id-1].last_slide) == true){
+            $("#story-node-1 img").attr("src", 'img/2.png');
+            $('#arrow_pointer').attr('src','img/arrow.gif');
+            $('#story-nodes').css('pointer-events','auto');
+        }
     }
     $(".top-content" ).empty();
     $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon">'+'<b class="backpack-txt">'+data[sub_slide_id-1].sub_header);
@@ -309,7 +315,7 @@ function initInstructions(){
     '<h3 class="modal-heading">'+"HOW TO PLAY"+' </h3>'  +
     '<div class="inst-container"">'+
     '<img src="img/how_adventure.png" class="list-icons adventure-img-icon" />'+'<p>'+"You are in for an adventure! You will start at the base of Mount Everest and will have to make your way up to the top. You will face obstacles on the way. But that's no reason to worry!"+'</p>'+
-    '<img src="img/backpack_icon.png" class="list-icons backpack-img-icon" />'+'<p>'+ "Your Backpack contains all the help that you may need. We suggest you go through it before you begin your journey; even though you will continue to have access to it through your journey." +'</p>' +
+    '<img src="img/backpack_icon.png" class="list-icons backpack-img-icon" />'+'<p>'+ "Your Backpack contains all the help that you may need. <b>You need to go through this material</b> before you begin your journey; though you will continue to have access to it through your journey." +'</p>' +
     '<img src="img/score_icon.png" class="list-icons score-img-icon" />'+'<p>' +'Your score and the time taken to get past a hurdle will be displayed at the bottom left corner of the screen. Remember, your score and time will be updated at the end of each level.' +'</p>' +
     '</div>'+
 
@@ -331,11 +337,13 @@ function initInstructions(){
 }
 function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/back_pack.png' id='back_pack_img'/></td></tr>");
+    $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/1.png' id='back_pack_img'/></td></tr>");
     $("#sideiconpanel").append("<tr><td class='side-icon-text'>Backpack</td></tr>");
 
 //    On BackPack Click
     $("#back_pack_img").unbind('click').on('click', function (){
+        $('#back_pack_img').attr('src','img/back_pack.png');
+        $('.side-icon-text').text('Backpack');
         var effect = 'slide';
         var options = { direction:"left" };
         var duration = 500;
@@ -365,7 +373,7 @@ function addNodes() {
                 }
             }
             $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.iepx + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
-            $("#story-node-1 img").attr("src", 'img/2.png');
+            // $("#story-node-1 img").attr("src", 'img/2.png');
             $( "#story-node-1" ).addClass("click-active this-node").removeClass("click_inactive");
             $( "#story-node-1" ).click(function(){
                 $("#arrow_first").css('display','none');
