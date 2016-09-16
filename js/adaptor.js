@@ -68,16 +68,18 @@ function initPage() {
         left: "2%",
         top: "5%",
         width: "15%"
-    }).attr('src', 'img/abfinancial-logo.jpg');
+    }).attr('src', 'img/abfinancial-logo.png');
 
     setTimeout(function () {
         $('#story-wrapper').fadeIn('slow', function() { $("#loadingMessage").fadeOut();})
         addNodes();
+        $('#arrow_pointer').css('opcaity',0);
     }, 1000);
 
 
     initSideIcons();
     $('#story-nodes').css('pointer-events','none');
+
     startPagebtn();
 
 }
@@ -87,7 +89,7 @@ function initPage() {
 
         $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
         // $("#start_button").append("<img src='img/AB-Financial-Services-Colour-Low-Logo.jpg' id='abfslogo'/>");
-        $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
+        $("#start_button").append("<img src='img/mountainABFS.png' id='mountain_first' />");
         $("#start_button").append("<img src='img/cureach.png' id='canureach'/>");
         
         $("#start_button").append("<a href='#inst-backdrop' id='demo01'><img src='img/hop.png' id='instruction_first' /></a>");
@@ -146,7 +148,7 @@ function initPage() {
             changeNodeState();
         }
 
-		// if(currentNode<4)
+		if(currentNode<4)
             // TODO:- Need to uncomment this later
             // console.log("LMSSetValue");
 			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
@@ -305,9 +307,10 @@ function getSubSlide(sub_slide_id,slide_id){
     if(sub_slide_id==data.length){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
-            $("#story-node-1 img").attr("src", 'img/2.png');
-            $('#arrow_pointer').attr('src','img/arrow.gif');
+            var curnode = storyConfig.nodes[currentNode-1];
+            $("#story-node-"+ currentNode +" img").attr("src", 'img/' + curnode.icon_active);
             $('#story-nodes').css('pointer-events','auto');
+            $('#arrow_pointer').attr('src','img/arrow.gif').css('opacity',1);
         }
     }
     $(".top-content" ).empty();
@@ -348,7 +351,7 @@ function initInstructions(){
 }
 function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/1.png' id='back_pack_img'/></td></tr>");
+    $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/BackpackGif.gif' id='back_pack_img'/></td></tr>");
     $("#sideiconpanel").append("<tr><td class='side-icon-text'>Start Here</td></tr>");
 
 //    On BackPack Click
@@ -757,10 +760,10 @@ $("#btnSubmit").click(function (e){
     HideDialog();
 
 // TODO:- Need to uncomment this later
-    // scormSetValue("cmi.comments", " , ");
-    // scormSetValue("cmi.objectives.0.id", 0);
+ //    scormSetValue("cmi.comments", " , ");
+ //    scormSetValue("cmi.objectives.0.id", 0);
 	// a.LMSSetValue("cmi.core.score.raw", 0);
-    // a.LMSCommit("");
+ //    a.LMSCommit("");
 	// a.LMSFinish("");
 // TODO:- Need to uncomment this later    
     window.location.reload();
@@ -935,11 +938,11 @@ function changeNodeState(){
 
 	var pos = $(".this-node").position();
 	if(typeof pos!=="undefined") {
-		$("#story-wrapper").append("<img src='img/1.png' id='arrow_pointer' />");
+		$("#story-wrapper").append("<img src='img/arrow.gif' id='arrow_pointer' />");
 		$("#arrow_pointer").css({
 			top: pos.top-110,
 			left: pos.left-25,
-			position: "absolute"
+			position: "absolute",
 		});
 	}
 
@@ -1028,8 +1031,8 @@ function modale_last()
                     $("#dialog2").fadeOut();
                 })
                 // TODO:- Need to uncomment this later
-               	// a.LMSSetValue("cmi.core.lesson_status", "completed");
-                // a.LMSCommit("");
+    //            	a.LMSSetValue("cmi.core.lesson_status", "completed");
+    //             a.LMSCommit("");
 				// a.LMSFinish("");
                 // TODO:- Need to uncomment this later
                 //show completion text

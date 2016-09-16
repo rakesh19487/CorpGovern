@@ -149,15 +149,15 @@ questionbank.questions = [
         name: "Aditya Birla Financial Services is part of ABNL. What does ABNL stand for?",
         weight: 6,
 
-        opta: "",
+        opta: "Aditya Birla New Limited",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "",
+        optb: "Aditya Birla Newman Limited",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "",
+        optc: "Aditya Birla Neon Limited",
         optccorrect: "false",
         optcpoints: "0",
 
@@ -173,15 +173,15 @@ questionbank.questions = [
         name: "ABFS is in the process of seeking a licence from IRDAI for launching which business?",
         weight: 6,
 
-        opta: "",
+        opta: "General Insurance",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "",
+        optb: "Life Insurance",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "",
+        optc: "Travel Insurance",
         optccorrect: "false",
         optcpoints: "0",
 
@@ -197,11 +197,11 @@ questionbank.questions = [
         name: "Name the CEO of ABFS.",
         weight: 6,
 
-        opta: "",
+        opta: "A Dhanajay",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "",
+        optb: "M Gandhi",
         optbcorrect: "false",
         optbpoints: "0",
 
@@ -209,7 +209,7 @@ questionbank.questions = [
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "" ,
+        optd: "M Mukhi" ,
         optdcorrect: "false",
         optdpoints: "0",
 
@@ -410,28 +410,28 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "Which of these is not a pillar of 'WOO'?",
+        name: "______offers balance transfers and top-up loans at attractive and competitive interest rates.",
         weight: 3,
 
-        opta: "Opportunities to lead an enriched life",
+        opta: "Aditya Birla Insurance Brokers Limited ",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Opportunities to learn and develop",
+        optb: "Aditya Birla Money Limited",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Opportunities to access to technology",
+        optc: "Aditya Birla Housing Finance Limited",
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Opportunities to be rewarded and recognized",
+        optd: "Aditya Birla Private Equity",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:2,
-		category: 1
+        slide:2,
+        subslide:7,
+		category: 4
     },
     {
         name: "This is not one of the 'WOO' initiatives.",
@@ -530,7 +530,7 @@ questionbank.questions = [
 		category: 4
     },
     {
-        name: "In how many countries does Aditya Birla Group has its operations?",
+        name: "Aditya Birla Private Equity currently manages Rs. 1,179 crore under ___ funds",
         weight: 1,
 
         opta: "42",
@@ -545,36 +545,36 @@ questionbank.questions = [
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "36",
+        optd: "2",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:1,
-		category: 1
+        slide:2,
+        subslide:11,
+		category: 4
     },
     {
-        name: "Aditya Birla Group has leadership positions in these businesses.",
+        name: "Ajay Kakar is ____. He is also know as the Customer Champion.",
         weight: 1,
 
-        opta: "Telecom",
+        opta: "Deputy CEO",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Insurance",
+        optb: "COO",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Aluminium",
+        optc: "CHRO",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "All the three",
+        optd: "CMO",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:3,
+        slide:2,
+        subslide:30,
 		category: 1
     },
 	{
@@ -602,52 +602,52 @@ questionbank.questions = [
 		category: 4
     },
     {
-        name: "This company is not part of the Aditya Birla Group.",
+        name: "___ Assessment is a confidential exercise done by your manager and / or other senior members..",
         weight: 1,
 
-        opta: "Grasim",
+        opta: "Career",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Nalco",
+        optb: "Potential ",
         optbcorrect: "true",
         optbpoints: "10",
 
-        optc: "Hindalco",
+        optc: "Personality",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Ultratech",
+        optd: "Talent",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:3,
+        slide:3,
+        subslide:6,
 		category: 3
     },
     {
-        name: "ABG has created India's largest online money management platform. Can you guess what is it called?",
+        name: "Retention Plans is a part of which 'WOO' initiative?",
         weight: 1,
 
-        opta: "Money Control",
+        opta: "TO LEARN AND DEVELOP",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "FundsIndia",
+        optb: "TO BE CELEBRATED",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Mint",
+        optc: "TO LEAD AN ENRICHED LIFE",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "My Universe",
+        optd: " TO BE REWARDED AND RECOGNISED",
         optdcorrect: "true",
         optdpoints: "10",
 
-        slide:1,
-        subslide:9,
-		category: 2
+        slide:3,
+        subslide:17,
+		category: 4
     },
     {
         name: "The values that drive ABG are - Integrity, Commitment, Passion, Seamlessness and ____________.",
@@ -1006,7 +1006,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:7,
+        subslide:12,
 		category: 4
     },
     {
@@ -1030,7 +1030,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:7,
+        subslide:19,
 		category: 4
     },
     {
@@ -1054,7 +1054,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:7,
+        subslide:21,
 		category: 4
     },
     {
@@ -1078,8 +1078,8 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:3,
-		category: 1
+        subslide:10,
+		category: 4
     },
     {
         name: "_____ is a fund which is focused on investing in residential realty, primarily in major metros like Mumbai, Pune, Bangalore, Chennai & Hyderabad.",
@@ -1102,7 +1102,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:3,
+        subslide:14,
 		category: 4
     },
     {
@@ -1125,8 +1125,8 @@ questionbank.questions = [
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:1,
-        subslide:2,
+        slide:2,
+        subslide:20,
 		category: 1
     },
     {
@@ -1150,7 +1150,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:7,
+        subslide:24,
 		category: 4
     },
     {
@@ -1174,8 +1174,8 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:3,
-		category: 3
+        subslide:26,
+		category: 4
     },
     {
         name: "___ is the Aditya Birla Group 24 x 7 Emergency Helpline service which caters to any kind of exigency faced by employees and their families. ",
@@ -1198,8 +1198,8 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:3,
-		category: 3
+        subslide:24,
+		category: 4
     },
     {
         name: "___ Facilities in our remote locations provide the best of healthcare at the doorstep at a minimal cost ",
@@ -1222,7 +1222,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:3,
+        subslide:22,
 		category: 3
     },
     {
@@ -1246,7 +1246,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:2,
+        subslide:13,
 		category: 3
     },
     {
@@ -1270,15 +1270,15 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:2,
-		category: 3
+        subslide:5,
+		category: 4
     },
     {
-       name: "The ______Investment Advisory business of BSL AMC enables investors to access 'Real Estate investments' opportunities, which otherwise as an individual investor may find difficult to do.. ",
+        name: "_____ Service is a highly customized service from Birla Sun Life Asset Management Company Limited that helps HNIs fulfill their financial goals.",
         weight: 1,
 
         opta: "Real Estate",
-        optacorrect: "true",
+        optacorrect: "false",
         optapoints: "10",
 
         optb: "Estate Planning ",
@@ -1286,17 +1286,41 @@ questionbank.questions = [
         optbpoints: "0",
 
         optc: "Portfolio Management",
-        optccorrect: "false",
-        optcpoints: "0",
+        optccorrect: "true",
+        optcpoints: "10",
 
         optd: "Consultancy",
         optdcorrect: "false",
         optdpoints: "0",
 
         slide:2,
-        subslide:2,
-		category: 1 
+        subslide:15,
+		category: 4 
     },
+    {
+        name: "______ solutions are aimed towards SMEs, mid-corporate and large corporate clients to meet their working capital and growth finance needs..",
+        weight: 1,
+
+        opta: "Equity Finance ",
+        optacorrect: "false",
+        optapoints: "10",
+
+        optb: "Estate Planning ",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "Corporate Finance ",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Consultancy",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:5,
+		category: 4
+    }
 ];
 
 for(var i=0, len=questionbank.questions.length; i<len; i++) {

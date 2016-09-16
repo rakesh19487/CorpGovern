@@ -64,11 +64,12 @@ function initPage() {
         left: "2%",
         top: "5%",
         width: "15%"
-    }).attr('src', 'img/abfinancial-logo.jpg');
+    }).attr('src', 'img/abfinancial-logo.png');
 
     setTimeout(function () {
         $('#story-wrapper').fadeIn('slow', function() { $("#loadingMessage").fadeOut();})
         addNodes();
+        $('#arrow_pointer').css('opcaity',0);
     }, 1000);
 
 
@@ -82,7 +83,7 @@ function initPage() {
     function startPagebtn(){
 
         $("#story-wrapper").append("<div id='start_button' class=' start_button'></div>");
-        $("#start_button").append("<img src='img/mountain.png' id='mountain_first' />");
+        $("#start_button").append("<img src='img/mountainABFS.png' id='mountain_first' />");
         $("#start_button").append("<img src='img/cureach.png' id='canureach'/>");
         $("#start_button").append("<a href='#inst-backdrop' id='demo01'><img src='img/hop.png' id='instruction_first' /></a>");
         $("#start_button").append("<img src='img/start_button.png' id='start_first' />");
@@ -146,7 +147,7 @@ function initPage() {
             // TODO: uncomment this later
         }
     });
-
+    $('#arrow_pointer').css('opcaity',0);    
     instruction_click();
 }
 function instruction_click(){
@@ -292,7 +293,7 @@ function getSubSlide(sub_slide_id,slide_id){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
             $("#story-node-1 img").attr("src", 'img/2.png');
-            $('#arrow_pointer').attr('src','img/arrow.gif');
+            $('#arrow_pointer').attr('src','img/arrow.gif').css('opacity',1);
             $('#story-nodes').css('pointer-events','auto');
         }
     }
