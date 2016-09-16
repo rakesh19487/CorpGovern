@@ -148,11 +148,12 @@ function initPage() {
             changeNodeState();
         }
 
-		if(currentNode<4)
+		if(currentNode<4){
             // TODO:- Need to uncomment this later
             // console.log("LMSSetValue");
 			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO:- Need to uncomment this later
+        }    
     });
 
     instruction_click();
