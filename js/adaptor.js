@@ -223,8 +223,7 @@ function initBackpack() {
         $('.mid-slide .mid-slide-div')
         .each(function(index){
             var _this = this;
-            $(_this).fadeIn();
-            // setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
+            setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
         });
 
         $("#left_slide_btn").unbind('click').on('click', function() {
@@ -323,8 +322,7 @@ function getSubSlide(sub_slide_id,slide_id){
     $('.mid-slide .mid-slide-div')
     .each(function(index){
         var _this = this;
-        $(_this).fadeIn();
-        // setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
+        setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
     });
     $('.mid-slide ul li:empty').remove();
 }
