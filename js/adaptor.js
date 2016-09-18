@@ -220,12 +220,12 @@ function initBackpack() {
         $( ".mid-slide" ).empty();
         $(".top-content").append('<img src="img/how_adventure.png" class="backpack-icon" style="float:left">'+'<b class="backpack-txt">'+data[0].sub_header)
         $(".mid-slide").append(data[0].sub_contents);
-        $('.mid-slide .mid-slide-div').fadeIn();
-        // $('.mid-slide .mid-slide-div').each(function(index){
-        //     var _this = this;
-        //     console.log("chrome");
-        //     setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
-        // });
+        $('.mid-slide .mid-slide-div').each(function(index){
+            var _this = this;
+            console.log("chrome");
+            setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
+        });
+        $('.back_pack_content').css('width','43%');
 
         $("#left_slide_btn").unbind('click').on('click', function() {
             var slideid = parseInt($(this).attr("slide_id"));
