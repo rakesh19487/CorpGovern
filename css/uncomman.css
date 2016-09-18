@@ -1871,7 +1871,9 @@ a.zone-button:visited{
 .mid-slide ul
 {
     padding: 0px;
-    margin: 0PX;
+    margin: 0px;
+    width: 96%;
+
 }
 .mid-slide ol
 {
