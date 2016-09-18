@@ -207,8 +207,7 @@ function initBackpack() {
         $(".mid-slide").append(data[0].sub_contents);
         $('.mid-slide .mid-slide-div').each(function(index){
             var _this = this;
-            console.log("ieee");
-            setTimeout( function(){ $(_this).show(); }, 2000*index );
+            setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
         });        
 
         $("#left_slide_btn").unbind('click').on('click', function() {
