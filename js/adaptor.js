@@ -222,7 +222,6 @@ function initBackpack() {
         $(".mid-slide").append(data[0].sub_contents);
         $('.mid-slide .mid-slide-div').each(function(index){
             var _this = this;
-            console.log("chrome");
             setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
         });
         $('.back_pack_content').css('width','43%');
@@ -320,11 +319,12 @@ function getSubSlide(sub_slide_id,slide_id){
     $(".mid-slide" ).empty();
     $(".mid-slide").append(data[sub_slide_id-1].sub_contents);
     
-    $('.mid-slide .mid-slide-div')
-    .each(function(index){
-        var _this = this;
-        setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
-    });
+    $('.mid-slide .mid-slide-div').fadeIn();
+    // .each(function(index){
+    //     var _this = this;
+    //     setTimeout( function(){ $(_this).fadeIn(); }, 2000*index );
+    // });
+    // $('.back_pack_content').css('width','43%');
     $('.mid-slide ul li:empty').remove();
 }
 
