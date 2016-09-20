@@ -324,13 +324,13 @@ function initInstructions(){
     '<img src="img/close_grey.png" width="100%" />' +
     '</div>' +
     '</div>');
-    setTimeout(function() {
-        $("#demo01").animatedModal({
-            modalTarget: "inst-backdrop",
-            animatedIn: "bounceIn",
-            animatedOut: "bounceOut"
-        });
-    }, 200);
+    // setTimeout(function() {
+    //     $("#demo01").animatedModal({
+    //         modalTarget: "inst-backdrop",
+    //         animatedIn: "bounceIn",
+    //         animatedOut: "bounceOut"
+    //     });
+    // }, 200);
 
     $('.close-inst-backdrop').unbind('click').on('click',function(){
          $("#inst-backdrop").fadeOut(200);
