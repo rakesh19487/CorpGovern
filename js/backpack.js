@@ -126,19 +126,18 @@ var slide_config= [
                     "<div class='mid-slide-div content-div '>" +
                     "<p>What do we believe? What do we want to do?</p> " +
                     "<ul style='text-align: left'>" +
-                    "<p>OUR VISION: To be a premium conglomerate building leadership in businesses and creating value for all stakeholders</p>" +
-                    "<p>OUR MISSION</p>" +
+                    "<p><b>OUR VISION:</b> To be a premium conglomerate building leadership in businesses and creating value for all stakeholders</p>" +
+                    "<p style='margin-bottom: 0;'><b>OUR MISSION:</b></p>"+
+                    "<li>Delivering best value to all the stakeholders." +
                     "<li>Investing in promising sectors</li>" +
                     "<li>Building leadership in businesses</li>" +
                     "<li>A platform to drive synergy of resources</li>" +
-                    "<li>Delivering best value to all the stakeholders</li>" +
                     "<li>To be a responsible corporate citizen</li>" +
                     "</ul>"+
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/abg/abg6.jpg'>" +
                     "</div>"
-
             },
             {
                 id: 7,
@@ -353,10 +352,11 @@ var slide_config= [
             },
             {
                 id: 20,
-                sub_header:"WE TOPPED IT AND WE HAVE THE NUMBERS TO SHOW",
+                sub_header:"OUR ACHIEVEMENTS",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "<ul style='text-align: left'>" +
+                    "<li>We are proud to record these feats for the group!<li/>" +
                     "<li>Segment Revenue : Rs.23,129 Cr.<li/>" +
                     "<li>Segment EBIT: Rs. 3,101 Cr.<li/>" +
                     "<li>Telecom leads the Segment EBIT with a 48% contribution,Divisions 21% & Financial Services at 31% respectively.<li/>" +
@@ -393,9 +393,9 @@ var slide_config= [
                     "<div class='mid-slide-div content-div '>" +
                     "ABFS is committed to serve the end-to-end financial services needs of its retail and corporate customers." +
                     " <ul style='text-align: left'>" +
-                    "<li> Ranks among the top 5 fund managers in India (excluding LIC)</li>" +
-                    "<li> Anchored by more than 11,500 employees and trusted by over 7.4 million customers</li>" +
-                    "<li> 1,350 points of presence and about 112,000 agents / channel partners across the country</li>" +
+                    "<li> Ranks among the top 5 fund managers in India (excluding LIC).</li>" +
+                    "<li> Anchored by more than 11,500 employees and trusted by over 7.4 million customers.</li>" +
+                    "<li> 1,350 points of presence and about 112,000 agents / channel partners across the country.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -410,7 +410,7 @@ var slide_config= [
                     "ABFS is a significant player in the non-banking financial services space." +
                     " <ul style='text-align: left'>" +
                     "<li> ABFS has an AUM of INR 185,515 Crore as on 31st December 2015.</li>" +
-                    "<li> In the process of seeking a licence from IRDAI for launching health Insurance business in a joint venture with MMI Group of South Africa</li>" +
+                    "<li> We have received a licence from IRDAI for launching Tthe 'Health Insurance' business latest by October 2016. This is a joint venture with the MMI Group of South Africa.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -439,8 +439,8 @@ var slide_config= [
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +                                            
                     "<li> Corporate Finance solutions are aimed towards SMEs, mid-corporate and large corporate clients to meet their working capital and growth finance needs.</li>" +
-                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting and commercial property purchase loan, enabling customers to tap the hidden potential of their commercial or residential property to fulfill their financial objectives.</li>" +
-                    "<li> ABFL set up the Project And Structured Finance Group,with a dedicated desk for Debt Capital Markets and Syndication Services. </li>" +
+                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting & commercial property purchase loan, enabling customers to tap the hidden potential of their commercial or residential property to fulfill their financial objectives.</li>" +
+                    "<li> The Project And Structured Finance Group has a dedicated desk for Debt Capital Markets & Syndication Services. </li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -454,7 +454,7 @@ var slide_config= [
                     "<div class='mid-slide-div content-div '>" +
                     "The company offers a complete range of housing finance solutions such as home loans, home improvement and home construction loans, balance transfer and top-up loans, loans against property and construction finance." +
                     "<ul style='text-align: left'>" +
-                    "<li> ABHFL presents a fully loaded bundled home loan offer.</li>" +
+                    "<li> ABHFL presents fully loaded bundled home loan offers.</li>" +
                     "<li> ABHFL offers home improvement loans to carry out repairs / improvements / extensions within your existing owned residential property.</li>" +
                     "</ul>" +
                     "</div>"+
@@ -498,9 +498,9 @@ var slide_config= [
                 sub_header:"Aditya Birla Money Limited<br/>(ABML)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    " Aditya Birla Money is a single brand offering combined products and services of Aditya Birla Money Mart Limited, Aditya Birla Money Limited and Aditya Birla Customer Services Private Limited." +
+                    " ABML offers equity and derivatives trading through NSE and BSE and currency derivative on MCX-SX. It is a registered Depository Participant." +
                     " <ul style='text-align: left'>" +
-                    "<li> Aditya Birla Money Mart Limited provides a range of third party financial products like company deposits, mutual fund, structured products, alternate investments, property services and wealth management services to cater to HNI customers . It also provides insurance products through its subsidiary company.</li>" +
+                    "<li> It is a broking and distribution player, offering equity and derivatives trading through NSE and BSE and currency derivative on MCX-SX.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -508,15 +508,15 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 10,
-                sub_header:"Aditya Birla Money Limited<br/>(ABML)",
+                id: 10, 
+                sub_header:"Aditya Birla Money Mart Limited -Wealth Management <br/>(ABMML)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    " Aditya Birla Money Limited is a broking and distribution player." +
+                    " ABMML is a one stop shop for all Treasury & Wealth needs." +
                     " <ul style='text-align: left'>" +
-                    "<li> It offers equity and derivatives trading through NSE and BSE and currency derivative on MCX-SX. It is a registered Depository Participant.</li>" +
-                    "<li> MyUniverse,an online money management platform is offered through Aditya Birla Customer Services Private Limited.</li>" +
-                    "<li> MyUniverse provides customers with a single window view of their financial universe thereby helping them evaluate their net worth.</li>" +
+                    "<li> With 500+ customers across India, an AUA under advisory mandate of Rs1500CR, ABMM is backed by a strong research team, operations & transaction support team.</li>" +
+                    "<li>ABMM focuses on clients returns,offering investment advisory on portfolio risk and return,traditional investment solutions & structured products. </li>" +
+                    "<li> It also offers alternate investments,liability management & protection/risk management products.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -551,7 +551,8 @@ var slide_config= [
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/abfs/abfs12.jpg'>" +
                     "</div>"
-            },{
+            },
+            {
             id: 13,
                 sub_header:"Birla Sun Life Insurance Company Limited<br/>(BSLIC)",
                 sub_contents:
@@ -591,7 +592,6 @@ var slide_config= [
                     "<img src='img/abfs/abfs15.jpg'>" +
                     "</div>"
             },
-            
             {
                 id: 16,
                 sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
@@ -606,20 +606,65 @@ var slide_config= [
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/abfs/abfs16.jpg'>" +
                     "</div>"
-            },    
+            }, 
             {
                 id: 17,
+                sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> ABCSL has been reaching out to retail consumers,helping them manage their finances using technology. It has many firsts associated with it, like e-KYC using app and video call, 'ZIP-SIP' to buy mutual funds SIP with an ease of mobile.</li>" +
+                    "<li> It helps analyze your investment portfolio.</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs17.jpg'>" +
+                    "</div>"
+            }, 
+            {
+                id: 18,
+                sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "ABCSL launched My Universe [MU]- the first online personal finance management app. " +
+                    " <ul style='text-align: left'>" +
+                    "<li>MU detects unnecessary spends & warns you,tracks transactions & points out customized opportunities to save,collates data about income, expenses, investments, risk profile andgenerates customized investment advice.</li>" +
+                    "<li> MU helps one get a health and life cover required from age, liabilities, etc., tracks bills, allows to Auto Pay,track against budgets,paperless ready to transact account, even KYC is done online. Invest as simply as you shop online!</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs18.jpg'>" +
+                    "</div>"
+            }, 
+            {
+                id: 19,
+                sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "My Universe [MU] app:The Android mobile app got more than 1 L downloads within 2 months of launch. " +
+                    " <ul style='text-align: left'>" +
+                    "<li>MU shows the trends how your income, investment returns and net worth have fared over a period</li>" +
+                    "<li> MU shows net worth, balances of each account, access to transaction of each accounts, pending bills, alerts and advice, with a 'Money Snapshot'!</li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs19.jpg'>" +
+                    "</div>"
+            }, 
+            
+            {
+                id: 20,
                 sub_header:"MISSION AND VISION",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs17.jpg'>" +
+                    "<img src='img/abfs/abfs20F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "To be a leader and role model in a broad-based and integrated financial services business."+
                     "</div>"
             },
             {
-                id: 18,
+                id: 21,
                 sub_header:"4 PILLARS OF OUR VISION",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -632,37 +677,37 @@ var slide_config= [
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abfs/abfs18.jpg'>" +
+                    "<img src='img/abfs/abfs21F.jpg'>" +
                     "</div>"
             },
             {
-                id: 19,
+                id: 22,
                 sub_header:"1. TO BE A LEADER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs19.jpg'>" +
+                    "<img src='img/abfs/abfs22F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "We are committed to being a leader in all facets of our businesses, rather than being just another participant in this race."+ 
                     "</div>"
             },
             {
-                id: 20,
+                id: 23,
                 sub_header:"2. TO BE A ROLE MODEL",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "We will not become leaders by cutting corners or making compromises. Whatever we do, we will strive to be the best in class. And if we are the best, then our customer will have no reason to go elsewhere – therefore our leadership is assured, on pure merit."+
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left' >" +
-                    "<img src='img/abfs/abfs20.jpg'>" +
+                    "<img src='img/abfs/abfs23F.jpg'>" +
                     "</div>"
             },
             {
-                id: 21,
+                id: 24,
                 sub_header:"3. TO BE A BROAD-BASED PLAYER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs21.jpg'>" +
+                    "<img src='img/abfs/abfs24F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "We are committed to meeting all the felt and unfelt needs of our target customer. And thereby, we can retain him or her across their needs and lifestages."+
@@ -670,18 +715,18 @@ var slide_config= [
 
             },
             {
-                id: 22,
+                id: 25,
                 sub_header:"4. WE AIM TO BE AN INTEGRATED PLAYER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs22.jpg'>" +
+                    "<img src='img/abfs/abfs25F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "We believe that this approach gives us a competitive edge with regards to all our key stakeholders." +
                     "</div>"
             },
             {
-                id: 23,
+                id: 26,
                 sub_header:"OUR VALUES",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -695,15 +740,15 @@ var slide_config= [
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abfs/abfs23.jpg'>" +
+                    "<img src='img/abfs/abfs26F.jpg'>" +
                     "</div>"
             },
             {
-                id: 24,
+                id: 27,
                 sub_header:"1. INTEGRITY",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs24.jpg'>" +
+                    "<img src='img/abfs/abfs27F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "Our steadfast loyalty to the company's principles.Integrity means acting and taking decisions in a manner that is fair, honest, following the highest standards of professionalism and is also perceived to be so."+ 
@@ -711,11 +756,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 25,
+                id: 28,
                 sub_header:"2. COMMITMENT",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs25.jpg'>" +
+                    "<img src='img/abfs/abfs28F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " Towards our clients and stakeholders to provide them with the best. It means doing whatever it takes to deliver value to all stakeholders, on the foundation of integrity."+ 
@@ -723,11 +768,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 26,
+                id: 29,
                 sub_header:"3. PASSION",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs26.jpg'>" +
+                    "<img src='img/abfs/abfs29F.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " Reiterates our determination to outperform competition and set a benchmark for others to follow"+ 
@@ -736,11 +781,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 27,
+                id: 30,
                 sub_header:"4. SEAMLESSNESS",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs27.jpg'>" +
+                    "<img src='img/abfs/abfs30.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " Describes the smooth and unobstructed functioning of our divisions, thinking and working together across functional silos, hierarchies, businesses and geographies."+ 
@@ -748,11 +793,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                 id: 28,
+                 id: 31,
                 sub_header:"5. SPEED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abfs/abfs28.jpg'>" +
+                    "<img src='img/abfs/abfs31.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " Our prompt action and swift delivery of results."+ 
@@ -760,56 +805,13 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 29,
+                id: 32,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "We at ABFS are led by a dynamic CEO:" +
                     " <ul style='text-align: left'>" +
                     "<li>Mr. Ajay Srinivasan (CEO): Under his leadership the financial services business has grown rapidly with an annual turnover of about $ 1 bn and a workforce of over 15000 people. Both the life insurance and mutual fund have become top 5 businesses in the last two years beating industry growth by a large margin.He sets the vision and provides strategic direction and leadership for the Group's Financial Services business. </li>" +
-                    "</ul>" +
-                    "</div>"+ 
-                    "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abfs/abfs29.jpg'>" +
-                    "</div>"
-            },
-            {
-                id: 30,
-                sub_header:"OUR LEADERSHIP TEAM",
-                sub_contents:
-                    "<div class='mid-slide-div content-div '>" +
-                    "We at ABFS are led by a strong and experienced team, They are:" +
-                    " <ul style='text-align: left'>" +
-                    "<li>Mr. Pankaj Razdan (Deputy CEO):He is a part of the core think tank that strategizes and operationalizes the Aditya Birla Group's growth in the financial services business.</li>" +
-                    "<li>Mr. Ajay Kakar (CMO): As the Customer Champion, his mandate includes customer research and insights, brand and communication, product marketing, corporate communications, CRM and providing a unified customer experience.</li>" +
-                    "</ul>" +
-                    "</div>"+ 
-                    "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abfs/abfs30.jpg'>" +
-                    "</div>"
-            },
-            {
-                id: 31,
-                sub_header:"OUR LEADERSHIP TEAM",
-                sub_contents:
-                    "<div class='mid-slide-div content-div '>" +
-                    " <ul style='text-align: left'>" +
-                    "<li>Mr.Mukesh Malik ( COO) is responsible for Technology and Operations for the financial services business covering strategy, policy, process and implementation, as well as Quality and Business Excellence.</li>" +
-                    "<li>Mr. Subhro Bhaduri (CHRO):  He is responsible for the HR strategy, policy and the program management for the financial services businesses of Aditya Birla Group.</li>" +
-                    "</ul>" +
-                    "</div>"+ 
-                    "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abfs/abfs31.jpg'>" +
-                    "</div>"
-            },
-            {
-                id: 32,
-                sub_header:"OUR LEADERSHIP TEAM",
-                sub_contents:
-                    "<div class='mid-slide-div content-div '>" +
-                    " <ul style='text-align: left'>" +
-                    "<li>Mr. A. Dhananjaya (Chief Risk & Compiance Officer): He is responsible for overseeing the compliance and risk functions across all Financial Services businesses. This includes inter alia, credit risk, investment risk, operational risk, regulatory affairs, corporate governance etc.</li>" +
-                    "<li>Dr. Sandeep Dadia: The CEO & Principal officer with ABIBL.</li>"+
                     "</ul>" +
                     "</div>"+ 
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -821,9 +823,10 @@ var slide_config= [
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
+                    "We at ABFS are led by a strong and experienced team, They are:" +
                     " <ul style='text-align: left'>" +
-                    "<li>Mr.Rakesh Singh: The Chief Executive Officer of Aditya Birla Finance Ltd.In this role, he develops and implements robust business plans and builds a team with a culture of high performance, transparency and accountability.</li>"+
-                    "<li>Mr.Tushar Shah: The CEO for the Infrastructure, Project and Structured finance business of the Aditya Birla Financial Services (ABFS). The Infrastructure Finance space encompasses infrastructure & project linked lending, debt syndication and an infrastructure PE fund.</li>"+
+                    "<li>Mr. Pankaj Razdan (Deputy CEO):He is a part of the core think tank that strategizes and operationalizes the Aditya Birla Group's growth in the financial services business.</li>" +
+                    "<li>Mr. Ajay Kakar (CMO): As the Customer Champion, his mandate includes customer research and insights, brand and communication, product marketing, corporate communications, CRM and providing a unified customer experience.</li>" +
                     "</ul>" +
                     "</div>"+ 
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -831,7 +834,49 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:34,
+                id: 34,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr.Mukesh Malik ( COO) is responsible for Technology and Operations for the financial services business covering strategy, policy, process and implementation, as well as Quality and Business Excellence.</li>" +
+                    "<li>Mr. Subhro Bhaduri (CHRO):  He is responsible for the HR strategy, policy and the program management for the financial services businesses of Aditya Birla Group.</li>" +
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs34.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 35,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr. A. Dhananjaya (Chief Risk & Compiance Officer): He is responsible for overseeing the compliance and risk functions across all Financial Services businesses. This includes inter alia, credit risk, investment risk, operational risk, regulatory affairs, corporate governance etc.</li>" +
+                    "<li>Dr. Sandeep Dadia: The CEO & Principal officer with ABIBL.</li>"+
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs35.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 36,
+                sub_header:"OUR LEADERSHIP TEAM",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    " <ul style='text-align: left'>" +
+                    "<li>Mr.Rakesh Singh: The Chief Executive Officer of Aditya Birla Finance Ltd.In this role, he develops and implements robust business plans and builds a team with a culture of high performance, transparency and accountability.</li>"+
+                    "<li>Mr.Tushar Shah: The CEO for the Infrastructure, Project and Structured finance business of the Aditya Birla Financial Services (ABFS). The Infrastructure Finance space encompasses infrastructure & project linked lending, debt syndication and an infrastructure PE fund.</li>"+
+                    "</ul>" +
+                    "</div>"+ 
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs36.jpg'>" +
+                    "</div>"
+            },
+            {
+                id:37,
                 sub_header:"WE LOOK OUT FOR OUR EMPLOYEES",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -843,7 +888,54 @@ var slide_config= [
                     "</ul>" +
                     "</div>" +
                     "<div class='mid-slide-div img-div padding-left'>" +
-                    "<img src='img/abfs/abfs34.jpg'>" +
+                    "<img src='img/abfs/abfs37.jpg'>" +
+                    "</div>"
+            },
+            {
+                id:38,
+                sub_header:"LEARNING & DEVELOPMENT FOR ABFS EMPLOYEES",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "<ul style='text-align: left'>" +
+                    "<li>Simple ways to boost your learning!<li/>" +
+                    "<li> Did you know every Business Unit has a learning and development team which ensures training for all employees?<li/>" +
+                    "<li> Employees also get an opportunity to attend trainings conducted at the central level by ABFS University.<li/>" +
+                    "</ul>" +
+                    "</div>" +
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs38.jpg'>" +
+                    "</div>"
+            },
+            {
+                id:39,
+                sub_header:"THE ABFS UNIVERSITY (ABFSU)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "<ul style='text-align: left'>" +
+                    "<li> ABFSU conducts leadership, behavioural and sales trainings for select employees.<li/>" +
+                    "<li> ABFSU drives online learning in the organization with help of Gyanodaya.<li/>" +
+                    "<li> Employees can choose from more than 200 e-learning courses available, they get a 'certificate' on successful course completion.<li/>" +
+                    "</ul>" +
+                    "</div>" +
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs39.jpg'>" +
+                    "</div>"
+            },
+            {
+                id:40,
+                sub_header:"THE ABFS UNIVERSITY (ABFSU)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "<ul style='text-align: left'>" +
+                    "<li>You will really like these insipiring sessions!<li/>" +
+                    "<li>Leadership and Behavioural courses by Harvard.<li/>" +
+                    "<li>Skillsoft:Gyanodaya Virtual Campus’s behavioural and Skill based courses.<li/>" +
+                    "<li>FLIP:Functional courses specifically for ABFS employees to learn financial concepts.<li/>" +
+                    "<li>CIEL:Macroeconomic courses.<li/>" +
+                    "</ul>" +
+                    "</div>" +
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfs40.jpg'>" +
                     "</div>"
             }
 
@@ -1074,8 +1166,6 @@ var slide_config= [
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "At the Aditya Birla Group, success comes to those who believe in themselves and push their boundaries. The Group encourages you to reach and surpass your best performance. With emphasis on competitive compensation, performance incentives, international assignments, Group-wide recognition and much more. To shine, you need to truly impress only yourself!." +
-                    "</div>" +
-                    "<div class='mid-slide-div img-div padding-left'>" +
                     "</div>"
             },
             {

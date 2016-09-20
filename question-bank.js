@@ -170,7 +170,7 @@ questionbank.questions = [
 		category: 3
     },
     {
-        name: "ABFS is in the process of seeking a licence from IRDAI for launching which business?",
+        name: "ABFS has received a licence from IRDAI for launching which business ?",
         weight: 6,
 
         opta: "General Insurance",
@@ -1320,7 +1320,60 @@ questionbank.questions = [
         slide:2,
         subslide:5,
 		category: 4
+    },
+    {
+
+        name: " With _______, employees can choose from more than 200 e-learning courses which provide a 'certificate' post course completion.",
+        weight: 1,
+
+        opta: " ABFS COLLEGE ",
+        optacorrect: "false",
+        optapoints: "10",
+
+        optb: "ABFS E-LEARNING ",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "ABFS UNIVERSITY ",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "Consultancy",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:2,
+        subslide:39,
+        category: 4
+    },
+    {
+
+        name: " Life Unlimited: Our Employee Assistance Program which provides free and confidential counseling support is a part of which WOO initiative.",
+        weight: 1,
+
+        opta: " TO LEARN AND DEVELOP ",
+        optacorrect: "false",
+        optapoints: "10",
+
+        optb: "ABFS E-LEARNING ",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "TO LEAD AN ENRICHED LIFE ",
+        optccorrect: "true",
+        optcpoints: "10",
+
+        optd: "TO BE REWARDED AND RECOGNISED",
+        optdcorrect: "false",
+        optdpoints: "0",
+
+        slide:3,
+        subslide:21,
+        category: 4
     }
+
+
+ 
 ];
 
 for(var i=0, len=questionbank.questions.length; i<len; i++) {
