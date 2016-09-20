@@ -301,7 +301,6 @@ function getSubSlide(sub_slide_id,slide_id){
     for(i in slide_config) {
         if(slide_config[i].slide_id==slide_id){
             data=slide_config[i].sub_slide;
-
             // slideImage = slide_config[i].slideImg;
         }
     }
@@ -1049,6 +1048,8 @@ function modale_last()
 
 
 function openbackPack(n,sub){
+    console.log(n);
+    console.log(sub);
     $("#back_pack_img").trigger('click');
     $(".back-pack-icon").eq(n-1).trigger('click');
     $("#right_slide_btn").attr("sub_slide_id",sub);

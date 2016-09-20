@@ -128,7 +128,7 @@ var slide_config= [
                     "<ul style='text-align: left'>" +
                     "<p><b>OUR VISION:</b> To be a premium conglomerate building leadership in businesses and creating value for all stakeholders</p>" +
                     "<p style='margin-bottom: 0;'><b>OUR MISSION:</b></p>"+
-                    "<li>Delivering best value to all the stakeholders." +
+                    "<li>Delivering best value to all stakeholders." +
                     "<li>Investing in promising sectors</li>" +
                     "<li>Building leadership in businesses</li>" +
                     "<li>A platform to drive synergy of resources</li>" +
@@ -162,7 +162,7 @@ var slide_config= [
                 sub_header: " ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "Also known as ABNL, it is part of the Aditya Birla Group. It has interests in :S " +
+                    "Also known as ABNL, it is part of the Aditya Birla Group. It has interests in : " +
                     "<ul style='text-align: left'>" +
                     "<li>Financial Services - Life Insurance, Asset Management, NBFC, Private Equity," + "Wealth Management, Broking, General Insurance Advisory</li>" +
                     "<li>Telecom</li>" +
@@ -283,7 +283,7 @@ var slide_config= [
                     "<div class='mid-slide-div content-div padding-left'>" +
                     "ABNL has a balanced board consisting of..." +
                     "<ul style='text-align: left'>" +
-                    "1 Executive, 2 Non-Executive, 1 nominee & 4 Independent Directors , including 2 women Directors.<br/><br/>It is led by our Chairman, Mr. Kumar Mangalam Birla" + 
+                    "1 Executive, 2 Non-Executive, 1 nominee & 4 Independent Directors , including 2 women Directors.<br/><br/>It is led by our Chairman, Mr. Kumar Mangalam Birla." + 
                     "</ul>" +
                     "</div>"
             },
@@ -410,7 +410,7 @@ var slide_config= [
                     "ABFS is a significant player in the non-banking financial services space." +
                     " <ul style='text-align: left'>" +
                     "<li> ABFS has an AUM of INR 185,515 Crore as on 31st December 2015.</li>" +
-                    "<li> We have received a licence from IRDAI for launching Tthe 'Health Insurance' business latest by October 2016. This is a joint venture with the MMI Group of South Africa.</li>" +
+                    "<li> We have received a licence from IRDAI for launching the 'Health Insurance' business latest by October 2016. This is a joint venture with the MMI Group of South Africa.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -483,9 +483,9 @@ var slide_config= [
                 sub_header:"Aditya Birla Insurance Brokers Limited<br/>(ABIBL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    " The company,a leading composite general insurance intermediary, specializes in providing insurance broking and risk management solutions for corporates and individuals,also offering reinsurance solutions to insurance companies ." +
+                    " ABIBL is a leading composite general insurance intermediary, specializes in providing insurance broking and risk management solutions for corporates and individuals,also offering reinsurance solutions to insurance companies ." +
                     " <ul style='text-align: left'>" +
-                    "<li> The company focuses on cost-effective and customized insurance packages while ensuring the process of claim settlements is swift and painless.</li>" +
+                    "<li> ABIBL focuses on cost-effective and customized insurance packages while ensuring the process of claim settlements is swift and painless.</li>" +
                     "<li> Experts analyze a client's business and estimate the level of risk exposure before structuring an appropriate general insurance solution.</li>" +
                     "</ul>" +
                     "</div>"+
@@ -498,7 +498,7 @@ var slide_config= [
                 sub_header:"Aditya Birla Money Limited<br/>(ABML)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    " ABML offers equity and derivatives trading through NSE and BSE and currency derivative on MCX-SX. It is a registered Depository Participant." +
+                    " ABML is a registered Depository Participant." +
                     " <ul style='text-align: left'>" +
                     "<li> It is a broking and distribution player, offering equity and derivatives trading through NSE and BSE and currency derivative on MCX-SX.</li>" +
                     "</ul>" +
@@ -613,7 +613,7 @@ var slide_config= [
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     " <ul style='text-align: left'>" +
-                    "<li> ABCSL has been reaching out to retail consumers,helping them manage their finances using technology. It has many firsts associated with it, like e-KYC using app and video call, 'ZIP-SIP' to buy mutual funds SIP with an ease of mobile.</li>" +
+                    "<li> ABCSL has been reaching out to retail consumers,helping them manage their finances using technology. It has many firsts associated with it,e.g. e-KYC using apps and video calls, 'ZIP-SIP' to buy mutual funds SIP with ease on mobile.</li>" +
                     "<li> It helps analyze your investment portfolio.</li>" +
                     "</ul>" +
                     "</div>"+
@@ -629,7 +629,7 @@ var slide_config= [
                     "ABCSL launched My Universe [MU]- the first online personal finance management app. " +
                     " <ul style='text-align: left'>" +
                     "<li>MU detects unnecessary spends & warns you,tracks transactions & points out customized opportunities to save,collates data about income, expenses, investments, risk profile andgenerates customized investment advice.</li>" +
-                    "<li> MU helps one get a health and life cover required from age, liabilities, etc., tracks bills, allows to Auto Pay,track against budgets,paperless ready to transact account, even KYC is done online. Invest as simply as you shop online!</li>" +
+                    "<li> MU helps get a health and life cover basis age, liabilities, etc., tracks bills, allows to Auto Pay,track against budgets, a ready to transact 'paperless'account, &KYC is done online. Invest as simply as you shop online!</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +

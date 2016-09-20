@@ -362,51 +362,99 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "There are ______ pillars of 'WOO'.",
+        name: "_____ Service is a highly customized service from Birla Sun Life Asset Management Company.",
         weight: 3,
 
-        opta: "seven",
+        opta: "Life Planning",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "six",
+        optb: "Equity",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "three",
+        optc: "Estate Management",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "four",
+        optd: "Portfolio Management",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:2,
+        subslide:15,
+		category: 1
+    },
+    {
+        name: "My Universe helps get a _____ cover basis age, liabilities, etc & &KYC is done online.",
+        weight: 3,
+
+        opta: "travel",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "car",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "general",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "health and life",
+        optdcorrect: "true",
+        optdpoints: "10",
+
+        slide:2,
+        subslide:18,
+        category: 1
+    },
+    {
+        name: "WOO has _____ pillars.",
+        weight: 3,
+
+        opta: "6",
+        optacorrect: "false",
+        optapoints: "0",
+
+        optb: "12",
+        optbcorrect: "false",
+        optbpoints: "0",
+
+        optc: "3",
+        optccorrect: "false",
+        optcpoints: "0",
+
+        optd: "4",
         optdcorrect: "true",
         optdpoints: "10",
 
         slide:3,
         subslide:2,
-		category: 1
+        category: 1
     },
     {
-        name: "Which of these is not a pillar of 'WOO'?",
+        name: "______ are the Macroeconomic courses offered by ABFS UNIVERSITY",
         weight: 3,
 
-        opta: "Opportunities to enhance your career",
+        opta: "Bachelor in Economics",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Opportunities to learn and develop",
+        optb: "BIEL",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Opportunities to be celebrated",
+        optc: "CIEL",
         optccorrect: "true",
         optcpoints: "10",
 
-        optd: "Opportunities to be rewarded and recognized",
+        optd: "Degree",
         optdcorrect: "false",
         optdpoints: "0",
 
-        slide:3,
-        subslide:2,
+        slide:2,
+        subslide:40,
 		category: 1
     },
     {
@@ -454,79 +502,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:3,
-        subslide:7,
-		category: 4
-    },
-    {
-        name: "GVC stands for ...",
-        weight: 3,
-
-        opta: "Gyansagar Virtual Campus",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Gunsagar Virtual Campus",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Gyanodaya Virtual Campus",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Gyanganga Virtual Campus",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:7,
-		category: 4
-    },
-    {
-        name: "Which one is a unique 'Death in Service' contributory term Insurance benefit plan?",
-        weight: 3,
-
-        opta: "Nisarg",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Nivrutti",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Nishchint",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Nivant",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:7,
-		category: 4
-    },
-    {
-        name: "Which one is an informative portal which offers all health and wellness related information with a range of possible solutions for employees and their family members?",
-        weight: 3,
-
-        opta: "Vitamin H",
-        optacorrect: "true",
-        optapoints: "10",
-
-        optb: "Stay Well",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Health and Wealth",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Daily Dose",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:7,
+        subslide:20,
 		category: 4
     },
     {
@@ -554,7 +530,7 @@ questionbank.questions = [
 		category: 4
     },
     {
-        name: "Ajay Kakar is ____. He is also know as the Customer Champion.",
+        name: "Ajay Kakar is the ____. He is also know as the Customer Champion.",
         weight: 1,
 
         opta: "Deputy CEO",
@@ -698,7 +674,7 @@ questionbank.questions = [
 		category: 3
     },
     {
-        name: "ABFS is in the process of seeking a licence from IRDAI for launching which business?",
+        name: "ABFS sought a licence from IRDAI for launching ______business.",
         weight: 1,
 
         opta: "General Insurance",
@@ -917,30 +893,6 @@ questionbank.questions = [
         name: "Which of these is not a pillar of 'WOO'?",
         weight: 1,
 
-        opta: "Opportunities to enhance your career",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Opportunities to learn and develop",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Opportunities to be celebrated",
-        optccorrect: "true",
-        optcpoints: "10",
-
-        optd: "Opportunities to be rewarded and recognized",
-        optdcorrect: "false",
-        optdpoints: "0",
-
-        slide:3,
-        subslide:2,
-		category: 1
-    },
-    {
-        name: "Which of these is not a pillar of 'WOO'?",
-        weight: 1,
-
         opta: "Opportunities to lead an enriched life",
         optacorrect: "false",
         optapoints: "0",
@@ -960,30 +912,6 @@ questionbank.questions = [
         slide:3,
         subslide:2,
 		category: 1
-    },
-    {
-        name: "This is not one of the 'WOO' initiatives.",
-        weight: 1,
-
-        opta: "Xplore",
-        optacorrect: "false",
-        optapoints: "0",
-
-        optb: "Nishchint",
-        optbcorrect: "false",
-        optbpoints: "0",
-
-        optc: "Vitamin H",
-        optccorrect: "false",
-        optcpoints: "0",
-
-        optd: "Sanskruti",
-        optdcorrect: "true",
-        optdpoints: "10",
-
-        slide:3,
-        subslide:7,
-		category: 4
     },
     {
         name: "GVC stands for ...",
@@ -1055,7 +983,7 @@ questionbank.questions = [
 
         slide:3,
         subslide:21,
-		category: 4
+		category: 2
     },
     {
         name: "Aditya Birla Money Limited is registered as a _____ Participant with both NSDL and CDSL",

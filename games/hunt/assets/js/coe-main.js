@@ -255,6 +255,8 @@ function playQuiz() {
         }
     })
     $("#backpack").unbind('click').on('click', function() {
+        console.log(question.slide);
+        console.log(question.subslide);
         window.parent.openbackPack(question.slide, question.subslide);
     });
 
