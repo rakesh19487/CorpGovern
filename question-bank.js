@@ -170,7 +170,7 @@ questionbank.questions = [
 		category: 3
     },
     {
-        name: "ABFS has received a licence from IRDAI for launching which business ?",
+        name: "ABFS has received a licence from IRDAI for launching ______ business.",
         weight: 6,
 
         opta: "General Insurance",
@@ -190,7 +190,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:2,
-        subslide:2,
+        subslide:3,
 		category: 1
     },
     {
@@ -214,7 +214,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:9,
+        subslide:32,
 		category:1
     },
     {
@@ -238,7 +238,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:3,
+        subslide:20,
 		category: 2
     },
     {
@@ -286,7 +286,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:2,
+        subslide:3,
 		category: 1
     },
     {
@@ -478,7 +478,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:7,
+        subslide:6,
 		category: 4
     },
     {
@@ -502,7 +502,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:3,
-        subslide:20,
+        subslide:22,
 		category: 4
     },
     {
@@ -550,7 +550,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:2,
-        subslide:30,
+        subslide:3,
 		category: 1
     },
 	{
@@ -574,7 +574,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:1,
-        subslide:11,
+        subslide:3,
 		category: 4
     },
     {
@@ -622,7 +622,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:3,
-        subslide:17,
+        subslide:18,
 		category: 4
     },
     {
@@ -694,7 +694,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:2,
-        subslide:2,
+        subslide:3,
 		category: 1
     },
     {
@@ -718,7 +718,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:9,
+        subslide:32,
 		category:1
     },
     {
@@ -742,7 +742,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:3,
+        subslide:20,
 		category: 2
     },
     {
@@ -790,7 +790,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:2,
+        subslide:3,
 		category: 1
     },
     {
@@ -934,7 +934,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:12,
+        subslide:13,
 		category: 4
     },
     {
@@ -958,7 +958,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:19,
+        subslide:20,
 		category: 4
     },
     {
@@ -982,7 +982,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:21,
+        subslide:22,
 		category: 2
     },
     {
@@ -1006,7 +1006,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:10,
+        subslide:9,
 		category: 4
     },
     {
@@ -1054,7 +1054,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:20,
+        subslide:23,
 		category: 1
     },
     {
@@ -1078,7 +1078,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:24,
+        subslide:27,
 		category: 4
     },
     {
@@ -1102,7 +1102,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:26,
+        subslide:27,
 		category: 4
     },
     {
@@ -1126,7 +1126,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:24,
+        subslide:25,
 		category: 4
     },
     {
@@ -1174,7 +1174,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:13,
+        subslide:14,
 		category: 3
     },
     {
@@ -1296,7 +1296,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:21,
+        subslide:22,
         category: 4
     }
 

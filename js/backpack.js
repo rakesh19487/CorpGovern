@@ -104,7 +104,7 @@ var slide_config= [
                     "<img src='img/abg/abg5.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
-                    "<p>Not only is ABG a business leader in India, but also internationally</p> " +
+                    "<p>Not only is ABG a business leader in India, but also internationally..</p> " +
                     "<ul style='text-align: left'>" +
                     "<li>We are an Indian MNC with the largest manufacturing operations in the US.</li>" +
                     "<li>We have the world’s largest Aluminum rolling unit</li>" +
@@ -244,10 +244,9 @@ var slide_config= [
                     "<img src='img/abg/abg13.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
-                    "About its balance sheet: " +
                     "<ul style='text-align: left'>" +
-                    "<li>Standalone balance sheet has been ABNL’s growth engine & a platform to drive synergy of capital resources.</li>" +
-                    "<li>With steady FCF generation from divisions & its ability to pool cash resources," + "ABNL’s standalone balance sheet stands strong to drive its growth plans.</li>" +
+                    "<li>A Standalone balance sheet has been ABNL’s growth engine & a platform to drive synergy of capital resources.</li>" +
+                    "<li>With steady FCF generation from divisions & its ability to pool cash resources," + "ABNL’s balance sheet drives its growth plans.</li>" +
                     "<li>In FY16, it incurred capex of 110 Cr. for divisions and infused capital of 967 Cr. in Financial Services.</li>" + 
                     "<li>Adjusting for sale proceeds & subsidy realisation, Net Debt / EBITDA for ABNL stands at comfortable position.</li>" +
                     "</ul>" +
@@ -405,7 +404,7 @@ var slide_config= [
                     "ABFS is a significant player in the non-banking financial services space." +
                     " <ul style='text-align: left'>" +
                     "<li> ABFS has an AUM of INR 185,515 Crore as on 31st December 2015.</li>" +
-                    "<li> We have received a licence from IRDAI for launching the 'Health Insurance' business latest by October 2016. This is a joint venture with the MMI Group of South Africa.</li>" +
+                    "<li> We have received a licence from IRDAI for launching the 'Health Insurance' business,will be latest by October 2016. This is a joint venture with the MMI Group of South Africa.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -419,7 +418,6 @@ var slide_config= [
                     "<div class='mid-slide-div content-div '>" +
                     "ABFSG operates across financial services." +
                     " <ul style='text-align: left'>" +
-                    "<li> First, we will review Aditya Birla Finance Limited.</li>"+
                     "<li> Incorporated in 1991, Aditya Birla Finance Limited is one of India's most reputed non-banking financial companies, offering customized solutions in areas of Capital Markets, Corporate Finance, Commercial Real Estate & Mortgages and Project & Structured Finance.</li>" +
                     "<li> Capital Market solutions offers the best opportunity to meet liquidity requirements by providing finance against the security of various investments in the capital market.</li>" +
                     "</ul>" +
@@ -433,8 +431,8 @@ var slide_config= [
                 sub_header:"Aditya Birla Finance Limited<br/>(ABFL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +                                            
-                    "<li> Corporate Finance solutions are aimed towards SMEs, mid-corporate and large corporate clients to meet their working capital and growth finance needs.</li>" +
-                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting & commercial property purchase loan, enabling customers to tap the hidden potential of their commercial or residential property to fulfill their financial objectives.</li>" +
+                    "<li> Corporate Finance solutions are aimed towards SMEs, mid-corporate and large corporate clients to meet their working capital & growth finance needs.</li>" +
+                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting & commercial property loans, to tap the hidden potential of commercial or residential property to fulfill financial objectives.</li>" +
                     "<li> The Project And Structured Finance Group has a dedicated desk for Debt Capital Markets & Syndication Services. </li>" +
                     "</ul>" +
                     "</div>"+
@@ -509,8 +507,8 @@ var slide_config= [
                     "<div class='mid-slide-div content-div '>" +
                     " ABMML is a one stop shop for all Treasury & Wealth needs." +
                     " <ul style='text-align: left'>" +
-                    "<li> With 500+ customers across India, an AUA under advisory mandate of Rs1500CR, ABMM is backed by a strong research team, operations & transaction support team.</li>" +
-                    "<li>ABMM focuses on clients returns,offering investment advisory on portfolio risk and return,traditional investment solutions & structured products. </li>" +
+                    "<li> With 500+ customers in India, an AUA under advisory mandate of Rs1500CR, ABMM is backed by a strong research, operations & transaction support teams.</li>" +
+                    "<li>ABMM focuses on offering investment advisory on portfolio risk and return,traditional investment solutions & structured products. </li>" +
                     "<li> It also offers alternate investments,liability management & protection/risk management products.</li>" +
                     "</ul>" +
                     "</div>"+
@@ -621,10 +619,10 @@ var slide_config= [
                 sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "ABCSL launched My Universe [MU]- the first online personal finance management app. " +
+                    "ABCSL launched My Universe [MU] the 1st online personal finance management app. " +
                     " <ul style='text-align: left'>" +
-                    "<li>MU detects unnecessary spends & warns you,tracks transactions & points out customized opportunities to save,collates data about income, expenses, investments, risk profile andgenerates customized investment advice.</li>" +
-                    "<li> MU helps get a health and life cover basis age, liabilities, etc., tracks bills, allows to Auto Pay,track against budgets, a ready to transact 'paperless'account, &KYC is done online. Invest as simply as you shop online!</li>" +
+                    "<li>MU detects unnecessary spends,tracks transactions & points out customized opportunities to save,collates data about income, expenses, investments, & generates customized investment advice.</li>" +
+                    "<li> MU helps get a health and life cover basis age, liabilities, etc., is a ready to transact 'paperless'account & KYC is done online. Invest as simply as you shop online!</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -636,7 +634,7 @@ var slide_config= [
                 sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "My Universe [MU] app:The Android mobile app got more than 1 L downloads within 2 months of launch. " +
+                    "My Universe [MU] app:The Android mobile app got more than 1L downloads within 2 months of its launch. " +
                     " <ul style='text-align: left'>" +
                     "<li>MU shows the trends how your income, investment returns and net worth have fared over a period</li>" +
                     "<li> MU shows net worth, balances of each account, access to transaction of each accounts, pending bills, alerts and advice, with a 'Money Snapshot'!</li>" +
@@ -1216,7 +1214,7 @@ var slide_config= [
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " <ul style='text-align: left'>" +
-                    "<li> Employment Benefits: Nishchint a unique 'Death in Service' contributory term. Insurance providing monetary relief to the family of an employee in the event of his/her death while in service.Insurance- medical, personal accident and hospitalization is offered to all employees. </li>" +
+                    "<li> Employment Benefits: Nishchint- a unique 'Death in Service' contributory term. Insurance providing monetary relief to the family of an employee in the event of his/her death while in service.Insurance- medical, personal accident and hospitalization is offered to all employees. </li>" +
                     "<li> Recognition Benefits: Aditya Birla Awards for Outstanding Achievement for individuals and teams.Performance Recognition in Delivering Excellence for employees who excel in delivering business critical projects.</li>" +
                     "</ul>" +
                     "</div>"
