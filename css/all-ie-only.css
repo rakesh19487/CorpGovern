@@ -312,6 +312,6 @@
         height: initial !important;
     }
     #zone-tale-3 span{
-        left: 5%;
-        top: 10%;
+        left: 5% !important;
+        top: 10% !important;
     }
