@@ -7,7 +7,7 @@ var platformData = {
         
             {
                 description: "Snowstorm! Can't see a thing ahead, Can you? I could let you into my cave but you need to answer a couple of questions first.",
-                sequence: 1,
+                sequence: 3,
                 decks: [2],
                 games: [5],
                 videos: [0],
@@ -23,7 +23,7 @@ var platformData = {
             },
             {
                 description: "Running is not an option here. You can't outrun the beast. How about trapping the beast? Try this quiz and you might be able to save yourself!",
-                sequence: 3,
+                sequence: 1,
                 decks: [3],
                 games: [6],
                 videos: [2],

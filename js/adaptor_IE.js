@@ -331,9 +331,9 @@ function initInstructions(){
         });
     }, 200);
 
-    $('.close-inst-backdrop').unbind('click').on('click',function(){
-         $("#inst-backdrop").fadeOut(200);
-    })
+    // $('.close-inst-backdrop').unbind('click').on('click',function(){
+    //      $("#inst-backdrop").fadeOut(200);
+    // })
 }
 function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");

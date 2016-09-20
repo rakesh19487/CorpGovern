@@ -530,7 +530,7 @@ questionbank.questions = [
 		category: 4
     },
     {
-        name: "Ajay Kakar is the ____. He is also know as the Customer Champion.",
+        name: "Ajay Kakar is the ____. He is also known as the Customer Champion.",
         weight: 1,
 
         opta: "Deputy CEO",
