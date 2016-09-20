@@ -240,7 +240,7 @@
         padding: 0 2%;
         position: relative;
         text-align: left;
-        top: 8%;
+        top: 16% !important;
         width: 43%;
         z-index: 9;
     }
