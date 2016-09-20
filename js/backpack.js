@@ -1,7 +1,6 @@
 var back_pack=[
     {
         id:1,
-//        icon:"pickaxe.png",
         icon:"d1.png",
         icon_active:"a1.png",
         name:"Pickaxe",
@@ -10,7 +9,6 @@ var back_pack=[
     },
     {
         id:2,
-//        icon:"Rope-SnowLeopard.png",
         icon:"d2.png",
         icon_active:"a2.png",
         name:"Rope",
@@ -19,7 +17,6 @@ var back_pack=[
     },
     {
         id:3,
-//        icon:"Goggles-SnowStorm.png",
         name:"Goggles",
         icon_active:"a3.png",
         icon:"d3.png",
@@ -32,7 +29,6 @@ var slide_config= [
     {
         slide_id:1,
         header:"<center>INTRODUCTION TO <br/>ADITYA BIRLA GROUP",
-        // slideImg:"img/abg/abglogo.png",
         sub_slide:[
             {
                 id: 1,
@@ -372,7 +368,6 @@ var slide_config= [
     {
         slide_id: 2,
         header:"INTRODUCTION TO ABFS",
-        // slideImg:"img/ab-financial-logo2.jpg",
         sub_slide:[
             {
                 id: 1,
@@ -553,7 +548,7 @@ var slide_config= [
                     "</div>"
             },
             {
-            id: 13,
+                id: 13,
                 sub_header:"Birla Sun Life Insurance Company Limited<br/>(BSLIC)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -944,7 +939,6 @@ var slide_config= [
     {
         slide_id: 3,
         header:"A World Of Opportunities (WOO)",
-        // slideImg:"img/woo/woologo2.jpg",
         sub_slide:[
             {
                 id: 1,
@@ -1073,7 +1067,7 @@ var slide_config= [
                     "</div>"
                },
                {    
-                id: 9,
+                id: 10,
                 sub_header:"WOO INITIATIVES: ENHANCE YOUR CAREER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1088,7 +1082,7 @@ var slide_config= [
                     "</div>"
                },
                {    
-                id: 10,
+                id: 11,
                 sub_header:"WOO INITIATIVES:TO ENHANCE YOUR CAREER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1102,7 +1096,7 @@ var slide_config= [
                     "</div>"
                },
                {
-                id: 11,
+                id: 12,
                 sub_header:"OPPORTUNITIES TO LEARN AND DEVELOP",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -1113,7 +1107,7 @@ var slide_config= [
                     "</div>"
                },
                {
-                id: 12,
+                id: 13,
                 sub_header:"WOO INITIATIVES: TO LEARN AND DEVELOP",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1128,7 +1122,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 13,
+                id: 14,
                 sub_header:"WOO INITIATIVES: TO LEARN AND DEVELOP",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1143,7 +1137,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 14,
+                id: 15,
                 sub_header:"WOO INITIATIVES: TO LEARN AND DEVELOP",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1158,7 +1152,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 15,
+                id: 16,
                 sub_header:"OPPORTUNITIES: TO BE REWARDED AND RECOGNIZED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1169,7 +1163,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 16,
+                id: 17,
                 sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1186,7 +1180,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 17,
+                id: 18,
                 sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1200,7 +1194,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 18,
+                id: 19,
                 sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1214,7 +1208,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 19,
+                id: 20,
                 sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1228,7 +1222,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 20,
+                id: 21,
                 sub_header:"OPPORTUNITIES TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -1239,7 +1233,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 21,
+                id: 22,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1254,7 +1248,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 22,
+                id: 23,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1269,7 +1263,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 23,
+                id: 24,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1284,7 +1278,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 24,
+                id: 25,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1299,7 +1293,7 @@ var slide_config= [
                     "</div>"
             },
            {
-                id: 25,
+                id: 26,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1313,7 +1307,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 26,
+                id: 27,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 last_slide: true,
                 sub_contents:

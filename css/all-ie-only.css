@@ -280,12 +280,13 @@
     }
 
     .hangman #continue:hover, #try-again:hover, #backpack:hover {
-        background: none !important;
+        /*background: none !important;*/
+        background: url("../img/game_btn_active_hangman.png") !important;
         background-size: 0 !important;
     }
 
     .caveman .header{
-        left: 31.5%;
+        left: 33%;
         position: absolute;
         top: 28%;
         width: 51%;
@@ -309,4 +310,8 @@
 
     .back_pack_icon{
         height: initial !important;
+    }
+    #zone-tale-3 span{
+        left: 5%;
+        top: 10%;
     }
