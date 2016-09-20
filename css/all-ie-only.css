@@ -240,7 +240,8 @@
         padding: 0 2%;
         position: relative;
         text-align: left;
-        top: 16% !important;
+        /*top: 16% !important;*/
+        margin-top: 8%;
         width: 43%;
         z-index: 9;
     }
