@@ -153,6 +153,7 @@ function initPage() {
 function instruction_click(){
 
     $("#instruction_first").unbind('click').on('click', function() {
+        $("#inst-backdrop").fadeIn(200);
         var display_status_header=$('#instruction_table').css('display');
     });
 }
@@ -331,9 +332,9 @@ function initInstructions(){
         });
     }, 200);
 
-    // $('.close-inst-backdrop').unbind('click').on('click',function(){
-    //      $("#inst-backdrop").fadeOut(200);
-    // })
+    $('.close-inst-backdrop').unbind('click').on('click',function(){
+         $("#inst-backdrop").fadeOut(200);
+    })
 }
 function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
