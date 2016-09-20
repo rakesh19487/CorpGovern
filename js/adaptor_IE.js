@@ -310,8 +310,7 @@ function getSubSlide(sub_slide_id,slide_id){
 }
 
 function initInstructions(){
-    $("#inst-backdrop").fadeOut(200);
-    $("#story-wrapper").append("<div id='inst-backdrop'></div>")
+    $("#story-wrapper").append("<div id='inst-backdrop' style='display:none;'></div>")
     $("#inst-backdrop").append('<div class="instruction_content"  id="instruction_table">'+
 
     '<h3 class="modal-heading">'+"HOW TO PLAY"+' </h3>'  +
