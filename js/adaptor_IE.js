@@ -152,7 +152,7 @@ function initPage() {
 }
 function instruction_click(){
 
-    $("#instruction_first").click(function (e){
+    $("#instruction_first").unbind('click').on('click', function() {
         var display_status_header=$('#instruction_table').css('display');
     });
 }
