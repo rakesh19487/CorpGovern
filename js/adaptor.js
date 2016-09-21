@@ -150,8 +150,8 @@ function initPage() {
 
 		if(currentNode<4){
             // TODO:- Need to uncomment this later
-            // console.log("LMSSetValue");
-			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
+            console.log("LMSSetValue");
+			a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO:- Need to uncomment this later
         }    
     });
@@ -760,11 +760,11 @@ $("#btnSubmit").click(function (e){
     HideDialog();
 
 // TODO:- Need to uncomment this later
- //    scormSetValue("cmi.comments", " , ");
- //    scormSetValue("cmi.objectives.0.id", 0);
-	// a.LMSSetValue("cmi.core.score.raw", 0);
- //    a.LMSCommit("");
-	// a.LMSFinish("");
+    scormSetValue("cmi.comments", " , ");
+    scormSetValue("cmi.objectives.0.id", 0);
+	a.LMSSetValue("cmi.core.score.raw", 0);
+    a.LMSCommit("");
+	a.LMSFinish("");
 // TODO:- Need to uncomment this later    
     window.location.reload();
     e.preventDefault();
@@ -978,8 +978,8 @@ function appendScore(gamescore){
     $("#score_node").html(score + " / 100");
 
 // TODO:- Need to uncomment this later
-    // a.LMSSetValue("cmi.core.score.raw", score);
-    // a.LMSCommit("");
+    a.LMSSetValue("cmi.core.score.raw", score);
+    a.LMSCommit("");
 // TODO:- Need to uncomment this later    
 }
 
@@ -1031,9 +1031,9 @@ function modale_last()
                     $("#dialog2").fadeOut();
                 })
                 // TODO:- Need to uncomment this later
-    //            	a.LMSSetValue("cmi.core.lesson_status", "completed");
-    //             a.LMSCommit("");
-				// a.LMSFinish("");
+               	a.LMSSetValue("cmi.core.lesson_status", "completed");
+                a.LMSCommit("");
+				a.LMSFinish("");
                 // TODO:- Need to uncomment this later
                 //show completion text
                
