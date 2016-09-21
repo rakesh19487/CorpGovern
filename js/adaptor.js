@@ -118,6 +118,7 @@ function initPage() {
             $("#story-nodes").fadeOut(1000).delay(3000).fadeIn(1000);
             $(".loading").fadeIn(500).delay(3000).fadeOut(1000);
             $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500, function() {
+                $('.start_loading').css({zIndex: 6});
                 $('.start_loading').css('display','block');
                 $('#startLoadingMessage').css('display','block');
             });
@@ -1008,8 +1009,8 @@ function appendTime(gametime){
     if (ss<10) ss = "0" + ss;
 
     $("#score_node_time").html(mm +":" + ss);
-    // scormSetValue("cmi.comments", time+",");
-    // scormCommit();
+    scormSetValue("cmi.comments", time+",");
+    scormCommit();
 }
 
 function modale_last()

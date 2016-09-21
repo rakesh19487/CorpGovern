@@ -109,8 +109,10 @@ function initPage() {
             $("#story-nodes").fadeOut(1000).delay(3000).fadeIn(1000);
             $(".loading").fadeIn(500).delay(3000).fadeOut(1000);
             $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500, function() {
-                $('.start_loading').css('display','block');
-                $('#startLoadingMessage').css('display','block');
+                $('.start_loading').css({zIndex: 6});
+                $(".start_loading").fadeIn(500).delay(3000).fadeOut(1000);
+                $("#startLoadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500);
+                // $('#startLoadingMessage').css('display','block');
             });
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
