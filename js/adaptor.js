@@ -78,9 +78,10 @@ function initPage() {
 
 
     initSideIcons();
+    startPagebtn();
     $('#story-nodes').css('pointer-events','none');
 
-    startPagebtn();
+
 
 }
 
@@ -150,8 +151,8 @@ function initPage() {
 
 		if(currentNode<4){
             // TODO:- Need to uncomment this later
-            console.log("LMSSetValue");
-			a.LMSSetValue("cmi.core.lesson_status", "incomplete");
+            // console.log("LMSSetValue");
+			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO:- Need to uncomment this later
         }    
     });
@@ -308,9 +309,12 @@ function getSubSlide(sub_slide_id,slide_id){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
             var curnode = storyConfig.nodes[currentNode-1];
+            $('.story-node').css('display','block');
             $("#story-node-"+ currentNode +" img").attr("src", 'img/' + curnode.icon_active);
             $('#story-nodes').css('pointer-events','auto');
             $('#arrow_pointer').attr('src','img/arrow.gif').css('opacity',1);
+            // $('#story-wrapper').css('backgroundImage','url(img/background1.jpg)')
+            
         }
     }
     $(".top-content" ).empty();
@@ -760,11 +764,11 @@ $("#btnSubmit").click(function (e){
     HideDialog();
 
 // TODO:- Need to uncomment this later
-    scormSetValue("cmi.comments", " , ");
-    scormSetValue("cmi.objectives.0.id", 0);
-	a.LMSSetValue("cmi.core.score.raw", 0);
-    a.LMSCommit("");
-	a.LMSFinish("");
+ //    scormSetValue("cmi.comments", " , ");
+ //    scormSetValue("cmi.objectives.0.id", 0);
+	// a.LMSSetValue("cmi.core.score.raw", 0);
+ //    a.LMSCommit("");
+	// a.LMSFinish("");
 // TODO:- Need to uncomment this later    
     window.location.reload();
     e.preventDefault();
@@ -978,8 +982,8 @@ function appendScore(gamescore){
     $("#score_node").html(score + " / 100");
 
 // TODO:- Need to uncomment this later
-    a.LMSSetValue("cmi.core.score.raw", score);
-    a.LMSCommit("");
+    // a.LMSSetValue("cmi.core.score.raw", score);
+    // a.LMSCommit("");
 // TODO:- Need to uncomment this later    
 }
 
@@ -999,8 +1003,8 @@ function appendTime(gametime){
     if (ss<10) ss = "0" + ss;
 
     $("#score_node_time").html(mm +":" + ss);
-    scormSetValue("cmi.comments", time+",");
-    scormCommit();
+    // scormSetValue("cmi.comments", time+",");
+    // scormCommit();
 }
 
 function modale_last()
@@ -1031,9 +1035,9 @@ function modale_last()
                     $("#dialog2").fadeOut();
                 })
                 // TODO:- Need to uncomment this later
-               	a.LMSSetValue("cmi.core.lesson_status", "completed");
-                a.LMSCommit("");
-				a.LMSFinish("");
+    //            	a.LMSSetValue("cmi.core.lesson_status", "completed");
+    //             a.LMSCommit("");
+				// a.LMSFinish("");
                 // TODO:- Need to uncomment this later
                 //show completion text
                
@@ -1048,8 +1052,6 @@ function modale_last()
 
 
 function openbackPack(n,sub){
-    console.log(n);
-    console.log(sub);
     $("#back_pack_img").trigger('click');
     $(".back-pack-icon").eq(n-1).trigger('click');
     $("#right_slide_btn").attr("sub_slide_id",sub);

@@ -143,7 +143,7 @@ function initPage() {
 		
 		if(currentNode<4) {
             // TODO: uncomment this later
-			a.LMSSetValue("cmi.core.lesson_status", "incomplete");
+			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO: uncomment this later
         }
     });
@@ -153,7 +153,7 @@ function initPage() {
 function instruction_click(){
 
     $("#instruction_first").unbind('click').on('click', function() {
-        // $("#inst-backdrop").fadeIn(200);
+        $("#inst-backdrop").fadeIn(200);
         var display_status_header=$('#instruction_table').css('display');
     });
 }
@@ -293,8 +293,9 @@ function getSubSlide(sub_slide_id,slide_id){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
             $("#story-node-1 img").attr("src", 'img/2.png');
-            $('#arrow_pointer').attr('src','img/arrow.gif').css('opacity',1);
             $('#story-nodes').css('pointer-events','auto');
+            $('#arrow_pointer').attr('src','img/arrow.gif').css('opacity',1);
+            $('#story-wrapper').attr('src','img/background1.jpg');
         }
     }
     $(".top-content" ).empty();
@@ -310,7 +311,7 @@ function getSubSlide(sub_slide_id,slide_id){
 }
 
 function initInstructions(){
-    $("#story-wrapper").append("<div id='inst-backdrop'></div>")
+    $("#story-wrapper").append("<div id='inst-backdrop' style='display:none;'></div>")
     $("#inst-backdrop").append('<div class="instruction_content"  id="instruction_table">'+
 
     '<h3 class="modal-heading">'+"HOW TO PLAY"+' </h3>'  +
@@ -324,13 +325,13 @@ function initInstructions(){
     '<img src="img/close_grey.png" width="100%" />' +
     '</div>' +
     '</div>');
-    setTimeout(function() {
-        $("#demo01").animatedModal({
-            modalTarget: "inst-backdrop",
-            animatedIn: "bounceIn",
-            animatedOut: "bounceOut"
-        });
-    }, 200);
+    // setTimeout(function() {
+    //     $("#demo01").animatedModal({
+    //         modalTarget: "inst-backdrop",
+    //         animatedIn: "bounceIn",
+    //         animatedOut: "bounceOut"
+    //     });
+    // }, 200);
 
     $('.close-inst-backdrop').unbind('click').on('click',function(){
          $("#inst-backdrop").fadeOut(200);
@@ -963,8 +964,8 @@ function appendScore(gamescore){
     $("#score_node").html(score + " / 100");
 
     // TODO: Later uncomment this
-    a.LMSSetValue("cmi.core.score.raw", score);
-    a.LMSCommit("");
+    // a.LMSSetValue("cmi.core.score.raw", score);
+    // a.LMSCommit("");
     // TODO: Later uncomment this
 }
 
@@ -1016,9 +1017,9 @@ function modale_last()
                     $("#dialog2").fadeOut();
                 })
                 // TODO:- Need to uncomment this later
-                a.LMSSetValue("cmi.core.lesson_status", "completed");
-                a.LMSCommit("");
-                a.LMSFinish("");
+                // a.LMSSetValue("cmi.core.lesson_status", "completed");
+                // a.LMSCommit("");
+                // a.LMSFinish("");
                 // TODO:- Need to uncomment this later
                 //show completion text
                
