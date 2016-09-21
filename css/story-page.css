@@ -602,6 +602,8 @@ a.zone-button:visited{
     position: absolute;
     top: 22%;
     width: 38%;
+    display: none;
+    z-index: 1
 }
 .modal-text
 {

@@ -32,8 +32,8 @@ function initPage() {
     if(isNaN(time))
         time  = 0;
 
-    $("body").append('<div class="modal-main"></div>');
-    $(".modal-main").hide();
+    // $("body").append('<div class="modal-main"></div>');
+    // $(".modal-main").hide();
     $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background + ')');
     $('#story-zone').css({
         backgroundImage: 'url(img/' + (platformData.formal ? storyConfig.zone.formalBack : storyConfig.zone.casualBack) + ')',
@@ -1003,6 +1003,7 @@ function modale_last()
     $("body").css("backgroundColor", "black");
     $("#story-wrapper").css({opacity: 0.3, filter: "alpha(opacity=30)"});
     $(".modal-main").fadeIn();
+    $(".modal-main").css('z-index',3);
     var  d = new Date();
     d = d.toLocaleDateString();
     $(".modal-main").empty().append("<img src='img/final.jpg' />");
