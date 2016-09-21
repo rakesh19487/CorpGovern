@@ -153,7 +153,7 @@ function initPage() {
 function instruction_click(){
 
     $("#instruction_first").unbind('click').on('click', function() {
-        $("#inst-backdrop").fadeIn(200);
+        // $("#inst-backdrop").fadeIn(200);
         var display_status_header=$('#instruction_table').css('display');
     });
 }
@@ -310,7 +310,7 @@ function getSubSlide(sub_slide_id,slide_id){
 }
 
 function initInstructions(){
-    $("#story-wrapper").append("<div id='inst-backdrop' style='display:none;'></div>")
+    $("#story-wrapper").append("<div id='inst-backdrop'></div>")
     $("#inst-backdrop").append('<div class="instruction_content"  id="instruction_table">'+
 
     '<h3 class="modal-heading">'+"HOW TO PLAY"+' </h3>'  +
@@ -324,13 +324,13 @@ function initInstructions(){
     '<img src="img/close_grey.png" width="100%" />' +
     '</div>' +
     '</div>');
-    // setTimeout(function() {
-    //     $("#demo01").animatedModal({
-    //         modalTarget: "inst-backdrop",
-    //         animatedIn: "bounceIn",
-    //         animatedOut: "bounceOut"
-    //     });
-    // }, 200);
+    setTimeout(function() {
+        $("#demo01").animatedModal({
+            modalTarget: "inst-backdrop",
+            animatedIn: "bounceIn",
+            animatedOut: "bounceOut"
+        });
+    }, 200);
 
     $('.close-inst-backdrop').unbind('click').on('click',function(){
          $("#inst-backdrop").fadeOut(200);
