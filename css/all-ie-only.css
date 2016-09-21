@@ -279,11 +279,12 @@
         background: white !important;
     }
 
-    .hangman #continue:hover, #try-again:hover, #backpack:hover {
+    /*.hangman #continue:hover, #try-again:hover, #backpack:hover {*/
         /*background: none !important;*/
-        background: url("../img/game_btn_active_hangman.png") !important;
-        background-size: 0 !important;
-    }
+        /*background: url("../img/game_btn_active_hangman.png") !important;*/
+        /*background-size: 0 !important;*/
+        /*background-size: 100% 100% !important;*/
+    /*}*/
 
     .caveman .header{
         left: 33%;
@@ -359,7 +360,7 @@
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size:19px;
         top: 0;
-        margin-top: 43%;
+        margin-top: 33%;
         width: 100%;
         display: none;
         font-size: 2em;

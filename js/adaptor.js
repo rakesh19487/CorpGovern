@@ -35,7 +35,7 @@ function initPage() {
     time = parseInt(time[time.length-2]);
     if(isNaN(time))
         time  = 0;
-    
+
     $("body").append('<div class="modal-main"></div>');
     $(".modal-main").hide();
     $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background + ')');
@@ -759,7 +759,13 @@ $("#btnSubmit").click(function (e){
     a.LMSCommit("");
 	a.LMSFinish("");
 // TODO:- Need to uncomment this later    
-    window.location.reload();
+    // window.location.reload();
+    if(currentNode == 4){
+        changeNodeState();
+    }
+    setTimeout(function(){
+        window.location.reload();
+    },1500);
     e.preventDefault();
 });
 function ShowDialog(modal){

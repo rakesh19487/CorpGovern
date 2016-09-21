@@ -740,7 +740,12 @@ $("#btnSubmit").click(function (e){
 	a.LMSFinish("");
     // TODO:Uncomment
 
-    window.location.reload();
+    if(currentNode == 4){
+        changeNodeState();
+    }
+    setTimeout(function(){
+        window.location.reload();
+    },1500);
     e.preventDefault();
 });
 function ShowDialog(modal){

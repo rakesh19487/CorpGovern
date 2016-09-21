@@ -824,7 +824,7 @@ body
     height: auto;
     left: 53%;
     /* line-height: 21px; */
-    padding: 8px;
+    padding: 8px 7px 3px 8px;
     position: absolute;
     top: 44%;
     width: 30%;
@@ -1105,7 +1105,7 @@ body
     height: 7%;
     left: 56%;
     /* line-height: 21px; */
-    padding: 7px;
+    padding: 7px 7px 0px 7px;
     position: absolute;
     top: 44%;
     width: 27%;
