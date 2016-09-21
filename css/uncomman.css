@@ -2093,7 +2093,7 @@ font-weight:bold;
     top:10%;
     left:25%;
     position: absolute;
-    /*z-index: 3;*/
+    z-index: 3;
     display: table;
 }
 

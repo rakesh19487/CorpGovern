@@ -44,10 +44,10 @@ var storyConfig = {
             icon_complete: "2cc.png",
             photo: "2caveman.jpg",
             description: "Warning: Snowstorm! You need shelter. Lucky for you.",
-            sequence: 4,
+            sequence: 1,
             px: 47,
             py: 58,
-            iepx:50
+            iepx:46
         },
         {
             name: "Fairy Tale",
@@ -59,7 +59,7 @@ var storyConfig = {
             sequence: 2,
             px: 38.8,
             py: 46.5,
-            iepx:41
+            iepx:39
 
         },
         {
@@ -72,7 +72,7 @@ var storyConfig = {
             sequence: 3,
             px: 32.5,
             py: 32.8,
-            iepx: 35.5
+            iepx: 33
         },
         {
             name: "Hunger Game",
@@ -81,10 +81,10 @@ var storyConfig = {
             icon_complete: "5cc.png",
             photo: "4yeti.jpg",
             description: "Beware! This guy is always hungry!",
-            sequence: 1,
+            sequence: 4,
             px: 38,
             py: 19,
-            iepx: 40
+            iepx: 37
             
         }
       

@@ -35,7 +35,9 @@ function initPage() {
     time = parseInt(time[time.length-2]);
     if(isNaN(time))
         time  = 0;
-
+    
+    $("body").append('<div class="modal-main"></div>');
+    $(".modal-main").hide();
     $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background + ')');
     $('#story-zone').css({
         backgroundImage: 'url(img/' + (platformData.formal ? storyConfig.zone.formalBack : storyConfig.zone.casualBack) + ')',
@@ -125,7 +127,6 @@ function initPage() {
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
             initBackpack();
-            initVideo();
             if(score === 0)
             {
                 scoredisp = 0;
@@ -282,24 +283,7 @@ function initBackpack() {
 
 }
 
-function initVideo(){
-    $("#story-wrapper").append('<div class="video_content"  style="display: none" id="video_table">' +
-        '<div class="close-btn video-close"><img src="img/close_grey.png" id="close_btn" class="slide_btn" width="60%" ></div>' +
-        '<video id="player1" src="http://www.w3schools.com/tags/movie.mp4" width=100% height=100%></video>' +
-    '</div>');
 
-    $('.video-close').unbind('click').on('click',function(){
-        $('#video_table').fadeOut('200');
-    })
-
-    $('#player1').mediaelementplayer({
-        success: function(player, node) {
-            player.addEventListener('ended', function(e){
-            });
-        }
-    });
-
-}
 
 function getSubSlide(sub_slide_id,slide_id){
     $('.right-slide').css('visibility', 'visible');
@@ -1018,7 +1002,6 @@ function modale_last()
     $("body").css("backgroundColor", "black");
     $("#story-wrapper").css({opacity: 0.3, filter: "alpha(opacity=30)"});
     $(".modal-main").fadeIn();
-    $(".modal-main").css('z-index',3);
     var  d = new Date();
     d = d.toLocaleDateString();
     $(".modal-main").empty().append("<img src='img/final.jpg' />");

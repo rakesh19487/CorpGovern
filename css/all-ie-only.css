@@ -315,3 +315,52 @@
         left: 5% !important;
         top: 5% !important;
     }
+    
+    .modal-main
+    {
+        height: 480px;
+        width:640px;
+        margin-top:5%;
+        left:25%;
+        position: absolute;
+        z-index: 3;
+        display: block;
+        top:0;
+    }
+        .start_loading
+    {
+        background: rgba(1,1,1,0.7);
+        font-family: Androgyne;
+        background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+        z-index:1;
+        -webkit-animation: snow 10s linear infinite;
+        -moz-animation: snow 10s linear infinite;
+        -ms-animation: snow 10s linear infinite;
+        animation: snow 10s linear infinite;
+        display: none;
+        height: 86%;
+        left: 13%;
+        position: absolute;
+        top: 0;
+        margin-top: 3%;
+        width: 66%;
+    }
+
+
+    #startLoadingMessage {
+        text-align: center;
+        background: rgba(1,1,1,0.4);
+        padding: 7px;
+        font-weight:bold;
+        border-radius: 5px;
+        position: absolute;
+        /* left: 2%; */
+        color: white;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size:19px;
+        top: 0;
+        margin-top: 43%;
+        width: 100%;
+        display: none;
+        font-size: 2em;
+    }

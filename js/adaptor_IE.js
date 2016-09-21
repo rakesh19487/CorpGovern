@@ -32,8 +32,8 @@ function initPage() {
     if(isNaN(time))
         time  = 0;
 
-    // $("body").append('<div class="modal-main"></div>');
-    // $(".modal-main").hide();
+    $("body").append('<div class="modal-main"></div>');
+    $(".modal-main").hide();
     $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background + ')');
     $('#story-zone').css({
         backgroundImage: 'url(img/' + (platformData.formal ? storyConfig.zone.formalBack : storyConfig.zone.casualBack) + ')',
@@ -110,13 +110,12 @@ function initPage() {
             $(".loading").fadeIn(500).delay(3000).fadeOut(1000);
             $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500, function() {
                 // $('.start_loading').css({zIndex: 6});
-                // $(".start_loading").fadeIn('500');
-                // $('#startLoadingMessage').fadeIn('500');
+                $(".start_loading").fadeIn('500');
+                $('#startLoadingMessage').fadeIn('500');
             });
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
             initBackpack();
-            initVideo();
             if(score === 0)
             {
                 scoredisp = 0;
@@ -146,7 +145,7 @@ function initPage() {
 		
 		if(currentNode<4) {
             // TODO: uncomment this later
-			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
+			a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO: uncomment this later
         }
     });
@@ -263,24 +262,6 @@ function initBackpack() {
 
 }
 
-function initVideo(){
-    $("#story-wrapper").append('<div class="video_content"  style="display: none" id="video_table">' +
-        '<div class="close-btn video-close"><img src="img/close_grey.png" id="close_btn" class="slide_btn" width="60%" ></div>' +
-        '<video id="player1" src="http://www.w3schools.com/tags/movie.mp4" width=100% height=100%></video>' +
-    '</div>');
-
-    $('.video-close').unbind('click').on('click',function(){
-        $('#video_table').fadeOut('200');
-    })
-
-    $('#player1').mediaelementplayer({
-        success: function(player, node) {
-            player.addEventListener('ended', function(e){
-            });
-        }
-    });
-
-}
 
 function getSubSlide(sub_slide_id,slide_id){
     $('.right-slide').css('visibility', 'visible');
@@ -380,7 +361,7 @@ function addNodes() {
                     nodeClass = "incomplete-node";
                 }
             }
-            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="display:none;top:' + nodeData.py + '%;left:' + nodeData.iepx + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
+            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.iepx + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
             // $("#story-node-1 img").attr("src", 'img/2.png');
             $( "#story-node-1" ).addClass("click-active this-node").removeClass("click_inactive");
             $( "#story-node-1" ).click(function(){
@@ -752,11 +733,11 @@ $("#btnSubmit").click(function (e){
     HideDialog();
 //    setScore(0);
 // TODO:Uncomment
- //    scormSetValue("cmi.comments", " , ");
- //    scormSetValue("cmi.objectives.0.id", 0);
-	// a.LMSSetValue("cmi.core.score.raw", 0);
- //    a.LMSCommit("");
-	// a.LMSFinish("");
+    scormSetValue("cmi.comments", " , ");
+    scormSetValue("cmi.objectives.0.id", 0);
+	a.LMSSetValue("cmi.core.score.raw", 0);
+    a.LMSCommit("");
+	a.LMSFinish("");
     // TODO:Uncomment
 
     window.location.reload();
@@ -972,8 +953,8 @@ function appendScore(gamescore){
     $("#score_node").html(score + " / 100");
 
     // TODO: Later uncomment this
-    // a.LMSSetValue("cmi.core.score.raw", score);
-    // a.LMSCommit("");
+    a.LMSSetValue("cmi.core.score.raw", score);
+    a.LMSCommit("");
     // TODO: Later uncomment this
 }
 
@@ -1026,9 +1007,9 @@ function modale_last()
                     $("#dialog2").fadeOut();
                 })
                 // TODO:- Need to uncomment this later
-                // a.LMSSetValue("cmi.core.lesson_status", "completed");
-                // a.LMSCommit("");
-                // a.LMSFinish("");
+                a.LMSSetValue("cmi.core.lesson_status", "completed");
+                a.LMSCommit("");
+                a.LMSFinish("");
                 // TODO:- Need to uncomment this later
                 //show completion text
                
