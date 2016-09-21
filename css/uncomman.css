@@ -23,6 +23,40 @@ body
     animation: snow 10s linear infinite;
 }
 
+.start_loading
+{
+    background: rgba(1,1,1,0.7);
+    font-family: Androgyne;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    height: 90%;
+    left: 10%;
+    position: absolute;
+    top: 0;
+    width: 80%;
+    z-index:1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+    display: none;
+}
+
+
+#startLoadingMessage {
+    text-align: center;
+    background: rgba(1,1,1,0.4);
+    padding: 7px;
+    font-weight:bold;
+    border-radius: 5px;
+    position: absolute;
+    /* left: 2%; */
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:19px;
+    top: 45%;
+    width: 100%;
+    display: none;
+}
 #loadingMessage {
     background: rgba(1,1,1,0.4);
     padding: 7px;

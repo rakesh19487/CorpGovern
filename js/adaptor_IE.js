@@ -108,8 +108,10 @@ function initPage() {
             $('#sideiconpanel').css('display','block');
             $("#story-nodes").fadeOut(1000).delay(3000).fadeIn(1000);
             $(".loading").fadeIn(500).delay(3000).fadeOut(1000);
-            $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500);
-
+            $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500, function() {
+                $('.start_loading').css('display','block');
+                $('#startLoadingMessage').css('display','block');
+            });
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
             initBackpack();
@@ -292,10 +294,12 @@ function getSubSlide(sub_slide_id,slide_id){
     if(sub_slide_id==data.length){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
-            $("#story-node-1 img").attr("src", 'img/2.png');
+            var curnode = storyConfig.nodes[currentNode-1];
+            $('.start_loading').css('display','none');
+            $('#startLoadingMessage').css('display','none');
+            $("#story-node-"+ currentNode +" img").attr("src", 'img/' + curnode.icon_active);
             $('#story-nodes').css('pointer-events','auto');
             $('#arrow_pointer').attr('src','img/arrow.gif').css('opacity',1);
-            $('#story-wrapper').attr('src','img/background1.jpg');
         }
     }
     $(".top-content" ).empty();
@@ -746,11 +750,11 @@ $("#btnSubmit").click(function (e){
     HideDialog();
 //    setScore(0);
 
-    scormSetValue("cmi.comments", " , ");
-    scormSetValue("cmi.objectives.0.id", 0);
-	a.LMSSetValue("cmi.core.score.raw", 0);
-    a.LMSCommit("");
-	a.LMSFinish("");
+ //    scormSetValue("cmi.comments", " , ");
+ //    scormSetValue("cmi.objectives.0.id", 0);
+	// a.LMSSetValue("cmi.core.score.raw", 0);
+ //    a.LMSCommit("");
+	// a.LMSFinish("");
     window.location.reload();
     e.preventDefault();
 });

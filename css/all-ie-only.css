@@ -315,7 +315,3 @@
         left: 5% !important;
         top: 10% !important;
     }
-
-    #story-nodes{
-        pointer-events: none !important;
-    }

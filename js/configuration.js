@@ -2,6 +2,7 @@ var storyConfig = {
     name: "Ptotemy",
     background: "background1.jpg",
     background1: "background2.jpg",
+    background2: "background3.jpg",
     zone: {
         px:18,
         py:8,
