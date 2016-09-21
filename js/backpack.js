@@ -501,7 +501,6 @@ var slide_config= [
                     " ABIBL is a leading general insurance intermediary,providing insurance broking & risk management solutions for corporates & individuals,offering reinsurance solutions to insurance companies ." +
                     " <ul style='text-align: left'>" +
                     "<li> ABIBL focuses on cost-effective & customized insurance packages while ensuring the process of claim settlements is swift & painless.</li>" +
-                    "<li> Experts analyze a client's business & estimate the level of risk exposure before structuring an appropriate general insurance solution.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
