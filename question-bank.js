@@ -46,7 +46,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:1,
-        subslide:3,
+        subslide:4,
 		category: 1
     },
 	{
@@ -70,7 +70,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:1,
-        subslide:11,
+        subslide:3,
 		category: 4
     },
     {
@@ -118,7 +118,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:1,
-        subslide:9,
+        subslide:10,
 		category: 2
     },
     {
@@ -142,7 +142,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:1,
-        subslide:7,
+        subslide:8,
 		category: 2
     },
     {
@@ -214,7 +214,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:32,
+        subslide:33,
 		category:1
     },
     {
@@ -238,7 +238,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:20,
+        subslide:2,
 		category: 2
     },
     {
@@ -362,27 +362,27 @@ questionbank.questions = [
 		category: 1
     },
     {
-        name: "_____ Service is a highly customized service from Birla Sun Life Asset Management Company.",
+        name: "BSLAMC has an international presence, it operates in ___ and Singapore..",
         weight: 3,
 
-        opta: "Life Planning",
+        opta: "Sharjah",
         optacorrect: "false",
         optapoints: "0",
 
-        optb: "Equity",
+        optb: "Laos",
         optbcorrect: "false",
         optbpoints: "0",
 
-        optc: "Estate Management",
+        optc: "Vietnam",
         optccorrect: "false",
         optcpoints: "0",
 
-        optd: "Portfolio Management",
+        optd: "Dubai ",
         optdcorrect: "true",
         optdpoints: "10",
 
         slide:2,
-        subslide:15,
+        subslide:17,
 		category: 1
     },
     {
@@ -406,7 +406,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:2,
-        subslide:18,
+        subslide:19,
         category: 1
     },
     {
@@ -454,7 +454,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:40,
+        subslide:41,
 		category: 1
     },
     {
@@ -478,7 +478,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:6,
+        subslide:7,
 		category: 4
     },
     {
@@ -526,7 +526,7 @@ questionbank.questions = [
         optdpoints: "10",
 
         slide:2,
-        subslide:11,
+        subslide:12,
 		category: 4
     },
     {
@@ -547,10 +547,10 @@ questionbank.questions = [
 
         optd: "CMO",
         optdcorrect: "true",
-        optdpoints: "10",
+        optdpoints: "10Kak",
 
         slide:2,
-        subslide:3,
+        subslide:34,
 		category: 1
     },
 	{
@@ -646,7 +646,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:1,
-        subslide:7,
+        subslide:8,
 		category: 2
     },
     {
@@ -718,11 +718,11 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:32,
+        subslide:33,
 		category:1
     },
     {
-        name: "Complete ABFS' mission statement - To be a leader and ____________ in a broad-based and integrated financial services business.",
+        name: "Complete the ABFS' mission statement - To be a leader and ____________ in a broad-based and integrated financial services business.",
         weight: 1,
 
         opta: "pioneer",
@@ -742,7 +742,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:20,
+        subslide:21,
 		category: 2
     },
     {
@@ -958,7 +958,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:20,
+        subslide:21,
 		category: 4
     },
     {
@@ -982,7 +982,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:22,
+        subslide:24,
 		category: 2
     },
     {
@@ -1006,7 +1006,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:9,
+        subslide:10,
 		category: 4
     },
     {
@@ -1030,7 +1030,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:14,
+        subslide:15,
 		category: 4
     },
     {
@@ -1078,7 +1078,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:27,
+        subslide:28,
 		category: 4
     },
     {
@@ -1102,7 +1102,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:27,
+        subslide:29,
 		category: 4
     },
     {
@@ -1122,11 +1122,11 @@ questionbank.questions = [
         optcpoints: "0",
 
         optd: "Helpline ABG",
-        optdcorrect: "false",
+        optdcorrect: "fCodealse",
         optdpoints: "0",
 
         slide:3,
-        subslide:25,
+        subslide:27,
 		category: 4
     },
     {
@@ -1150,7 +1150,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:23,
+        subslide:25,
 		category: 3
     },
     {
@@ -1222,7 +1222,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:15,
+        subslide:16,
 		category: 4 
     },
     {
@@ -1271,7 +1271,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:2,
-        subslide:39,
+        subslide:40,
         category: 4
     },
     {
@@ -1296,7 +1296,7 @@ questionbank.questions = [
         optdpoints: "0",
 
         slide:3,
-        subslide:22,
+        subslide:24,
         category: 4
     }
 

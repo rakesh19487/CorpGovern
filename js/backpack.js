@@ -85,7 +85,7 @@ var slide_config= [
                 sub_header:"ADITYA BIRLA GROUP'S BUSINESSES - INDIA",
                 sub_contents:
                     "<div class='mid-slide-div content-div'>" +
-                    "In India, ABG has leaderships positions in various businesses." +
+                    "In India, ABG has leadership positions in various businesses." +
                     " <ul style='text-align: left'>" +
                     "<li> Aluminium, Cement, Carbon Black, VSF, VFY, Position Branded Apparels, Copper, Chlor-alkali and Insulators </li>" +
                     "<li> Among top 3 Telecom players in wireless revenue market share</li>" +
@@ -104,9 +104,8 @@ var slide_config= [
                     "<img src='img/abg/abg5.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
-                    "<p>Not only is ABG a business leader in India, but also internationally..</p> " +
+                    "<p>We are an Indian MNC with the largest manufacturing operations in the US.</p> " +
                     "<ul style='text-align: left'>" +
-                    "<li>We are an Indian MNC with the largest manufacturing operations in the US.</li>" +
                     "<li>We have the world’s largest Aluminum rolling unit</li>" +
                     "<li>Among the world's top two producers of Viscose Staple Fibre (VSF)</li>" +
                     "<li>Largest producer of Carbon Black in the world in terms of capacity</li>" +
@@ -117,18 +116,12 @@ var slide_config= [
             },
             {
                 id: 6,
-                sub_header:"ABG'S VISION & MISSION?",
+                sub_header:"ABG'S VISION & MISSION",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "<p>What do we believe? What do we want to do?</p> " +
+                    "<p>What do we believe?</p> " +
                     "<ul style='text-align: left'>" +
                     "<p><b>OUR VISION:</b> To be a premium conglomerate building leadership in businesses and creating value for all stakeholders</p>" +
-                    "<p style='margin-bottom: 0;'><b>OUR MISSION:</b></p>"+
-                    "<li>Delivering best value to all stakeholders." +
-                    "<li>Investing in promising sectors</li>" +
-                    "<li>Building leadership in businesses</li>" +
-                    "<li>A platform to drive synergy of resources</li>" +
-                    "<li>To be a responsible corporate citizen</li>" +
                     "</ul>"+
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -137,6 +130,24 @@ var slide_config= [
             },
             {
                 id: 7,
+                sub_header:"ABG'S MISSION:WHAT WE WANT TO DO?.",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +
+                    "<p>Our mission statment clearly sums up do we want to do.</p> " +
+                    "<ul style='text-align: left'>" +
+                    "<li>Delivering best value to all stakeholders." +
+                    "<li>Investing in promising sectors</li>" +
+                    "<li>Building leadership in businesses</li>" +
+                    "<li>A platform to drive synergy of resources</li>" +
+                    "<li>To be a responsible corporate citizen</li>" +
+                    "</ul>"+
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abg/abgmis.jpg'>" +
+                    "</div>"
+            },
+            {
+                id: 8,
                 sub_header:"ABG'S POWER OF 5",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -154,7 +165,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 8,
+                id: 9,
                 sub_header: " ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -170,7 +181,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 9,
+                id: 10,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -187,7 +198,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 10,
+                id: 11,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -199,11 +210,11 @@ var slide_config= [
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div'>" +
-                    "<img src='img/abg/abg10.jpg'>" +
+                    "<img src='img/abg/abg10.png'>" +
                     "</div>"
             },
             {
-                id: 11,
+                id: 12,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -220,7 +231,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 12,
+                id: 13,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -237,7 +248,7 @@ var slide_config= [
 
             },
             {
-                id: 13,
+                id: 14,
                 sub_header:"ADITYA BIRLA NUVO LIMITED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -253,7 +264,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 14,
+                id: 15,
                 sub_header:"ADITYA BIRLA NUVO LIMITED - DELIVERING VALUE",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -269,7 +280,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 15,
+                id: 16,
                 sub_header:"ADITYA BIRLA NUVO LIMITED - THE TEAM",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -283,7 +294,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 16,
+                id: 17,
                 sub_header:"ADITYA BIRLA NUVO LIMITED - MANAGEMENT",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -301,7 +312,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 17,
+                id: 18,
                 sub_header:"CORPORATE SOCIAL RESPONSIBILITY (CSR)",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -316,7 +327,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 18,
+                id: 19,
                 sub_header:"CORPORATE SOCIAL RESPONSIBILITY (CSR)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -331,7 +342,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 19,
+                id: 20,
                 sub_header:"CORPORATE SOCIAL RESPONSIBILITY (CSR)",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -346,7 +357,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 20,
+                id: 21,
                 sub_header:"OUR ACHIEVEMENTS",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -360,7 +371,8 @@ var slide_config= [
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/abg/abg20.jpg'>" +
                     "</div>"
-            }
+            },
+            
             
         ]
     },
@@ -432,16 +444,27 @@ var slide_config= [
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +                                            
                     "<li> Corporate Finance solutions are aimed towards SMEs, mid-corporate and large corporate clients to meet their working capital & growth finance needs.</li>" +
-                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting & commercial property loans, to tap the hidden potential of commercial or residential property to fulfill financial objectives.</li>" +
-                    "<li> The Project And Structured Finance Group has a dedicated desk for Debt Capital Markets & Syndication Services. </li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/abfs/abfs5.jpg'>" +
                     "</div>"
-            },        
+            },
             {
                 id: 6,
+                sub_header:"Aditya Birla Finance Limited<br/>(ABFL)",
+                sub_contents:
+                    "<div class='mid-slide-div content-div '>" +                                            
+                    "<li> Commercial Real Estate & Mortgage solutions comprise loans against property, lease rental discounting & commercial property loans, to tap the hidden potential of commercial or residential property to fulfill financial objectives.</li>" +
+                    "<li> The Project And Structured Finance Group has a dedicated desk for Debt Capital Markets & Syndication Services. </li>" +
+                    "</ul>" +
+                    "</div>"+
+                    "<div class='mid-slide-div img-div padding-left'>" +
+                    "<img src='img/abfs/abfsestate.jpg'>" +
+                    "</div>"
+            },   
+            {
+                id: 7,
                 sub_header:"Aditya Birla Housing Finance Limited<br/>(ABHFL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -456,7 +479,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 7,
+                id: 8,
                 sub_header:"Aditya Birla Housing Finance Limited<br/>(ABHFL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -472,14 +495,14 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 8,
+                id: 9,
                 sub_header:"Aditya Birla Insurance Brokers Limited<br/>(ABIBL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    " ABIBL is a leading composite general insurance intermediary, specializes in providing insurance broking and risk management solutions for corporates and individuals,also offering reinsurance solutions to insurance companies ." +
+                    " ABIBL is a leading composite general insurance intermediary, specializing in providing insurance broking & risk management solutions for corporates & individuals,also offering reinsurance solutions to insurance companies ." +
                     " <ul style='text-align: left'>" +
-                    "<li> ABIBL focuses on cost-effective and customized insurance packages while ensuring the process of claim settlements is swift and painless.</li>" +
-                    "<li> Experts analyze a client's business and estimate the level of risk exposure before structuring an appropriate general insurance solution.</li>" +
+                    "<li> ABIBL focuses on cost-effective & customized insurance packages while ensuring the process of claim settlements is swift and painless.</li>" +
+                    "<li> Experts analyze a client's business & estimate the level of risk exposure before structuring an appropriate general insurance solution.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -487,7 +510,7 @@ var slide_config= [
                     "</div>"
             },        
             {
-                id: 9,
+                id: 10,
                 sub_header:"Aditya Birla Money Limited<br/>(ABML)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -501,7 +524,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 10, 
+                id: 11, 
                 sub_header:"Aditya Birla Money Mart Limited -Wealth Management <br/>(ABMML)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -517,11 +540,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 11,
+                id: 12,
                 sub_header:"Aditya Birla Capital Advisors Private Limited<br/>(ABCAPL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    " Aditya Birla Capital Advisors Private Limited offers investment management and advisory services as Aditya Birla Private Equity (ABPE) to domestic and global investors." +
+                    " ABCAPL offers investment management and advisory services as Aditya Birla Private Equity (ABPE) to domestic and global investors." +
                     " <ul style='text-align: left'>" +
                     "<li> ABPE focuses on growth investments in mid-market companies, with India as the investment destination.</li>" +
                     "<li> It currently manages Rs. 1,179 crore under two funds i.e. Aditya Birla Private Equity - Fund I and Aditya Birla Private Equity – Sunrise Fund.</li>" +
@@ -532,13 +555,13 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 12,
+                id: 13,
                 sub_header:"Birla Sun Life Insurance Company Limited<br/>(BSLICL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     " BSLI is a joint venture between the Aditya Birla Group and Sun Life Financial Inc., one of the leading international financial services organizations from Canada." +
                     " <ul style='text-align: left'>" +
-                    "<li> BSLI has a customer base of over two and half million policy holders. The Company offers a complete range of offerings comprising protection solutions, children's future solutions, wealth with protection solutions.</li>" +
+                    "<li> BSLI has a customer base of over 2.5 million policy holders.It offers a complete range of offerings comprising protection solutions, children's future solutions, wealth with protection solutions.</li>" +
                     "</ul>" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -546,7 +569,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 13,
+                id: 14,
                 sub_header:"Birla Sun Life Insurance Company Limited<br/>(BSLIC)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -559,7 +582,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 14,
+                id: 15,
                 sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -573,7 +596,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 15,
+                id: 16,
                 sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -586,7 +609,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 16,
+                id: 17,
                 sub_header:"Birla Sun Life Asset Management Company Limited  (BSLAMC)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -601,7 +624,7 @@ var slide_config= [
                     "</div>"
             }, 
             {
-                id: 17,
+                id: 18,
                 sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -615,7 +638,7 @@ var slide_config= [
                     "</div>"
             }, 
             {
-                id: 18,
+                id: 19,
                 sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -630,7 +653,7 @@ var slide_config= [
                     "</div>"
             }, 
             {
-                id: 19,
+                id: 20,
                 sub_header:"Aditya Birla Customer Services Limited (ABCSL)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -644,9 +667,8 @@ var slide_config= [
                     "<img src='img/abfs/abfs19.jpg'>" +
                     "</div>"
             }, 
-            
             {
-                id: 20,
+                id: 21,
                 sub_header:"MISSION AND VISION",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -657,7 +679,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 21,
+                id: 22,
                 sub_header:"4 PILLARS OF OUR VISION",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -674,7 +696,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 22,
+                id: 23,
                 sub_header:"1. TO BE A LEADER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -685,7 +707,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 23,
+                id: 24,
                 sub_header:"2. TO BE A ROLE MODEL",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -696,7 +718,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 24,
+                id: 25,
                 sub_header:"3. TO BE A BROAD-BASED PLAYER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -708,7 +730,7 @@ var slide_config= [
 
             },
             {
-                id: 25,
+                id: 26,
                 sub_header:"4. WE AIM TO BE AN INTEGRATED PLAYER",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -719,7 +741,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 26,
+                id: 27,
                 sub_header:"OUR VALUES",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -737,7 +759,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 27,
+                id: 28,
                 sub_header:"1. INTEGRITY",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -749,7 +771,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 28,
+                id: 29,
                 sub_header:"2. COMMITMENT",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -761,7 +783,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 29,
+                id: 30,
                 sub_header:"3. PASSION",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -774,7 +796,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 30,
+                id: 31,
                 sub_header:"4. SEAMLESSNESS",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -786,7 +808,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                 id: 31,
+                 id: 32,
                 sub_header:"5. SPEED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -798,11 +820,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 32,
+                id: 33,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "We at ABFS are led by a dynamic CEO:" +
+                    "We, at ABFS are led by a dynamic CEO:" +
                     " <ul style='text-align: left'>" +
                     "<li>Mr. Ajay Srinivasan (CEO): Under his leadership the financial services business has grown rapidly with an annual turnover of about $ 1 bn and a workforce of over 15000 people. Both the life insurance and mutual fund have become top 5 businesses in the last two years beating industry growth by a large margin.He sets the vision and provides strategic direction and leadership for the Group's Financial Services business. </li>" +
                     "</ul>" +
@@ -812,11 +834,11 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 33,
+                id: 34,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "We at ABFS are led by a strong and experienced team, They are:" +
+                    "We, at ABFS are led by a strong and experienced team, They are:" +
                     " <ul style='text-align: left'>" +
                     "<li>Mr. Pankaj Razdan (Deputy CEO):He is a part of the core think tank that strategizes and operationalizes the Aditya Birla Group's growth in the financial services business.</li>" +
                     "<li>Mr. Ajay Kakar (CMO): As the Customer Champion, his mandate includes customer research and insights, brand and communication, product marketing, corporate communications, CRM and providing a unified customer experience.</li>" +
@@ -827,7 +849,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 34,
+                id: 35,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -841,7 +863,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 35,
+                id: 36,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -855,7 +877,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 36,
+                id: 37,
                 sub_header:"OUR LEADERSHIP TEAM",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -869,7 +891,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:37,
+                id:38,
                 sub_header:"WE LOOK OUT FOR OUR EMPLOYEES",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -885,7 +907,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:38,
+                id:39,
                 sub_header:"LEARNING & DEVELOPMENT FOR ABFS EMPLOYEES",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -900,7 +922,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:39,
+                id:40,
                 sub_header:"THE ABFS UNIVERSITY (ABFSU)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
@@ -915,16 +937,16 @@ var slide_config= [
                     "</div>"
             },
             {
-                id:40,
+                id:41,
                 sub_header:"THE ABFS UNIVERSITY (ABFSU)",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
                     "<ul style='text-align: left'>" +
                     "<li>You will really like these insipiring sessions!<li/>" +
                     "<li>Leadership and Behavioural courses by Harvard.<li/>" +
-                    "<li>Skillsoft:Gyanodaya Virtual Campus’s behavioural and Skill based courses.<li/>" +
-                    "<li>FLIP:Functional courses specifically for ABFS employees to learn financial concepts.<li/>" +
-                    "<li>CIEL:Macroeconomic courses.<li/>" +
+                    "<li>Skillsoft: Gyanodaya Virtual Campus’s behavioural and Skill based courses.<li/>" +
+                    "<li>FLIP: Functional courses specifically for ABFS employees to learn financial concepts.<li/>" +
+                    "<li>CIEL: Macroeconomic courses.<li/>" +
                     "</ul>" +
                     "</div>" +
                     "<div class='mid-slide-div img-div padding-left'>" +
@@ -946,7 +968,7 @@ var slide_config= [
                     "<img src='img/woo/woologo2.jpg'>" +
                     "</div>"+
                    "<div class='mid-slide-div content-div padding-left'>" +
-                   "<p>At the Aditya Birla Group, we believe that your growth is our collective growth, hence you will receive opportunities to build your career, have your contribution rewarded, your commitment recognised, your professional skills honed and, lead an enriched life as an individual.</p>" + 
+                   "<p>At Aditya Birla, we believe that your growth is our collective growth, hence you will receive opportunities to build your career, have your contribution rewarded, your commitment recognised, your professional skills honed and, lead an enriched life as an individual.</p>" + 
                    "<p>With an abundance of possibilities, a reservoir of knowledge and the desire to augment the growth of its people, the Group believes in offering each and every one of you ‘A World of Opportunities'.</p>"+
                    "</div>"
             },
@@ -1060,7 +1082,7 @@ var slide_config= [
                     " <ul style='text-align: left'>" +
                     "<li> Mobility Support Framework: employee explores wider career opportunities across units, circles, businesses functions, within the Aditya Birla Group.</li>" +
                     "<li> Short Term Assignments provide unique opportunities to develop and hone specific functional and behavioral competencies.</li>" +
-                    "<li> My Resume enables all recruiters within the Aditya Birla Groupto understand you better.</li>" +
+                    "<li> My Resume enables all recruiters within the Aditya Birla Group to understand you better.</li>" +
                     "</ul>" +
                     "</div>"
                },
@@ -1114,7 +1136,7 @@ var slide_config= [
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " <ul style='text-align: left'>" +
                     "<li> Gyanodaya designs and delivers relevant and current knowledge and competence-building learning opportunities across the entire spectrum of the Group.</li>" +
-                    "<li> Gyanodaya Virtual Campus: the Group's e-Learning platform,includes e-learning modules from Harvard Manage Mentor.</li>" +
+                    "<li> Gyanodaya Virtual Campus: The Group's e-Learning platform,includes e-learning modules from Harvard Manage Mentor.</li>" +
                     "<li> Functional Training Programs: Designed to enhance domain knowledge in line with industry best practices.</li>" +
                     "</ul>" +
                     "</div>"
@@ -1196,6 +1218,19 @@ var slide_config= [
                 sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woo/woologoret.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
+                    "<li> Retention Plans: Deferred Compensation Program offered to high potential-performing middle management to distinguish them from their peers.Retiral programs are designed to honor continuity of service across businesses and help support talent mobility.</li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 20,
+                sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
                     "<img src='img/woo/woologo20.jpg'>" +
                     "</div>"+
                     "<div class='mid-slide-div content-div padding-left'>" +
@@ -1206,7 +1241,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 20,
+                id: 21,
                 sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1215,23 +1250,35 @@ var slide_config= [
                     "<div class='mid-slide-div content-div padding-left'>" +
                     " <ul style='text-align: left'>" +
                     "<li> Employment Benefits: Nishchint- a unique 'Death in Service' contributory term. Insurance providing monetary relief to the family of an employee in the event of his/her death while in service.Insurance- medical, personal accident and hospitalization is offered to all employees. </li>" +
+                    "</ul>" +
+                    "</div>"
+            },
+            {
+                id: 22,
+                sub_header:"WOO INITIATIVES: TO BE REWARDED AND RECOGNISED",
+                sub_contents:
+                    "<div class='mid-slide-div img-div'>" +
+                    "<img src='img/woo/woologoreg.jpg'>" +
+                    "</div>"+
+                    "<div class='mid-slide-div content-div padding-left'>" +
+                    " <ul style='text-align: left'>" +
                     "<li> Recognition Benefits: Aditya Birla Awards for Outstanding Achievement for individuals and teams.Performance Recognition in Delivering Excellence for employees who excel in delivering business critical projects.</li>" +
                     "</ul>" +
                     "</div>"
             },
             {
-                id: 21,
+                id: 23,
                 sub_header:"OPPORTUNITIES TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div content-div '>" +
-                    "At the Aditya Birla Group, we believe the focus should be on the whole, not just the parts! The Group encourages you to fulfil your personal and social needs, not just your professional development. You will find a range of benefits from individual and family benefits, a supportive work environment, corporate social responsibility platforms and other designed in line with your evolving personal needs and priorities. To fulfil you just need to be yourself!" +
+                    "At Aditya Birla, we believe the focus should be on the whole, not just the parts! The Group encourages you to fulfil your personal and social needs, not just your professional development. You will find a range of benefits from individual and family benefits, a supportive work environment, corporate social responsibility platforms and other designed in line with your evolving personal needs and priorities. To fulfil you just need to be yourself!" +
                     "</div>"+
                     "<div class='mid-slide-div img-div padding-left'>" +
                     "<img src='img/woo/woologo22.jpg'>" +
                     "</div>"
             },
             {
-                id: 22,
+                id: 24,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1246,7 +1293,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 23,
+                id: 25,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1261,7 +1308,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 24,
+                id: 26,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1276,7 +1323,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 25,
+                id: 27,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1291,7 +1338,7 @@ var slide_config= [
                     "</div>"
             },
            {
-                id: 26,
+                id: 28,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 sub_contents:
                     "<div class='mid-slide-div img-div'>" +
@@ -1305,7 +1352,7 @@ var slide_config= [
                     "</div>"
             },
             {
-                id: 27,
+                id: 29,
                 sub_header:"WOO INITIATIVES: TO LEAD AN ENRICHED LIFE",
                 last_slide: true,
                 sub_contents:
