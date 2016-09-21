@@ -344,7 +344,7 @@ function initInstructions(){
 function initSideIcons() {
     $("#story-wrapper").append("<table id='sideiconpanel' class='sideicons' style='display: none'></table>");
     $("#sideiconpanel").append("<tr><td class='side-icon-image'><img src='img/BackpackGif.gif' id='back_pack_img'/></td></tr>");
-    $("#sideiconpanel").append("<tr><td class='side-icon-text'>Backpack</td></tr>");
+    $("#sideiconpanel").append("<tr><td class='side-icon-text'>Start Here</td></tr>");
 
 //    On BackPack Click
     $("#back_pack_img").unbind('click').on('click', function (){
