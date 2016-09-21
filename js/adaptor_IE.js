@@ -109,9 +109,9 @@ function initPage() {
             $("#story-nodes").fadeOut(1000).delay(3000).fadeIn(1000);
             $(".loading").fadeIn(500).delay(3000).fadeOut(1000);
             $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500, function() {
-                $('.start_loading').css({zIndex: 6});
-                $(".start_loading").fadeIn('500');
-                $('#startLoadingMessage').fadeIn('500');
+                // $('.start_loading').css({zIndex: 6});
+                // $(".start_loading").fadeIn('500');
+                // $('#startLoadingMessage').fadeIn('500');
             });
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
 
@@ -146,7 +146,7 @@ function initPage() {
 		
 		if(currentNode<4) {
             // TODO: uncomment this later
-			// a.LMSSetValue("cmi.core.lesson_status", "incomplete");
+			a.LMSSetValue("cmi.core.lesson_status", "incomplete");
             // TODO: uncomment this later
         }
     });
@@ -296,6 +296,7 @@ function getSubSlide(sub_slide_id,slide_id){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
             var curnode = storyConfig.nodes[currentNode-1];
+            $('.story-nodes').css('display','block');
             $('.start_loading').css('display','none');
             $('#startLoadingMessage').css('display','none');
             $("#story-node-"+ currentNode +" img").attr("src", 'img/' + curnode.icon_active);
@@ -379,7 +380,7 @@ function addNodes() {
                     nodeClass = "incomplete-node";
                 }
             }
-            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="top:' + nodeData.py + '%;left:' + nodeData.iepx + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
+            $('#story-nodes').append('<a href="#" tabindex="0" data-toggle="popover" class="story-node incomplete-node click_inactive" id="story-node-' + (parseInt(i) + 1) + '" style="display:none;top:' + nodeData.py + '%;left:' + nodeData.iepx + '%"><img src="img/' + (nodeData.icon == "" ? nodePic : nodeData.icon_inactive) + '" alt=""/></a>');
             // $("#story-node-1 img").attr("src", 'img/2.png');
             $( "#story-node-1" ).addClass("click-active this-node").removeClass("click_inactive");
             $( "#story-node-1" ).click(function(){
@@ -751,11 +752,11 @@ $("#btnSubmit").click(function (e){
     HideDialog();
 //    setScore(0);
 
- //    scormSetValue("cmi.comments", " , ");
- //    scormSetValue("cmi.objectives.0.id", 0);
-	// a.LMSSetValue("cmi.core.score.raw", 0);
- //    a.LMSCommit("");
-	// a.LMSFinish("");
+    scormSetValue("cmi.comments", " , ");
+    scormSetValue("cmi.objectives.0.id", 0);
+	a.LMSSetValue("cmi.core.score.raw", 0);
+    a.LMSCommit("");
+	a.LMSFinish("");
     window.location.reload();
     e.preventDefault();
 });
@@ -969,8 +970,8 @@ function appendScore(gamescore){
     $("#score_node").html(score + " / 100");
 
     // TODO: Later uncomment this
-    // a.LMSSetValue("cmi.core.score.raw", score);
-    // a.LMSCommit("");
+    a.LMSSetValue("cmi.core.score.raw", score);
+    a.LMSCommit("");
     // TODO: Later uncomment this
 }
 
@@ -1022,9 +1023,9 @@ function modale_last()
                     $("#dialog2").fadeOut();
                 })
                 // TODO:- Need to uncomment this later
-                // a.LMSSetValue("cmi.core.lesson_status", "completed");
-                // a.LMSCommit("");
-                // a.LMSFinish("");
+                a.LMSSetValue("cmi.core.lesson_status", "completed");
+                a.LMSCommit("");
+                a.LMSFinish("");
                 // TODO:- Need to uncomment this later
                 //show completion text
                
