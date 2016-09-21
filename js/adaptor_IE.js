@@ -296,7 +296,7 @@ function getSubSlide(sub_slide_id,slide_id){
         $('.right-slide').css('visibility', 'hidden');
         if ((data[sub_slide_id-1].last_slide) == true){
             var curnode = storyConfig.nodes[currentNode-1];
-            $('.story-nodes').css('display','block');
+            $('.story-node').css('display','block');
             $('.start_loading').css('display','none');
             $('#startLoadingMessage').css('display','none');
             $("#story-node-"+ currentNode +" img").attr("src", 'img/' + curnode.icon_active);
