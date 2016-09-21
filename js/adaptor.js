@@ -119,8 +119,9 @@ function initPage() {
             $(".loading").fadeIn(500).delay(3000).fadeOut(1000);
             $("#loadingMessage").fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500).delay(500).fadeIn(500).delay(500).fadeOut(500, function() {
                 $('.start_loading').css({zIndex: 6});
-                $('.start_loading').css('display','block');
-                $('#startLoadingMessage').css('display','block');
+                $(".start_loading").fadeIn('500');
+                $('#startLoadingMessage').fadeIn('500');
+
             });
 
             $('#story-wrapper').css('background-image', 'url(img/' + storyConfig.background1 + ')');
