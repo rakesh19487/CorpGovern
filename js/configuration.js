@@ -47,7 +47,8 @@ var storyConfig = {
             sequence: 1,
             px: 47,
             py: 58,
-            iepx:46
+            // iepx:46
+            iepx:50
         },
         {
             name: "Fairy Tale",
@@ -59,7 +60,8 @@ var storyConfig = {
             sequence: 2,
             px: 38.8,
             py: 46.5,
-            iepx:39
+            // iepx:39
+            iepx:41
 
         },
         {
@@ -72,7 +74,8 @@ var storyConfig = {
             sequence: 3,
             px: 32.5,
             py: 32.8,
-            iepx: 33
+            // iepx: 33
+            iepx: 35.5
         },
         {
             name: "Hunger Game",
@@ -84,7 +87,8 @@ var storyConfig = {
             sequence: 4,
             px: 38,
             py: 19,
-            iepx: 37
+            // iepx: 37
+            iepx: 40
             
         }
       
