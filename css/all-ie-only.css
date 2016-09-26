@@ -365,3 +365,7 @@
         display: none;
         font-size: 2em;
     }
+
+    .left-content{
+        margin-left:4px !important;
+    }
